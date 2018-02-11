@@ -20,13 +20,7 @@
     "csv-stringify": "^2.0.2",
     "lodash": " ^4.17.5"
   },
-  "bucketful": {
-    "dns": "bucketful-loopia",
-    "source": "tmp/upload",
-    "region": "eu-west-1"
-  },
   "scripts": {
-    "build": "sh exec.sh",
-    "deploy": "bucketful --bucket .............."
+    "build": "sh exec.sh"
   }
 }
