@@ -1,0 +1,10 @@
+readme
+
+// csvjoin --left -c "Card,title" ix_nice.csv ~/Projects/apps/mtg/apa.csv > ix_enhanced.csv
+
+Lägg in en package-fil för att beskriva detta och lägg sedan upp på github.
+
+
+
+
+

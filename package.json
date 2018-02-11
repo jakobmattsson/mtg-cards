@@ -1,0 +1,32 @@
+{
+  "name": "mtg-cards",
+  "description": "Files and tools for keeping track of cards",
+  "version": "0.0.1",
+  "license": "MIT",
+  "private": false,
+  "author": "Jakob Mattsson <jakob.mattsson@gmail.com> (jakobmattsson.se)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jakobmattsson/mtg-cards"
+  },
+  "engineStrict": true,
+  "engines": {
+    "node": ">= 6 < 7"
+  },
+  "dependencies": {
+    "async": "^2.6.0",
+    "request": "^2.83.0",
+    "jsdom": "^11.6.2",
+    "csv-stringify": "^2.0.2",
+    "lodash": " ^4.17.5"
+  },
+  "bucketful": {
+    "dns": "bucketful-loopia",
+    "source": "tmp/upload",
+    "region": "eu-west-1"
+  },
+  "scripts": {
+    "build": "sh exec.sh",
+    "deploy": "bucketful --bucket .............."
+  }
+}
