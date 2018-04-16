@@ -109,4 +109,13 @@ module.exports = [{
     lastCard: { title: "Taplands", lowScore: 3.0, highScore: null, review: "These are basically Evolving Wilds" },
     specificCards: [{ title: "Captain's Hook", lowScore: 3, highScore: null, review: "I love that there is a card named Captain's Hook, and" }]
   }
+}, {
+  set: 'dominaria',
+  color: 'white',
+  format: 'limited',
+  url: 'https://www.channelfireball.com/articles/dominaria-limited-set-review-white/',
+  assert: {
+    firstCard: { title: "Adamant Will", lowScore: 2.5, highScore: null, review: "A combat trick that can also stop removal spells and doesn't get blown" },
+    lastCard: { title: "Urza's Ruinous Blast", lowScore: 1.0, highScore: 3.5, review: "In a deck without support, this is literally uncastable. That isn't good" }
+  }
 }]
