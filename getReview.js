@@ -68,6 +68,8 @@ const getData = (meta, callback) => {
       if (node.tagName == 'H1' || (node.tagName == 'DIV' && node.childNodes.length > 1 && node.childNodes[1].tagName == 'H1')) {
         if (current && current.review && current.title && current.lowScore !== undefined) {
           current.review = current.review.join(' ');
+          current.color = meta.color;
+          current.set = meta.set;
           result.push(current);
         }
         current = {};
