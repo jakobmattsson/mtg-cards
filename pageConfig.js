@@ -1,5 +1,5 @@
 module.exports = [{
-  set: 'ixalan',
+  set: 'xln',
   color: 'black',
   format: 'limited',
   url: 'https://www.channelfireball.com/articles/ixalan-limited-set-review-black',
@@ -8,7 +8,7 @@ module.exports = [{
     lastCard: { title: "Wanted Scoundrels", lowScore: 3.5, highScore: null, review: "Every now and then, this is going to backfire" },
   }
 }, {
-  set: 'ixalan',
+  set: 'xln',
   color: 'green',
   format: 'limited',
   url: 'https://www.channelfireball.com/articles/ixalan-limited-set-review-green',
@@ -17,7 +17,7 @@ module.exports = [{
     lastCard: { title: "Wildgrowth Walker", lowScore: 1, highScore: 3, review: "In a deck with 5+ explore cards" },
   }
 }, {
-  set: 'ixalan',
+  set: 'xln',
   color: 'red',
   format: 'limited',
   url: 'https://www.channelfireball.com/articles/ixalan-limited-set-review-red',
@@ -27,7 +27,7 @@ module.exports = [{
     specificCards: [{ title: "Rowdy Crew", lowScore: 3.5, highScore: null, review: "Draw three plus discard two at random is definitely upside, and can often be better than just \"draw a card\" (mostly when your hand isn't that good, which is true for me almost all the time). As for how often this will be big, I'll just leave you in the hands of Frank Karsten, PhD. This card is good and you should play it, though it's not a bomb by any stretch." }]
   }
 }, {
-  set: 'ixalan',
+  set: 'xln',
   color: 'white',
   format: 'limited',
   url: 'https://www.channelfireball.com/articles/ixalan-limited-set-review-white',
@@ -37,7 +37,7 @@ module.exports = [{
     specificCards: [{ title: "Rallying Roar", lowScore: 2.5, highScore: null, review: "Not every deck is going to want Rallying Roar" }]
   }
 }, {
-  set: 'ixalan',
+  set: 'xln',
   color: 'blue',
   format: 'limited',
   url: 'https://www.channelfireball.com/articles/ixalan-limited-set-review-blue',
@@ -46,7 +46,7 @@ module.exports = [{
     lastCard: { title: "Wind Strider", lowScore: 2, highScore: null, review: "This set of stats and abilities" },
   }
 }, {
-  set: 'ixalan',
+  set: 'xln',
   color: 'gold',
   format: 'limited',
   url: 'https://www.channelfireball.com/articles/ixalan-limited-set-review-gold-artifacts-and-lands',
@@ -55,7 +55,7 @@ module.exports = [{
     lastCard: { title: "Unknown Shores", lowScore: 1, highScore: null, review: "I still don't like this card" },
   }
 }, {
-  set: 'rivals-of-ixalan',
+  set: 'rix',
   color: 'green',
   format: 'limited',
   url: 'https://www.channelfireball.com/articles/rivals-of-ixalan-limited-set-review-green',
@@ -64,7 +64,7 @@ module.exports = [{
     lastCard: { title: "World Shaper", lowScore: 2.5, highScore: null, review: "If you can get one attack in" },
   }
 }, {
-  set: 'rivals-of-ixalan',
+  set: 'rix',
   color: 'white',
   format: 'limited',
   url: 'https://www.channelfireball.com/articles/rivals-of-ixalan-limited-set-review-white',
@@ -73,7 +73,7 @@ module.exports = [{
     lastCard: { title: "Zetalpa, Primal Dawn", lowScore: 3.5, highScore: null, review: "Despite costing 8, this looks" },
   }
 }, {
-  set: 'rivals-of-ixalan',
+  set: 'rix',
   color: 'blue',
   format: 'limited',
   url: 'https://www.channelfireball.com/articles/rivals-of-ixalan-limited-set-review-blue',
@@ -82,7 +82,7 @@ module.exports = [{
     lastCard: { title: "Waterknot", lowScore: 3, highScore: null, review: "This is solid (or maybe liquid) removal" },
   }
 }, {
-  set: 'rivals-of-ixalan',
+  set: 'rix',
   color: 'red',
   format: 'limited',
   url: 'https://www.channelfireball.com/articles/rivals-of-ixalan-limited-set-review-red',
@@ -91,7 +91,7 @@ module.exports = [{
     lastCard: { title: "Tilonalli's Summoner", lowScore: 1.5, highScore: null, review: "While it is cute that this gets" },
   }
 }, {
-  set: 'rivals-of-ixalan',
+  set: 'rix',
   color: 'black',
   format: 'limited',
   url: 'https://www.channelfireball.com/articles/rivals-of-ixalan-limited-set-review-black',
@@ -100,7 +100,7 @@ module.exports = [{
     lastCard: { title: "Voracious Vampire", lowScore: 3.0, highScore: null, review: "A solid threat with an ability" },
   }
 }, {
-  set: 'rivals-of-ixalan',
+  set: 'rix',
   color: 'gold',
   format: 'limited',
   url: 'https://www.channelfireball.com/articles/rivals-of-ixalan-limited-set-review-gold-artifacts-and-lands',
@@ -110,7 +110,7 @@ module.exports = [{
     specificCards: [{ title: "Captain's Hook", lowScore: 3, highScore: null, review: "I love that there is a card named Captain's Hook, and" }]
   }
 }, {
-  set: 'dominaria',
+  set: 'dom',
   color: 'white',
   format: 'limited',
   url: 'https://www.channelfireball.com/articles/dominaria-limited-set-review-white/',
