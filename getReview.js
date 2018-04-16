@@ -78,6 +78,12 @@ const getData = (meta, callback) => {
         current.lowScore = scores[0];
         current.highScore = scores[1] || null;
       }
+      if (node.tagName == 'DIV' && node.className == "crystal-catalog-helper crystal-catalog-helper-grid") {
+        var as = Array.prototype.slice.call(node.childNodes, 0).filter((x) => x.tagName == 'A')[0];
+        if (as.childNodes.length > 0 && as.childNodes[0].tagName == 'IMG') {
+          current.imgUrl = "http:" + as.childNodes[0].src;
+        }
+      }
       if (node.tagName == 'P') {
         current.review = current.review || [];
         current.review.push(fixText(node.textContent));
