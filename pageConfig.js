@@ -118,4 +118,13 @@ module.exports = [{
     firstCard: { title: "Adamant Will", lowScore: 2.5, highScore: null, review: "A combat trick that can also stop removal spells and doesn't get blown" },
     lastCard: { title: "Urza's Ruinous Blast", lowScore: 1.0, highScore: 3.5, review: "In a deck without support, this is literally uncastable. That isn't good" }
   }
+}, {
+  set: 'dom',
+  color: 'blue',
+  format: 'limited',
+  url: 'https://www.channelfireball.com/articles/dominaria-limited-set-review-blue/',
+  assert: {
+    firstCard: { title: "Academy Drake", lowScore: 3.5, highScore: null, review: "A Wind Drake that can become an Air Elemental is an incredibly" },
+    lastCard: { title: "Zahid, Djinn of the Lamp", lowScore: 4.0, highScore: null, review: "Zahid is playable without an artifact, and becomes" }
+  }
 }]
