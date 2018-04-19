@@ -127,4 +127,13 @@ module.exports = [{
     firstCard: { title: "Academy Drake", lowScore: 3.5, highScore: null, review: "A Wind Drake that can become an Air Elemental is an incredibly" },
     lastCard: { title: "Zahid, Djinn of the Lamp", lowScore: 4.0, highScore: null, review: "Zahid is playable without an artifact, and becomes" }
   }
+}, {
+  set: 'dom',
+  color: 'black',
+  format: 'limited',
+  url: 'https://www.channelfireball.com/articles/dominaria-limited-set-review-black/',
+  assert: {
+    firstCard: { title: "Blessing of Belzenlok", lowScore: 1.5, highScore: null, review: "This is a run-of-the-mill combat trick" },
+    lastCard: { title: "Yawgmoth's Vile Offering", lowScore: 1.0, highScore: 4.0, review: "Now this is a build-around. I'd play all sorts of mediocre legends to make this work" }
+  }
 }]
