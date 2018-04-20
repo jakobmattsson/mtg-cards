@@ -145,4 +145,13 @@ module.exports = [{
     firstCard: { title: "Bloodstone Goblin", lowScore: 1.5, highScore: null, review: "I have this slightly higher than the assorted 2/1s" },
     lastCard: { title: "Wizard's Lightning", lowScore: 4.0, highScore: null, review: "This is quite good at 3 mana and truly great" }
   }
+}, {
+  set: 'dom',
+  color: 'green',
+  format: 'limited',
+  url: 'https://www.channelfireball.com/articles/dominaria-limited-set-review-green/',
+  assert: {
+    firstCard: { title: "Adventurous Impulse", lowScore: 2, highScore: null, review: "I like this card, and will run one-two in any dec" },
+    lastCard: { title: "Yavimaya Sapherd", lowScore: 3.0, highScore: null, review: "Sapherd is tilting" }
+  }
 }]
