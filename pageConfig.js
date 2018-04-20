@@ -136,4 +136,13 @@ module.exports = [{
     firstCard: { title: "Blessing of Belzenlok", lowScore: 1.5, highScore: null, review: "This is a run-of-the-mill combat trick" },
     lastCard: { title: "Yawgmoth's Vile Offering", lowScore: 1.0, highScore: 4.0, review: "Now this is a build-around. I'd play all sorts of mediocre legends to make this work" }
   }
+}, {
+  set: 'dom',
+  color: 'red',
+  format: 'limited',
+  url: 'https://www.channelfireball.com/articles/dominaria-limited-set-review-red/',
+  assert: {
+    firstCard: { title: "Bloodstone Goblin", lowScore: 1.5, highScore: null, review: "I have this slightly higher than the assorted 2/1s" },
+    lastCard: { title: "Wizard's Lightning", lowScore: 4.0, highScore: null, review: "This is quite good at 3 mana and truly great" }
+  }
 }]
