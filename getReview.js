@@ -83,7 +83,11 @@ const getData = (meta, callback) => {
       if (node.tagName == 'DIV' && node.className == "crystal-catalog-helper crystal-catalog-helper-grid") {
         var as = Array.prototype.slice.call(node.childNodes, 0).filter((x) => x.tagName == 'A')[0];
         if (as.childNodes.length > 0 && as.childNodes[0].tagName == 'IMG') {
-          current.imageUrl = "http:" + as.childNodes[0].src;
+          var src = as.childNodes[0].src;
+          var srcStart = src.slice(0, 6);
+          if (srcStart != 'http:/' && srcStart != 'https:')
+            src = "http:" + src;
+          current.imageUrl = src;
         }
       }
       if (node.tagName == 'P') {
