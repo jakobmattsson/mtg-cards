@@ -154,4 +154,15 @@ module.exports = [{
     firstCard: { title: "Adventurous Impulse", lowScore: 2, highScore: null, review: "I like this card, and will run one-two in any dec" },
     lastCard: { title: "Yavimaya Sapherd", lowScore: 3.0, highScore: null, review: "Sapherd is tilting" }
   }
+
+}, {
+  set: 'dom',
+  color: 'gold',
+  format: 'limited',
+  url: 'https://www.channelfireball.com/articles/dominaria-limited-set-review-gold-artifacts-and-lands/',
+  assert: {
+    firstCard: { title: "Adeliz, the Cinder Wind", lowScore: 3.5, highScore: null, review: "Adeliz is great even by herself, and" },
+    lastCard: { title: "Memorial to War", lowScore: 0.0, highScore: null, review: "What the hell" },
+    lastCard_really: { title: "Zhalfirin Void", lowScore: 2.0, highScore: null, review: "If your deck can afford a colorless land, this is worth playing." }
+  }
 }]
