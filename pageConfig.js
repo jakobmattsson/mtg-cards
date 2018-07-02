@@ -154,7 +154,6 @@ module.exports = [{
     firstCard: { title: "Adventurous Impulse", lowScore: 2, highScore: null, review: "I like this card, and will run one-two in any dec" },
     lastCard: { title: "Yavimaya Sapherd", lowScore: 3.0, highScore: null, review: "Sapherd is tilting" }
   }
-
 }, {
   set: 'dom',
   color: 'gold',
@@ -164,5 +163,14 @@ module.exports = [{
     firstCard: { title: "Adeliz, the Cinder Wind", lowScore: 3.5, highScore: null, review: "Adeliz is great even by herself, and" },
     lastCard: { title: "Memorial to War", lowScore: 0.0, highScore: null, review: "What the hell" },
     lastCard_really: { title: "Zhalfirin Void", lowScore: 2.0, highScore: null, review: "If your deck can afford a colorless land, this is worth playing." }
+  }
+}, {
+  set: 'm19',
+  color: 'white',
+  format: 'limited',
+  url: 'https://www.channelfireball.com/articles/core-set-2019-limited-set-review-white',
+  assert: {
+    firstCard: { title: "Aegis of the Heavens", lowScore: 1.0, highScore: null, review: "There's not a huge functional difference" },
+    lastCard: { title: "Valiant Knight", lowScore: 3.5, highScore: 4.0, review: "By itself, this is a substantial threat." }
   }
 }]
