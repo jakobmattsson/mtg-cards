@@ -1,0 +1,210 @@
+<html>
+<head>
+
+<style>
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  margin: 5px;
+  background-color: black;
+  color: white;
+}
+
+#scoretable td {
+  vertical-align: top;
+  border: 1px solid rgb(160, 160, 160);
+  padding: 5px;
+}
+
+#scoretable {
+  border: 1px solid rgb(160, 160, 160);
+}
+
+.cardname img {
+  display: none;
+}
+
+/*
+#scoretable tr td .cardname:hover img {
+  display: block;
+  content: '';
+  position: absolute;
+  background-image: url(./img/Academy Drake.jpeg);
+  background-repeat: no-repeat;
+}
+*/
+
+.cardname {
+  cursor: pointer;
+}
+
+.cardname.mythic {
+  color: orange;
+}
+.cardname.rare {
+  color: yellow;
+}
+.cardname.uncommon {
+  color: rgb(0, 190, 255);
+}
+.cardname.common {
+  color: white;
+}
+
+
+</style>
+
+
+</head>
+<body>
+
+
+
+<table id="scoretable" cellspacing="0"></table>
+
+
+<script src="./channelfireball.js"></script>
+
+<script>
+
+  var columns = ['white', 'blue', 'black', 'red', 'green', 'gold'];
+
+
+  var getColumn = (card) => card.color;
+  var getScore = (card) => card.highScore == "" ? parseFloat(card.lowScore) : (parseFloat(card.highScore) + parseFloat(card.lowScore)) / 2;
+  var getRarity = (card) => {
+    if (Math.random() * 42 < 1)
+      return 'mythic';
+    if (Math.random() * 14 < 1)
+      return 'rare';
+    if (Math.random() * 13 < 3)
+      return 'uncommon';
+    return 'common';
+  };
+
+  var rows = {};
+  var allCards = channelfireball;
+
+  allCards = allCards.filter((x) => x.set == "dom");
+  // filter cards here if I want to
+
+  allCards.forEach((card) => {
+    var score = getScore(card);
+
+    if (isNaN(score)) {
+      console.log("Invalid score for: " + card.title);
+      return;
+    }
+
+    var col = getColumn(card);
+    rows[score] = rows[score] || {};
+    rows[score][col] = rows[score][col] || [];
+    rows[score][col].push(card);
+  });
+
+
+  var ratings = Object.keys(rows);
+  ratings.sort().reverse();
+
+
+
+  var tbl = document.getElementById('scoretable');
+
+
+  // Column headers
+  var tr = document.createElement('tr');
+  ['rating'].concat(columns).forEach((column) => {
+    var td = document.createElement('td');
+    td.innerHTML = column.toUpperCase();
+    tr.appendChild(td);
+  });
+  tbl.appendChild(tr);
+
+
+  // all the actual ratings
+  ratings.forEach((rating) => {
+    var tr = document.createElement('tr');
+
+    var td = document.createElement('td');
+    td.innerHTML = rating.toUpperCase();
+    tr.appendChild(td);
+
+    columns.forEach((column) => {
+      var cards = rows[rating][column] || [];
+      var td = document.createElement('td');
+      td.innerHTML = cards.map((card) => {
+
+        var c = getRarity(card);
+        var text = card.title.replace(/ /g, '&nbsp;');
+        var allText = '<div class="cardname ' + getRarity(card) + '" onclick="showCard(this)">' + text + '<img src="img/' + card.title + '.jpeg"></div>'
+
+        return allText;
+
+      }).join('');
+      tr.appendChild(td);
+    });
+    tbl.appendChild(tr);
+  });  
+
+
+  window.showing = 'none';
+  window.currentCard = null;
+
+  var setShow = function(status) {
+
+    window.currentCard.children[0].style.display = "block"
+    window.showing = 'new';
+
+
+
+    if () {
+      window.currentCard.children[0].style.display = status == 'yes' || status == 'new' ? "block" : ""
+    } else {
+
+    }
+
+
+    window.showing = status;
+
+    else if (window.showing == 'new') {
+      window.showing = 'yes';
+    }
+    else if (window.showing == 'none') {
+
+    }
+  }
+
+
+
+  window.showCard = (card) => {
+    window.currentCard = card;
+    setShow(window.showing == 'yes' ? 'none' : 'yes') ;
+  };
+
+  window.document.addEventListener('click', function() {
+    console.log("clicked");
+    if (window.showing == 'yes') {
+      setShow('none');
+    }
+    else if (window.showing == 'new') {
+      setShow('yes');
+    }
+  }, false);
+
+
+
+
+
+
+</script>
+
+
+
+
+</body>
+</html>
+
