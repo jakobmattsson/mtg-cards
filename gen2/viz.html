@@ -55,6 +55,10 @@ html {
   color: white;
 }
 
+#links, #links :visited {
+  color: white;
+}
+
 
 </style>
 
@@ -66,147 +70,204 @@ html {
 
 <table id="scoretable" cellspacing="0"></table>
 
+<div id="links">
+  <a href="viz.html">All</a>
+  <a href="viz.html?type=instant">Instants</a>
+  <!--
+  <a href="viz.html?isremoval=true">Removals</a>-->
 
-<script src="./channelfireball.js"></script>
+
+</div>
+
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
 
 <script>
 
-  var columns = ['white', 'blue', 'black', 'red', 'green', 'gold'];
 
 
-  var getColumn = (card) => card.color;
-  var getScore = (card) => card.highScore == "" ? parseFloat(card.lowScore) : (parseFloat(card.highScore) + parseFloat(card.lowScore)) / 2;
-  var getRarity = (card) => {
-    return card.rarity;
-    // if (Math.random() * 42 < 1)
-    //   return 'mythic';
-    // if (Math.random() * 14 < 1)
-    //   return 'rare';
-    // if (Math.random() * 13 < 3)
-    //   return 'uncommon';
-    // return 'common';
-  };
 
-  var rows = {};
-  var allCards = channelfireball;
+  var getJsonData = function(url, callback) {
 
-  allCards = allCards.filter((x) => x.set == "m19"); // filter cards here
-
-  allCards.forEach((card) => {
-    card.dualScore = card.lowScore != null && !isNaN(parseFloat(card.highScore));
-  });
-
-  var addCardWithScore = (card, score) => {
-    var col = getColumn(card);
-    rows[score] = rows[score] || {};
-    rows[score][col] = rows[score][col] || [];
-    rows[score][col].push(card);
-  };
-
-  allCards.forEach((card) => {
-    var low = parseFloat(card.lowScore);
-    var high = parseFloat(card.highScore);
-
-    if (isNaN(low)) {
-      console.log("Invalid score for: " + card.title);
+    // TODO: this has to propagate errors
+    
+    var result = JSON.parse(window.localStorage.getItem(url));
+    if (result) {
+      callback(null, result);
       return;
     }
 
-    addCardWithScore(card, low)
-    if (!isNaN(high))
-      addCardWithScore(card, high)
-  });
+    $.ajax({
+      dataType: 'json',
+      url: url
+    }).done(function(data) {
+      window.localStorage.setItem(url, JSON.stringify(data));
+      callback(null, data);
+    });
+
+  };
 
 
-  var ratings = Object.keys(rows);
-  ratings.sort().reverse();
+
+  var processData = function(error, channelfireball) {
+    if (error) {
+      alert(error)
+      return;
+    }
+
+    var columns = ['white', 'blue', 'black', 'red', 'green', 'gold'];
+
+
+    var getColumn = (card) => card.color;
+    var getScore = (card) => card.highScore == "" ? parseFloat(card.lowScore) : (parseFloat(card.highScore) + parseFloat(card.lowScore)) / 2;
+    var getRarity = (card) => {
+      return card.rarity;
+      // if (Math.random() * 42 < 1)
+      //   return 'mythic';
+      // if (Math.random() * 14 < 1)
+      //   return 'rare';
+      // if (Math.random() * 13 < 3)
+      //   return 'uncommon';
+      // return 'common';
+    };
+
+    var rows = {};
+    var allCards = channelfireball;
+
+    // filter cards here
+    if (location.search.indexOf("type=instant") !== -1)
+      allCards = allCards.filter((x) => x.set == "m19" && x.type == 'instant');
+    else
+      allCards = allCards.filter((x) => x.set == "m19");
+
+    allCards.forEach((card) => {
+      card.dualScore = card.lowScore != null && !isNaN(parseFloat(card.highScore));
+    });
+
+    var addCardWithScore = (card, score) => {
+      var col = getColumn(card);
+      rows[score] = rows[score] || {};
+      rows[score][col] = rows[score][col] || [];
+      rows[score][col].push(card);
+    };
+
+    allCards.forEach((card) => {
+      var low = parseFloat(card.lowScore);
+      var high = parseFloat(card.highScore);
+
+      if (isNaN(low)) {
+        console.log("Invalid score for: " + card.title);
+        return;
+      }
+
+      addCardWithScore(card, low)
+      if (!isNaN(high))
+        addCardWithScore(card, high)
+    });
+
+
+    var ratings = Object.keys(rows);
+    ratings.sort().reverse();
 
 
 
-  var tbl = document.getElementById('scoretable');
+    var tbl = document.getElementById('scoretable');
 
 
-  // Column headers
-  var tr = document.createElement('tr');
-  ['rating_'].concat(columns).forEach((column) => {
-    var td = document.createElement('td');
-    td.innerHTML = column.toUpperCase();
-    tr.appendChild(td);
-  });
-  tbl.appendChild(tr);
-
-
-  // all the actual ratings
-  ratings.forEach((rating) => {
+    // Column headers
     var tr = document.createElement('tr');
-
-    var td = document.createElement('td');
-    td.innerHTML = rating.toUpperCase();
-    tr.appendChild(td);
-
-    columns.forEach((column) => {
-      var cards = rows[rating][column] || [];
+    ['rating_'].concat(columns).forEach((column) => {
       var td = document.createElement('td');
-      td.innerHTML = cards.map((card) => {
-
-        var c = getRarity(card);
-        var text = card.title.replace(/ /g, '&nbsp;');
-
-        if (card.dualScore)
-          text += "**"
-
-
-        //var imgUrl = 'img/' + card.title + '.jpeg';
-        var imgUrl = card.imageUrl;
-        var allText = '<div class="cardname ' + getRarity(card) + '" onclick="showCard()">' + text + '<img src="' + imgUrl + '"></div>'
-
-        return allText;
-
-      }).join('');
+      td.innerHTML = column.toUpperCase();
       tr.appendChild(td);
     });
     tbl.appendChild(tr);
-  });  
+
+
+    // all the actual ratings
+    ratings.forEach((rating) => {
+      var tr = document.createElement('tr');
+
+      var td = document.createElement('td');
+      td.innerHTML = rating.toUpperCase();
+      tr.appendChild(td);
+
+      columns.forEach((column) => {
+        var cards = rows[rating][column] || [];
+        var td = document.createElement('td');
+        td.innerHTML = cards.map((card) => {
+
+          var c = getRarity(card);
+          var text = card.title.replace(/ /g, '&nbsp;');
+
+          if (card.dualScore)
+            text += "**"
+
+
+          //var imgUrl = 'img/' + card.title + '.jpeg';
+          var imgUrl = card.imageUrl;
+          var allText = '<div class="cardname ' + getRarity(card) + '" onclick="showCard()">' + text + '<img src="' + imgUrl + '"></div>'
+
+          return allText;
+
+        }).join('');
+        tr.appendChild(td);
+      });
+      tbl.appendChild(tr);
+    });  
 
 
 
 
-  window.showing = 'none';
-  window.currentCard = null;
+    window.showing = 'none';
+    window.currentCard = null;
 
-  var setShow = function(status) {
+    var setShow = function(status) {
 
-    if (window.currentCard)
-      window.currentCard.children[0].style.display = status ? "block" : 'none';
+      if (window.currentCard)
+        window.currentCard.children[0].style.display = status ? "block" : 'none';
 
-    if (!status)
-      window.currentCard = null;
+      if (!status)
+        window.currentCard = null;
 
-    window.showing = status;
-  }
-
-  window.showCard = (card) => {
-
-    if (window.currentCard == window.event.target){
-      setShow(false);
-    } else {
-      setShow(false);
-      window.currentCard = window.event.target;
-      setShow(true);
+      window.showing = status;
     }
 
+    window.showCard = (card) => {
 
-    //console.log(window.showing, window.currentCard)
+      if (window.currentCard == window.event.target){
+        setShow(false);
+      } else {
+        setShow(false);
+        window.currentCard = window.event.target;
+        setShow(true);
+      }
+
+
+      //console.log(window.showing, window.currentCard)
 
 
 
 
-    //window.event.stopPropagation();
+      //window.event.stopPropagation();
+    };
+
+    //window.document.addEventListener('click', function() {
+    //  setShow(false);
+    //}, false);
+
+
+
   };
 
-  //window.document.addEventListener('click', function() {
-  //  setShow(false);
-  //}, false);
+
+  var url = "https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/data/channelfireball_rarity.json?apa=1";
+  getJsonData(url, processData);
+
+
 
 </script>
 
