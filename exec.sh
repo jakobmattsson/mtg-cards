@@ -1,13 +1,12 @@
 
 # Download the new CSV and merge it with the current one (could it be made so it doesn't add duplicates?)
+# Updates both .json and .csv
 node getReview.js > data/channelfireball-new.csv
 csvstack data/channelfireball.csv data/channelfireball-new.csv | grep -Ev "^$" > data/channelfireball-all-temp.csv
 mv data/channelfireball-all-temp.csv data/channelfireball.csv
 rm data/channelfireball-new.csv
+csvtojson data/channelfireball.csv > data/channelfireball.json
 
-
-# join with the rarities
-# csvtojson data/channelfireball.csv > data/channelfireball-new.json
 
 
 
