@@ -12,6 +12,6 @@ csvtojson data/channelfireball.csv > data/channelfireball.json
 
 
 # Produce the rated file
-csvjoin --left -c title data/channelfireball.csv data/rarities.csv | csvcut -c title,imageUrl,lowScore,highScore,review,color,set,rarity > data/channelfireball_rarity.csv
+csvjoin --left -c title data/channelfireball.csv data/rarities.csv | csvcut -c title,imageUrl,lowScore,highScore,review,color,set,rarity,type > data/channelfireball_rarity.csv
 csvtojson data/channelfireball_rarity.csv > data/channelfireball_rarity.json
 
