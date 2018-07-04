@@ -77,33 +77,44 @@ html {
   var getColumn = (card) => card.color;
   var getScore = (card) => card.highScore == "" ? parseFloat(card.lowScore) : (parseFloat(card.highScore) + parseFloat(card.lowScore)) / 2;
   var getRarity = (card) => {
-    if (Math.random() * 42 < 1)
-      return 'mythic';
-    if (Math.random() * 14 < 1)
-      return 'rare';
-    if (Math.random() * 13 < 3)
-      return 'uncommon';
-    return 'common';
+    return card.rarity;
+    // if (Math.random() * 42 < 1)
+    //   return 'mythic';
+    // if (Math.random() * 14 < 1)
+    //   return 'rare';
+    // if (Math.random() * 13 < 3)
+    //   return 'uncommon';
+    // return 'common';
   };
 
   var rows = {};
   var allCards = channelfireball;
 
-  allCards = allCards.filter((x) => x.set == "dom");
-  // filter cards here if I want to
+  allCards = allCards.filter((x) => x.set == "m19"); // filter cards here
 
   allCards.forEach((card) => {
-    var score = getScore(card);
+    card.dualScore = card.lowScore != null && !isNaN(parseFloat(card.highScore));
+  });
 
-    if (isNaN(score)) {
-      console.log("Invalid score for: " + card.title);
-      return;
-    }
-
+  var addCardWithScore = (card, score) => {
     var col = getColumn(card);
     rows[score] = rows[score] || {};
     rows[score][col] = rows[score][col] || [];
     rows[score][col].push(card);
+  };
+
+  allCards.forEach((card) => {
+    var low = parseFloat(card.lowScore);
+    var high = parseFloat(card.highScore);
+
+    if (isNaN(low)) {
+      console.log("Invalid score for: " + card.title);
+      return;
+    }
+
+    addCardWithScore(card, low)
+    if (!isNaN(high))
+      addCardWithScore(card, high)
   });
 
 
@@ -117,7 +128,7 @@ html {
 
   // Column headers
   var tr = document.createElement('tr');
-  ['rating'].concat(columns).forEach((column) => {
+  ['rating_'].concat(columns).forEach((column) => {
     var td = document.createElement('td');
     td.innerHTML = column.toUpperCase();
     tr.appendChild(td);
@@ -140,7 +151,14 @@ html {
 
         var c = getRarity(card);
         var text = card.title.replace(/ /g, '&nbsp;');
-        var allText = '<div class="cardname ' + getRarity(card) + '" onclick="showCard(this)">' + text + '<img src="img/' + card.title + '.jpeg"></div>'
+
+        if (card.dualScore)
+          text += "**"
+
+
+        //var imgUrl = 'img/' + card.title + '.jpeg';
+        var imgUrl = card.imageUrl;
+        var allText = '<div class="cardname ' + getRarity(card) + '" onclick="showCard()">' + text + '<img src="' + imgUrl + '"></div>'
 
         return allText;
 
@@ -151,59 +169,46 @@ html {
   });  
 
 
+
+
   window.showing = 'none';
   window.currentCard = null;
 
   var setShow = function(status) {
 
-    window.currentCard.children[0].style.display = "block"
-    window.showing = 'new';
+    if (window.currentCard)
+      window.currentCard.children[0].style.display = status ? "block" : 'none';
 
-
-
-    if () {
-      window.currentCard.children[0].style.display = status == 'yes' || status == 'new' ? "block" : ""
-    } else {
-
-    }
-
+    if (!status)
+      window.currentCard = null;
 
     window.showing = status;
-
-    else if (window.showing == 'new') {
-      window.showing = 'yes';
-    }
-    else if (window.showing == 'none') {
-
-    }
   }
 
-
-
   window.showCard = (card) => {
-    window.currentCard = card;
-    setShow(window.showing == 'yes' ? 'none' : 'yes') ;
+
+    if (window.currentCard == window.event.target){
+      setShow(false);
+    } else {
+      setShow(false);
+      window.currentCard = window.event.target;
+      setShow(true);
+    }
+
+
+    //console.log(window.showing, window.currentCard)
+
+
+
+
+    //window.event.stopPropagation();
   };
 
-  window.document.addEventListener('click', function() {
-    console.log("clicked");
-    if (window.showing == 'yes') {
-      setShow('none');
-    }
-    else if (window.showing == 'new') {
-      setShow('yes');
-    }
-  }, false);
-
-
-
-
-
+  //window.document.addEventListener('click', function() {
+  //  setShow(false);
+  //}, false);
 
 </script>
-
-
-
 
 </body>
 </html>

@@ -173,4 +173,13 @@ module.exports = [{
     firstCard: { title: "Aegis of the Heavens", lowScore: 1.0, highScore: null, review: "There's not a huge functional difference" },
     lastCard: { title: "Valiant Knight", lowScore: 3.5, highScore: 4.0, review: "By itself, this is a substantial threat." }
   }
+}, {
+  set: 'm19',
+  color: 'blue',
+  format: 'limited',
+  url: 'https://www.channelfireball.com/articles/core-set-2019-limited-set-review-blue',
+  assert: {
+    firstCard: { title: "Aether Tunnel", lowScore: 2.5, highScore: null, review: "This is an neat finisher" },
+    lastCard: { title: "Windreader Sphinx", lowScore: 4, highScore: null, review: "Odd stats aside, this is" }
+  }
 }]
