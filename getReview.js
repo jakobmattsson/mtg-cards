@@ -131,19 +131,19 @@ const getData = (meta, callback) => {
 
 // // During the debugging it might be useful to use this instead of the main routine below
 //
-// var toGet = [
-//   { format: 'limited', set: 'rivals-of-ixalan', color: 'blue' },
-//   //{ format: 'limited', set: 'ixalan', color: 'gold' },
-// ]
-// getList(toGet, (err, result) => {
-//   if (err) return console.error(err);
-//   console.log(result);
-// })
-
-
-
-// This the main routine
-getAll((err, result) => {
+var toGet = [
+  { format: 'limited', set: 'm19', color: 'blue' },
+  //{ format: 'limited', set: 'ixalan', color: 'gold' },
+]
+getList(toGet, (err, result) => {
   if (err) return console.error(err);
-  process.stdout.write(result);
+  console.log(result);
 })
+
+
+
+// // This the main routine
+// getAll((err, result) => {
+//   if (err) return console.error(err);
+//   process.stdout.write(result);
+// })
