@@ -1,7 +1,7 @@
-Name,Rarity,Set
+title,rarity,set
 Aegis of the Heavens,uncommon,m19
 Aethershield Artificer,uncommon,m19
-Ajani, Adversary of Tyrants,mythic,m19
+"Ajani, Adversary of Tyrants",mythic,m19
 Ajani's Last Stand,rare,m19
 Ajani's Pridemate,uncommon,m19
 Ajani's Welcome,uncommon,m19
@@ -19,7 +19,7 @@ Isolate,rare,m19
 Knight of the Tusk,common,m19
 Knight's Pledge,common,m19
 Knightly Valor,uncommon,m19
-Lena, Selfless Champion,rare,m19
+"Lena, Selfless Champion",rare,m19
 Leonin Vanguard,uncommon,m19
 Leonin Warleader,rare,m19
 Loxodon Line Breaker,common,m19
