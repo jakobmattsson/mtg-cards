@@ -1,0 +1,13 @@
+{
+  "folders": [{
+    "path": ".",
+    "file_exclude_patterns": [
+      "package-lock.json",
+      "*.sublime-workspace",
+      "npm-shrinkwrap.json"
+    ],
+    "folder_exclude_patterns": [
+      "node_modules"
+    ]
+  }]
+}

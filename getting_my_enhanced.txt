@@ -1,2 +1,0 @@
-csvcut -c Card ~/Dropbox/WIP/MTG/all_mine_exported.csv | sort | uniq > my_matchfile.txt
-csvgrep -f my_matchfile.txt -c Card data/ix_enhanced.csv > ix_enhanced_mine.csv

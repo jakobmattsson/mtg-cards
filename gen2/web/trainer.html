@@ -1,0 +1,429 @@
+<!--
+
+Arguments
+=========
+* sets: list of sets to include, dot-separated. Default is "xln.rix".
+* colors: list of colors to include, dot-separated. "gold" means everything without color or multicolored. Default is everything.
+* rating: "channelfireball" or "speeddating". The former is the default.
+* rarities: list of rarities to include. Dot separated list of a combination of "common", "uncommon", "rare", "mythic". Default is all of them.
+* unrated: Whehther to display unrated cards. Possible values are "include" or "exclude". The default is "include".
+
+
+
+Example usages
+==============
+
+Red and gold in Ixalan and Rivals of Ixalan using speedating ratings, excluding unrated cards
+
+  /?sets=rix.xln&rating=speeddating&colors=gold.red&unrated=exclude
+
+
+Green and Blue rares and mythics from Ixalan and Rivals of Ixalan using channelfireball ratings, including unrated cards
+
+  /?sets=rix.xln&rating=channelfireball&colors=green.blue&unrated=include&rarities=rare.mythic
+
+
+All of Ixalan and Rivals of Ixalan with speeddating rating
+
+  /?sets=rix.xln&rating=speeddating
+
+
+Whites from Dominaria using channelfireball ratings
+
+  /?sets=dom&rating=speeddating&colors=white
+
+
+
+Todo
+====
+* Load jquery only if needed.
+* Add something to see how much local storage is being used, something to clear it and something to instruct how to increase.
+* Support displaying both sides of dual sided cards
+* Handle the case when the localStorage cache gets full
+
+-->
+
+
+<html>
+<head>
+<style>
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    padding: 10px;
+  }
+
+  #grade {
+    position: absolute;
+    top: 95px;
+    left: 30px;
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: arial;
+    background-color: black;
+    width: 160px;
+    height: 70px;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+  }
+
+  #grade.text {
+    padding-top: 15px;
+    font-size: 30px;
+    height: 50px;
+  }
+
+  #clearCache {
+    margin-top: 30px;
+    padding: 5px 2px;
+  }
+
+</style>
+
+</head>
+<body>
+
+<img src="" id="preloadPicture" width="1" height="1">
+
+<div style="font-size:12px">
+  <div>MTG Trainer v4</div>
+  <div id="status"></div>
+</div>
+
+<div>
+  <img id="cardImage" style="display: none;width:223px;height:311px">
+  <div id="grade" style="display:none"></div>
+</div>
+
+<div id="comment" style="margin-top: 10px;width:250px;font-size:12px"></div>
+
+<button id="clearCache">Clear cache</button>
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+<script>
+
+  function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+  }
+
+
+  var getJsonData = function(url, callback) {
+
+    // TODO: this has to propagate errors
+    
+    var result = JSON.parse(window.localStorage.getItem(url));
+    if (result) {
+      callback(null, result);
+      return;
+    }
+
+    $.ajax({
+      dataType: 'json',
+      url: url
+    }).done(function(data) {
+      window.localStorage.setItem(url, JSON.stringify(data));
+      callback(null, data);
+    });
+
+  };
+
+  var getMatching = function(query, callback) {
+
+    var pageSize = 100;
+    var colorsQuery = query.colors.length > 0 ? "&colors=" + query.colors.join("|") : "";
+    var url = "https://api.magicthegathering.io/v1/cards?set=" + query.sets.join("|") + colorsQuery + "&rarity=" + query.rarity.join("|") + "&pageSize=" + pageSize;
+
+    var resultSoFar = [];
+
+    var getPage = function(page) {
+      getJsonData(url + "&page=" + page, function(error, result) {
+        if (error)
+          return callback(error);
+
+        var resultCards = result.cards;
+        resultSoFar = resultSoFar.concat(resultCards);
+        if (resultCards.length === pageSize) {
+          getPage(page+1);
+        } else {
+          callback(null, resultSoFar);
+        }
+      });
+    };
+
+    getPage(1);
+  }
+
+  var shuffle = function(list) {
+    var a = list.slice(0);
+    var j, x, i;
+    for (i = a.length - 1; i > 0; i--) {
+        j = Math.floor(Math.random() * (i + 1));
+        x = a[i];
+        a[i] = a[j];
+        a[j] = x;
+    }
+    return a;
+  }
+
+  var except = function(list1, list2) {
+    var result = [];
+    list1.forEach(function(e) {
+      if (list2.indexOf(e) === -1) {
+        result.push(e);
+      }
+    });
+    return result;
+  };
+
+  var updateImage = function(selector, url, callback) {
+    var cardImageNode = document.querySelector(selector);
+    $(selector).attr('src', url);
+    var onDone = function() {
+      console.log("Done loading", url);
+      cardImageNode.removeEventListener('load', onDone);
+      callback();
+    };
+    cardImageNode.addEventListener('load', onDone);
+  }
+
+
+
+
+
+
+
+  var getReview = function(callback) {
+    var url = "https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/data/channelfireball.json";
+    getJsonData(url, callback);
+  };
+
+
+  $("#clearCache").click(function() {
+    window.localStorage.clear();
+  });
+
+
+
+  var setCardImage = function(url, callback) {
+    var cardImageNode = document.querySelector('#cardImage');
+    cardImageNode.style.display = "none";
+    updateImage('#cardImage', url, function() {
+      cardImageNode.style.display = "block";
+      callback();
+    });
+  };
+
+  var preloadImages = function(images) {
+    var next = function(index) {
+      if (index >= images.length)
+        return;
+
+      updateImage("#preloadPicture", images[index], function() {
+        next(index+1);
+      })
+    };
+    next(0);
+  }
+
+  var getAll = function(query, callback) {
+    getMatching(query, function(err, cards) {
+      if (err) {
+        callback(err);
+        return;
+      }
+      getReview(function(err, reviews) {
+        callback(err, cards, reviews);
+      });
+    });
+  };
+
+  // same as getAll, but gets them from channelfireball reviews instead of the general API.
+  // * This will always exclude non-reviewed cards.
+  // * It does not filter on rarity; you always get all of them.
+  var getAll2 = function(query, callback) {
+    getReview((err, data) => {
+      if (err) {
+        callback(err);
+        return;
+      }
+
+      var filteredCards = data.filter((card) => {
+        if (query.colors && query.colors.length > 0 && query.colors.indexOf(card.color) === -1) {
+          return false;
+        }
+        if (query.sets && query.sets.length > 0 && query.sets.indexOf(card.set) === -1) {
+          return false;
+        }
+        return true;
+      });
+
+      var cards = filteredCards.map((card) => {
+        var cardCopy = JSON.parse(JSON.stringify(card));
+        cardCopy.name = card.title;
+        cardCopy.names = [card.title];
+        cardCopy.colors = card.color == 'gold' ? null : [card.color];
+        console.log(cardCopy)
+        return cardCopy;
+      });
+
+      callback(null, cards, data);
+    });
+  };
+
+  var translateScore = function(score) {
+
+    if (ratingScale == 'channelfireball') {
+      return score;
+    }
+
+    var speedDatingScore = {
+      0.0: 'Unplayable',
+      0.5: 'Unplayable',
+      1.0: 'Weak',
+      1.5: 'Weak',
+      2.0: 'Playable',
+      2.5: 'Playable',
+      3.0: 'Strong',
+      3.5: 'Bomb',
+      4.0: 'Bomb',
+      4.5: 'Bomb',
+      5.0: 'Bomb',
+    }
+
+    return speedDatingScore[score];
+  };
+
+
+
+
+  var filterColors = (getParameterByName("colors") || '').toLowerCase().split('.').filter(function(x) { return x; });
+  var filterSets = (getParameterByName("sets") || 'xln.rix').toLowerCase().split('.');
+  var filterRarity = (getParameterByName("rarities") || "common.uncommon.rare.mythic").toLowerCase().replace("mythic", "mythic rare").split('.');
+  var ratingScale = (getParameterByName("rating") || 'channelfireball').toLowerCase();
+  var includeUnrated = (getParameterByName("unrated") || 'include').toLowerCase() === "include";
+
+  if (ratingScale != 'channelfireball') {
+    $("#grade").addClass("text");
+  }
+
+  getAll2({
+    sets: filterSets,
+    colors: filterColors.indexOf('gold') !== -1 ? [] : filterColors, // if it contains "gold", get all cards
+    rarity: filterRarity
+  }, function(err, cards, reviews) {
+    if (err) {
+      $("#status").text(err);
+      return;
+    }
+
+    var reviewMap = {};
+    reviews.forEach(function(review) {
+      reviewMap[review.title] = review;
+    });
+
+
+
+    // Removed cards with additional colors. The API does not support this operation so have to do it manually.
+    var filteredCards = cards.filter(function(card) {
+
+      // remove the backside of double-faced cards
+      if (!!card.names && card.name !== card.names[0])
+        return false;
+
+      // remove the card if we're excluding unrated and this is indeed unrated.
+      if (!includeUnrated && !reviewMap[card.name]) {
+        console.log("Filtered unrated card: " + card.name);
+        return false;
+      }
+
+      // keep all remaining cards if we're not filtering
+      if (filterColors.length === 0)
+        return true;
+
+      // keep colorless cards if and only if we are filtering for gold cards
+      if (!card.colors)
+        return filterColors.indexOf('gold') !== -1;
+
+      // keep multicolored cards if and only if we are filtering for gold cards
+      if (card.colors.length > 1)
+        return filterColors.indexOf('gold') !== -1
+
+      // keep the card if the (single) color it has is one we're filtering on.
+      return filterColors.indexOf(card.colors[0].toLowerCase()) !== -1;
+    });
+
+
+
+
+    $("#status").text(filteredCards.length + " cards loaded for practice");
+
+
+    var shuffledCards = shuffle(filteredCards);
+
+    $("#cardImage").text(shuffledCards[0].name);
+
+
+    var hasRevealed = false;
+    var index = 0;
+    var goNext = function() {
+      if (hasRevealed) {
+        hasRevealed = false;
+        index = (index + 1) % shuffledCards.length;
+        moveToNextCard();
+      } else {
+
+        var reviewMatch = reviewMap[shuffledCards[index].name];
+
+        if (!!reviewMatch) {
+          $('#grade').text(translateScore(reviewMatch.lowScore));
+          $('#comment').text(reviewMatch.review);
+        } else {
+          $('#grade').text("?");
+          $('#comment').text("");
+        }
+
+        hasRevealed = true;
+        $('#grade').show();
+        $('#comment').show();
+      }
+    };
+
+    var moveToNextCard = function(callback) {
+
+      $('#grade').hide();
+      $('#comment').hide();
+
+      setCardImage(shuffledCards[index].imageUrl, function() {
+  
+        // Not sure how useful this actually is. Maybe it should be tested a bit more.
+        preloadImages(shuffledCards.slice(index+1, index+5).map(function(card) { return card.imageUrl; }));
+
+        if (callback)
+          callback();
+      });
+    };
+
+    moveToNextCard(function() {
+      $('#cardImage').show();
+      document.querySelector("#cardImage").addEventListener('click', goNext);
+    });
+  });
+
+</script>
+</body>
+</html>
