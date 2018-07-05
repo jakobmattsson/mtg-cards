@@ -182,4 +182,13 @@ module.exports = [{
     firstCard: { title: "Aether Tunnel", lowScore: 2.5, highScore: null, review: "This is an neat finisher" },
     lastCard: { title: "Windreader Sphinx", lowScore: 4, highScore: null, review: "Odd stats aside, this is" }
   }
+}, {
+  set: 'm19',
+  color: 'black',
+  format: 'limited',
+  url: 'https://www.channelfireball.com/articles/core-set-2019-limited-set-review-black',
+  assert: {
+    firstCard: { title: "Abnormal Endurance", lowScore: 1.5, highScore: null, review: "We never knew how good" },
+    lastCard: { title: "Walking Corpse", lowScore: 2, highScore: null, review: "This mostly gets there on curve considerations" }
+  }
 }]
