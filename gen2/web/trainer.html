@@ -91,7 +91,7 @@ Todo
 <img src="" id="preloadPicture" width="1" height="1">
 
 <div style="font-size:12px">
-  <div>MTG Trainer v4</div>
+  <!-- <div>MTG Trainer v4</div> -->
   <div id="status"></div>
 </div>
 
@@ -102,7 +102,9 @@ Todo
 
 <div id="comment" style="margin-top: 10px;width:250px;font-size:12px"></div>
 
+<!--
 <button id="clearCache">Clear cache</button>
+-->
 
 <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
@@ -125,12 +127,13 @@ Todo
   var getJsonData = function(url, callback) {
 
     // TODO: this has to propagate errors
-    
-    var result = JSON.parse(window.localStorage.getItem(url));
-    if (result) {
-      callback(null, result);
-      return;
-    }
+
+    // Uncomment this to enable caching    
+    // var result = JSON.parse(window.localStorage.getItem(url));
+    // if (result) {
+    //   callback(null, result);
+    //   return;
+    // }
 
     $.ajax({
       dataType: 'json',
@@ -213,9 +216,9 @@ Todo
   };
 
 
-  $("#clearCache").click(function() {
-    window.localStorage.clear();
-  });
+  // $("#clearCache").click(function() {
+  //   window.localStorage.clear();
+  // });
 
 
 
@@ -370,8 +373,6 @@ Todo
 
 
 
-    $("#status").text(filteredCards.length + " cards loaded for practice");
-
 
     var shuffledCards = shuffle(filteredCards);
 
@@ -410,6 +411,8 @@ Todo
 
       setCardImage(shuffledCards[index].imageUrl, function() {
   
+        $("#status").text("Card " + (index+1) + " of " + filteredCards.length);
+
         // Not sure how useful this actually is. Maybe it should be tested a bit more.
         preloadImages(shuffledCards.slice(index+1, index+5).map(function(card) { return card.imageUrl; }));
 

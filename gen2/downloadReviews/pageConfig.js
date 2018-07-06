@@ -191,4 +191,13 @@ module.exports = [{
     firstCard: { title: "Abnormal Endurance", lowScore: 1.5, highScore: null, review: "We never knew how good" },
     lastCard: { title: "Walking Corpse", lowScore: 2, highScore: null, review: "This mostly gets there on curve considerations" }
   }
+}, {
+  set: 'm19',
+  color: 'red',
+  format: 'limited',
+  url: 'https://www.channelfireball.com/articles/core-set-2019-limited-set-review-red',
+  assert: {
+    firstCard: { title: "Act of Treason", lowScore: 1, highScore: 3, review: "This is one of the more interesting cards in the set" },
+    lastCard: { title: "Volley Veteran", lowScore: 3, highScore: null, review: "The floor on this is pretty high" }
+  }
 }]
