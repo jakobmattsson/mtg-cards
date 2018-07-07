@@ -200,4 +200,13 @@ module.exports = [{
     firstCard: { title: "Act of Treason", lowScore: 1, highScore: 3, review: "This is one of the more interesting cards in the set" },
     lastCard: { title: "Volley Veteran", lowScore: 3, highScore: null, review: "The floor on this is pretty high" }
   }
+}, {
+  set: 'm19',
+  color: 'green',
+  format: 'limited',
+  url: 'https://www.channelfireball.com/articles/core-set-2019-limited-set-review-green',
+  assert: {
+    firstCard: { title: "Blanchwood Armor", lowScore: 1.5, highScore: 3, review: "Blanchwood Armor is a funny card" },
+    lastCard: { title: "Wall of Vines", lowScore: 0.5, highScore: null, review: "I'd never main deck it" }
+  }
 }]

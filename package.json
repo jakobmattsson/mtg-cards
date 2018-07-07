@@ -27,7 +27,7 @@
   },
   "bucketful": {
     "source": "gen2/web",
-    "bucket": "sally.jdevab.com",
+    "bucket": "www.mtgrating.com",
     "region": "eu-west-1"
   }
 }
