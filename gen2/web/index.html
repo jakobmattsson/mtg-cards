@@ -117,11 +117,11 @@ a.whitelink, a.whitelink:visited {
 
     // TODO: this has to propagate errors
     
-    var result = JSON.parse(window.localStorage.getItem(url));
-    if (result) {
-      callback(null, result);
-      return;
-    }
+    // var result = JSON.parse(window.localStorage.getItem(url));
+    // if (result) {
+    //   callback(null, result);
+    //   return;
+    // }
 
     $.ajax({
       dataType: 'json',
@@ -266,7 +266,7 @@ a.whitelink, a.whitelink:visited {
     };
   };
 
-  var url = "https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/data/channelfireball_rarity.json?cache=5";
+  var url = "https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/data/channelfireball_rarity.json";
   getJsonData(url, processData);
 
 </script>

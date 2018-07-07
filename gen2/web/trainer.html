@@ -288,10 +288,10 @@ Todo
     });
   };
 
-  var translateScore = function(score) {
+  var translateScore = function(card) {
 
     if (ratingScale == 'channelfireball') {
-      return score;
+      return !!card.highScore ? card.lowScore + "-" + card.highScore : card.lowScore;
     }
 
     var speedDatingScore = {
@@ -302,13 +302,13 @@ Todo
       2.0: 'Playable',
       2.5: 'Playable',
       3.0: 'Strong',
-      3.5: 'Bomb',
+      3.5: 'Strong',
       4.0: 'Bomb',
       4.5: 'Bomb',
       5.0: 'Bomb',
     }
 
-    return speedDatingScore[score];
+    return speedDatingScore[card.lowScore];
   };
 
 
@@ -391,7 +391,7 @@ Todo
         var reviewMatch = reviewMap[shuffledCards[index].name];
 
         if (!!reviewMatch) {
-          $('#grade').text(translateScore(reviewMatch.lowScore));
+          $('#grade').text(translateScore(reviewMatch));
           $('#comment').text(reviewMatch.review);
         } else {
           $('#grade').text("?");
