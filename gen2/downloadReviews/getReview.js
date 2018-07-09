@@ -132,7 +132,7 @@ const getData = (meta, callback) => {
 // // During the debugging it might be useful to use this instead of the main routine below
 //
 var toGet = [
-  { format: 'limited', set: 'm19', color: 'green' },
+  { format: 'limited', set: 'm19', color: 'gold' },
   //{ format: 'limited', set: 'ixalan', color: 'gold' },
 ]
 getList(toGet, (err, result) => {

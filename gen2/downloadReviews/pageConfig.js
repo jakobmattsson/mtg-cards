@@ -209,4 +209,15 @@ module.exports = [{
     firstCard: { title: "Blanchwood Armor", lowScore: 1.5, highScore: 3, review: "Blanchwood Armor is a funny card" },
     lastCard: { title: "Wall of Vines", lowScore: 0.5, highScore: null, review: "I'd never main deck it" }
   }
+}, {
+  set: 'm19',
+  color: 'gold',
+  format: 'limited',
+  url: 'https://www.channelfireball.com/articles/core-set-2019-limited-set-review-gold-artifacts-and-lands',
+  assert: {
+    firstCard: { title: "Aerial Engineer", lowScore: 3, highScore: null, review: "Aerial Engineer is a solid body by itself, though" },
+    lastCard: { title: "Reliquary Tower", lowScore:0, highScore:null, review:"You should never end up in this position" },
+    actual_lastCard: { title: "Rupture Spire", lowScore: 2, highScore: null, review: "I’d play this in 3-color decks" },
+    specificCards: [{ title: "Transmogrifying Wand", lowScore: 3.5, highScore: null, review: "There are some boards where this doesn't do" }]
+  }
 }]
