@@ -241,25 +241,15 @@ number,title,lowScore,highScore,set,color,rarity,instant,removal,face,fixing,ima
 240,Selesnya Locket,0,,grn,artifact,common,,,,fixing,images/grn/Selesnya Locket.png
 241,Silent Dart,0,,grn,artifact,uncommon,,removal,,,images/grn/Silent Dart.png
 242,Wand of Vertebrae,0,,grn,artifact,uncommon,,,,,images/grn/Wand of Vertebrae.png
-243,Boros Guildgate (a),0,,grn,land,common,,,,fixing,images/grn/Boros Guildgate (a).png
-244,Boros Guildgate (b),0,,grn,land,common,,,,fixing,images/grn/Boros Guildgate (b).png
-245,Dimir Guildgate (a),0,,grn,land,common,,,,fixing,images/grn/Dimir Guildgate (a).png
-246,Dimir Guildgate (b),0,,grn,land,common,,,,fixing,images/grn/Dimir Guildgate (b).png
+243,Boros Guildgate,0,,grn,land,common,,,,fixing,images/grn/Boros Guildgate (a).png
+245,Dimir Guildgate,0,,grn,land,common,,,,fixing,images/grn/Dimir Guildgate (a).png
 247,Gateway Plaza,0,,grn,land,common,,,,fixing,images/grn/Gateway Plaza.png
-248,Golgari Guildgate (a),0,,grn,land,common,,,,fixing,images/grn/Golgari Guildgate (a).png
-249,Golgari Guildgate (b),0,,grn,land,common,,,,fixing,images/grn/Golgari Guildgate (b).png
+248,Golgari Guildgate,0,,grn,land,common,,,,fixing,images/grn/Golgari Guildgate (a).png
 250,Guildmages' Forum,0,,grn,land,rare,,,,fixing,images/grn/Guildmages' Forum.png
-251,Izzet Guildgate (a),0,,grn,land,common,,,,fixing,images/grn/Izzet Guildgate (a).png
-252,Izzet Guildgate (b),0,,grn,land,common,,,,fixing,images/grn/Izzet Guildgate (b).png
+251,Izzet Guildgate,0,,grn,land,common,,,,fixing,images/grn/Izzet Guildgate (a).png
 253,Overgrown Tomb,0,,grn,land,rare,,,,fixing,images/grn/Overgrown Tomb.png
 254,Sacred Foundry,0,,grn,land,rare,,,,fixing,images/grn/Sacred Foundry.png
-255,Selesnya Guildgate (a),0,,grn,land,common,,,,fixing,images/grn/Selesnya Guildgate (a).png
-256,Selesnya Guildgate (b),0,,grn,land,common,,,,fixing,images/grn/Selesnya Guildgate (b).png
+255,Selesnya Guildgate,0,,grn,land,common,,,,fixing,images/grn/Selesnya Guildgate (a).png
 257,Steam Vents,0,,grn,land,rare,,,,fixing,images/grn/Steam Vents.png
 258,Temple Garden,0,,grn,land,rare,,,,fixing,images/grn/Temple Garden.png
 259,Watery Grave,0,,grn,land,rare,,,,fixing,images/grn/Watery Grave.png
-260,Plains,0,,grn,land,common,,,,,images/grn/Plains.png
-261,Island,0,,grn,land,common,,,,,images/grn/Island.png
-262,Swamp,0,,grn,land,common,,,,,images/grn/Swamp.png
-263,Mountain,0,,grn,land,common,,,,,images/grn/Mountain.png
-264,Forest,0,,grn,land,common,,,,,images/grn/Forest.png
