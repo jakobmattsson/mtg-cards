@@ -102,6 +102,7 @@ html {
 -->
   <div><a href="index.html?sets=m19">Core Set 2019</a></div>
   <div><a href="index.html?sets=dom">Dominaria</a></div>
+  <div><a href="index.html?sets=rix">Rivals of Ixalan</a></div>
 </div>
 
 <div class="section">
@@ -188,7 +189,7 @@ html {
 
     var filter = {
       set: currentSet, // not needed if we just load one set file at a time
-      instant: location.search.indexOf("instant") !== -1, 
+      instant: location.search.indexOf("instant") !== -1,
       removal: location.search.indexOf("removal") !== -1,
       face: location.search.indexOf("face") !== -1,
       fixing: location.search.indexOf("fixing") !== -1,
@@ -294,7 +295,7 @@ html {
 
   // Load the card data and kick off the page rendering
   var urlRoot = "https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/data/compiled/sets";
-  var cardDataUrl = urlRoot + "/" + currentSet + ".json?cache=7";
+  var cardDataUrl = urlRoot + "/" + currentSet + ".json?cache=8";
   getJsonData(cardDataUrl, (cards) => renderCardMatrix('scoretable', cardsToMatrix(filterAndExtendCards(cards))));
 
   // Usage tracking
