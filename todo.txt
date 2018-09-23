@@ -1,38 +1,44 @@
 Steg 1
 =======
-* Instants+Removals är "AND" istället för "OR" som den borde vara
-* Länkar till olika set
-* Supporta fler set än ravnica (GUI-mässigt också)
-* Skriv en "about text", längst ner på botten. Förklara koncepten. Färgerna, att det är draft etc.
-* Få in LSVs review text som hover text över bilderna eller något sådant.
-* Skriv texten som jag ska använda när jag lägger ut den på reddit
+* Testa länkarna till de olika setten
+* Testa om filter på toppen ser bra ut i mobilen
+* Fixa till dominaria så att det ser bra ut också (färger etc). Kolla felen i webbläsaren när jag gör detta.
+* Kolla så att "training mode" med gold gör rätt grej.
+* Skriv texten som jag kommer skicka till LSV. Skriv texten som jag kommer lägga upp länken på Reddit med.
 
 
-
-Steg 2 - Med AS
-===============
-* Snyggare font
-* Annat snyggande -- fråga AS (tex länkarna, färgerna, storlekarna, mellanrummen)
-* Gör färdigt alla reviews
-
+Steg 2 - Separately
+===================
+* Fråga Luke och svenska och engelska magic-gruppen om MTG-rating (spelling och usability. ser det rätt ut? fattar man?)
+* Check some HTML best practices - run it through some service for that. Encoding and meta tags, doc types and so on
 
 
 
 
 Steg 3 -- release!
 ==================
+* Skicka länken till Dark Sphere för att kolla vad de tycker
 * Skicka länken för m19 till LSV och kolla om han tycker det är ok att jag lägger upp den
-
+* Supporta flera olika data-filer (så att vi kan ha LSVs och vår egen och framtida). Dela upp rådatan i "reviews" och "facts"
 
 
 
 
 Steg 4
 ======
+* Få in LSVs review text som hover text över bilderna eller något sådant.
 * Gör så att man kan länka till specifica sidor i trainern (så att man kan skicka betyget och texten till någon)
-* Supporta flera olika data-filer (så att vi kan ha LSVs och vår egen och framtida)
-  - Dela upp rådatan i "reviews" och "facts"
 * Givet ett kort så vill man kunna se alla olika ratings för den. Lokalt kanske jag vill inkludera min egen, men inte online.
 * Städa upp de gamla setten så att man kan visa dem med (kanske bara dominaria först, så att det åtminstone finns två)
+* Gör färdigt alla våra egna reviews av GRN
+* Kan man ta bort jquery och köra något inbygd ajax i browser istället nu för tiden?
 
 
+
+
+Text for reddit:
+
+Draft rating page
+
+
+Instant, removal, fixing and face

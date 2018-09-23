@@ -37,16 +37,10 @@ html {
 .cardname.common {
   color: white;
 }
-#links {
-  margin: 20px 4px 0px 4px;
-}
-#links a {
-  padding: 0px 20px;
-}
 .section {
   margin-top: 30px;
 }
-.section.about div {
+.section div {
   margin: 8px 0;
 }
 .section.link-list div a {
@@ -56,14 +50,14 @@ html {
 </head>
 <body>
 
-<h1>MTG Rating: draft guidelines</h1>
+<h1>MTG Rating: card evaluations for limited Magic</h1>
 
 <!--
 <div style="margin:20px 0px 0px 10px">NOTE: <a href="https://twitter.com/lsv">lsv</a> has not yet rated all the cards from Guilds of Ravnica. This page will be updated daily with new ratings a they're published to <a href="https://www.channelfireball.com/tag/set-review">channelfireball</a></div>
 -->
 
-<div class="section about link-list">
-  <div id="filter-links">
+<div class="section link-list">
+  <div class="filter-links">
     <a href="index.html?filter=">Show all</a>
     <a href="index.html?filter=white">White</a>
     <a href="index.html?filter=blue">Blue</a>
@@ -82,31 +76,29 @@ html {
   </div>
 </div>
 
-<div class="section">
-  <table id="scoretable" cellspacing="0"></table>
-</div>
+<table id="scoretable" cellspacing="0" style="margin-top: 30px"></table>
 
-<div class="section about link-list">
+<div class="section link-list">
   <h2>Training mode</h2>
-  <div>
-    <a href="trainer.html?sets=grn&amp;rating=channelfireball">All</a>
-    <a href="trainer.html?sets=grn&amp;rating=channelfireball&amp;colors=white">White</a>
-    <a href="trainer.html?sets=grn&amp;rating=channelfireball&amp;colors=blue">Blue</a>
-    <a href="trainer.html?sets=grn&amp;rating=channelfireball&amp;colors=black">Black</a>
-    <a href="trainer.html?sets=grn&amp;rating=channelfireball&amp;colors=red">Red</a>
-    <a href="trainer.html?sets=grn&amp;rating=channelfireball&amp;colors=green">Green</a>
-    <a href="trainer.html?sets=grn&amp;rating=channelfireball&amp;colors=gold">Gold</a>
+  <div class="filter-links">
+    <a href="trainer.html?rating=channelfireball">All</a>
+    <a href="trainer.html?rating=channelfireball&amp;colors=white">White</a>
+    <a href="trainer.html?rating=channelfireball&amp;colors=blue">Blue</a>
+    <a href="trainer.html?rating=channelfireball&amp;colors=black">Black</a>
+    <a href="trainer.html?rating=channelfireball&amp;colors=red">Red</a>
+    <a href="trainer.html?rating=channelfireball&amp;colors=green">Green</a>
+    <a href="trainer.html?rating=channelfireball&amp;colors=gold">Gold</a>
   </div>
 </div>
 
-<div class="section about link-list">
+<div class="section link-list">
   <h2>Looking for another set?</h2>
-  <div><a href="index.html?set=grn">Guilds of Ravnica</a></div>
-  <div><a href="index.html?set=m19">Core Set 2019</a></div>
-  <div><a href="index.html?set=dom">Dominaria</a></div>
+  <div><a href="index.html?sets=grn">Guilds of Ravnica</a></div>
+  <div><a href="index.html?sets=m19">Core Set 2019</a></div>
+  <div><a href="index.html?sets=dom">Dominaria</a></div>
 </div>
 
-<div class="section about">
+<div class="section">
   <h2>About</h2>
   <div>- The ratings are not for constructed play, but limited; draft in particular.</div>
   <div>- 5's are best, 0's are worst.</div>
@@ -119,7 +111,7 @@ html {
   <div>- If you spot an error (not just a rating you disagree with) feel free to get in touch at <a href="https://twitter.com/jakobmattsson">@jakobmattsson</a></div> 
 </div>
 
-<div class="section about">
+<div class="section">
   <h2>Credits</h2>
   <div>Site by <a href="https://twitter.com/jakobmattsson">@jakobmattsson</a></div>
   <div>Ratings by <a href="https://twitter.com/lsv">@lsv</a> of <a href="https://www.channelfireball.com/tag/set-review">channelfireball</a></div>
@@ -145,7 +137,7 @@ html {
   var isLocal = location.hostname === '';
 
   // find the currently selected set (or default to one)
-  var currentSet = getQueryArgs()['set'] || 'm19';
+  var currentSet = getQueryArgs()['sets'] || 'm19';
 
   // This loads card data
   var getJsonData = (url, callback) => {
@@ -286,8 +278,8 @@ html {
   };
 
   // Adjust all the filters to be for the current set
-  document.querySelectorAll('#filter-links a').forEach((a) => {
-    a.href = a.href + "&set=" + currentSet;
+  document.querySelectorAll('.filter-links a').forEach((a) => {
+    a.href = a.href + "&sets=" + currentSet;
   });
 
   // Load the card data and kick off the page rendering
