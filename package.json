@@ -23,7 +23,7 @@
     "request": "^2.83.0"
   },
   "scripts": {
-    "compile-data": "sh tools/compile_data.sh"
+    "build": "sh tools/compile_data.sh"
   },
   "bucketful": {
     "source": "web",

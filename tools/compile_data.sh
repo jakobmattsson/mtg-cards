@@ -5,3 +5,6 @@ csvtojson data/raw/rix.csv > data/compiled/sets/rix.json
 csvtojson data/raw/xln.csv > data/compiled/sets/xln.json
 
 ls data/compiled/sets | xargs node -e "_ = require('lodash');console.log(JSON.stringify(_.flatten(process.argv.slice(1).map((x) => require('./data/compiled/sets/' + x)))))" > data/compiled/all.json
+
+echo 'var allthedata = ' > web/hardcoded.js
+cat data/compiled/all.json >> web/hardcoded.js

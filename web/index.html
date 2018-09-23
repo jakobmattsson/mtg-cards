@@ -125,22 +125,16 @@ a.whitelink, a.whitelink:visited {
 
 <script>
 
+  var isLocal = location.hostname == '';
 
 
 
   var getJsonData = function(url, callback) {
 
-    // TODO: this has to propagate errors
-    
-    // var result = JSON.parse(window.localStorage.getItem(url));
-    // if (result) {
-    //   callback(null, result);
-    //   return;
-    // }
-
-
-    // callback(null, window.allthedata);
-
+    if (isLocal) {
+      callback(null, window.allthedata);
+      return;
+    }
 
     $.ajax({
       dataType: 'json',
@@ -260,6 +254,9 @@ a.whitelink, a.whitelink:visited {
             text += "**"
 
           var imgUrl = card.imageUrl;
+          if (isLocal) {
+            imgUrl = imgUrl.replace('https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master', '..');
+          }
           var allText = '<div class="cardname ' + getRarity(card) + '" onclick="showCard()">' + text + '<img src="' + imgUrl + '"></div>'
 
           return allText;
@@ -307,18 +304,20 @@ a.whitelink, a.whitelink:visited {
 
 
 <script type="text/javascript">
-  var _gauges = _gauges || [];
-  (function() {
-    var t   = document.createElement('script');
-    t.type  = 'text/javascript';
-    t.async = true;
-    t.id    = 'gauges-tracker';
-    t.setAttribute('data-site-id', '5ba649900552da6be04dd931');
-    t.setAttribute('data-track-path', 'https://track.gaug.es/track.gif');
-    t.src = 'https://d2fuc4clr7gvcn.cloudfront.net/track.js';
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(t, s);
-  })();
+  if (!isLocal) {
+    var _gauges = _gauges || [];
+    (function() {
+      var t   = document.createElement('script');
+      t.type  = 'text/javascript';
+      t.async = true;
+      t.id    = 'gauges-tracker';
+      t.setAttribute('data-site-id', '5ba649900552da6be04dd931');
+      t.setAttribute('data-track-path', 'https://track.gaug.es/track.gif');
+      t.src = 'https://d2fuc4clr7gvcn.cloudfront.net/track.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(t, s);
+    })();
+  }
 </script>
 
 </body>
