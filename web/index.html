@@ -6,6 +6,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: arial;
 }
 
 html {
@@ -21,7 +22,6 @@ html {
 }
 
 #scoretable {
-  font-family: arial;
   font-size: 14px;
   border: 1px solid rgb(160, 160, 160);
 }
@@ -67,6 +67,7 @@ a.whitelink, a.whitelink:visited {
 <body>
 
 
+<h1>MTG Rating: guiding your drafts</h1>
 
 <table id="scoretable" cellspacing="0"></table>
 
@@ -78,7 +79,6 @@ a.whitelink, a.whitelink:visited {
     <a class="whitelink" href="index.html?filter=removal">Removals</a>
     <a class="whitelink" href="index.html?filter=face">Face</a>
     <a class="whitelink" href="index.html?filter=fixing">Fixing</a>
-    <a class="whitelink" href="index.html?filter=instant,removal">Instants+Removals</a>
   </div>
 
   <div>
@@ -125,48 +125,50 @@ a.whitelink, a.whitelink:visited {
 
 <script>
 
+  // this determines if we're running the site locally or remotely
   var isLocal = location.hostname == '';
 
-
-
+  // This loads card data
   var getJsonData = function(url, callback) {
-
     if (isLocal) {
-      callback(null, window.allthedata);
+      callback(window.allthedata);
       return;
     }
-
     $.ajax({
       dataType: 'json',
       url: url
     }).done(function(data) {
-      window.localStorage.setItem(url, JSON.stringify(data));
-      callback(null, data);
+      callback(data);
     });
-
   };
 
-
-
-  var processData = function(error, channelfireball) {
-    if (error) {
-      alert(error)
-      return;
+  // use this as the event handler on a card to enable toggling it on/off
+  window.showCard = (function() {
+    var showing = 'none';
+    var currentCard = null;
+    var setShow = function(status) {
+      if (currentCard && currentCard.children[0])
+        currentCard.children[0].style.display = status ? "block" : 'none';
+      if (!status)
+        currentCard = null;
+      showing = status;
     }
+    return () => {
+      if (currentCard === window.event.target){
+        setShow(false);
+      } else {
+        setShow(false);
+        currentCard = window.event.target;
+        setShow(true);
+      }
+    };
+  }());
 
-    var columns = ['white', 'blue', 'black', 'red', 'green', 'gold', 'artifact', 'land'];
-
-
-    var getColumn = (card) => card.color.indexOf("-") === -1 && card.color.indexOf("+") === -1 ? card.color : 'gold';
-    var getScore = (card) => card.highScore == "" ? parseFloat(card.lowScore) : (parseFloat(card.highScore) + parseFloat(card.lowScore)) / 2;
-    var getRarity = (card) => card.rarity;
-
-    var rows = {};
-    var allCards = channelfireball;
-
+  // Filters cards according to user provided settings and also adds in some additional fields
+  var filterAndExtendCards = function(allCards) {
 
     var filter = {
-      // set: 'grn', // not needed if we just load one set file at a time
+      set: 'm19', // not needed if we just load one set file at a time
       instant: location.search.indexOf("instant") !== -1, 
       removal: location.search.indexOf("removal") !== -1,
       face: location.search.indexOf("face") !== -1,
@@ -180,7 +182,6 @@ a.whitelink, a.whitelink:visited {
       ].filter((x) => x)
     };
 
-    // filter cards here
     allCards = allCards.filter((x) =>
       (!filter.set || filter.set == x.set) &&
       (!filter.instant || x.instant) &&
@@ -194,37 +195,47 @@ a.whitelink, a.whitelink:visited {
       card.dualScore = card.lowScore != null && !isNaN(parseFloat(card.highScore));
     });
 
+    return allCards;
+  };
+
+  // Puts the given cards into a color/rating matrix
+  var cardsToMatrix = (cards) => {
+    var rows = {};
     var addCardWithScore = (card, score) => {
-      var col = getColumn(card);
+      var col = card.color.indexOf("-") === -1 && card.color.indexOf("+") === -1 ? card.color : 'gold';
       rows[score] = rows[score] || {};
       rows[score][col] = rows[score][col] || [];
       rows[score][col].push(card);
     };
-
-    allCards.forEach((card) => {
+    cards.forEach((card) => {
       var low = parseFloat(card.lowScore);
       var high = parseFloat(card.highScore);
-
       if (isNaN(low)) {
         console.log("Invalid score for: " + card.title);
         return;
       }
-
       addCardWithScore(card, low)
       if (!isNaN(high))
         addCardWithScore(card, high)
     });
+    return rows;
+  };
 
+  // Gets the image url for a card, taking local/remote into account
+  var getCardImageUrl = (card) => {
+    if (isLocal) {
+      return card.imageUrl.replace('https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master', '..');
+    } else {
+      return card.imageUrl;
+    }
+  };
 
-    var ratings = Object.keys(rows);
-    ratings.sort().reverse();
+  // Render a matrix of cards to a given table
+  var renderCardMatrix = function(tableId, cardMatrix) {
+    var columns = ['white', 'blue', 'black', 'red', 'green', 'gold', 'artifact', 'land'];
+    var tbl = document.getElementById(tableId);
 
-
-
-    var tbl = document.getElementById('scoretable');
-
-
-    // Column headers
+    // Add column headers
     var tr = document.createElement('tr');
     ['rating'].concat(columns).forEach((column) => {
       var td = document.createElement('td');
@@ -233,77 +244,32 @@ a.whitelink, a.whitelink:visited {
     });
     tbl.appendChild(tr);
 
-
-    // all the actual ratings
-    ratings.forEach((rating) => {
+    // Add ratings
+    Object.keys(cardMatrix).sort().reverse().forEach((rating) => {
       var tr = document.createElement('tr');
-
       var td = document.createElement('td');
       td.innerHTML = rating.toUpperCase();
       tr.appendChild(td);
 
       columns.forEach((column) => {
-        var cards = rows[rating][column] || [];
+        var cards = cardMatrix[rating][column] || [];
         var td = document.createElement('td');
         td.innerHTML = cards.map((card) => {
-
-          var c = getRarity(card);
-          var text = card.title.replace(/ /g, '&nbsp;');
-
-          if (card.dualScore)
-            text += "**"
-
-          var imgUrl = card.imageUrl;
-          if (isLocal) {
-            imgUrl = imgUrl.replace('https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master', '..');
-          }
-          var allText = '<div class="cardname ' + getRarity(card) + '" onclick="showCard()">' + text + '<img src="' + imgUrl + '"></div>'
-
-          return allText;
-
+          var text = card.title.replace(/ /g, '&nbsp;') + (card.dualScore ? '**' : '');
+          var imgUrl = getCardImageUrl(card);
+          return '<div class="cardname ' + card.rarity + '" onclick="showCard()">' + text + '<img src="' + imgUrl + '"></div>';
         }).join('');
         tr.appendChild(td);
       });
       tbl.appendChild(tr);
     });  
-
-
-
-
-    window.showing = 'none';
-    window.currentCard = null;
-
-    var setShow = function(status) {
-
-      if (window.currentCard && window.currentCard.children[0])
-        window.currentCard.children[0].style.display = status ? "block" : 'none';
-
-      if (!status)
-        window.currentCard = null;
-
-      window.showing = status;
-    }
-
-    window.showCard = (card) => {
-
-      if (window.currentCard == window.event.target){
-        setShow(false);
-      } else {
-        setShow(false);
-        window.currentCard = window.event.target;
-        setShow(true);
-      }
-    };
   };
 
-  //var url = "https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/data/compiled/all.json?cache=4";
-  var url = "https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/data/compiled/sets/m19.json?cache=5";
-  getJsonData(url, processData);
+  // Load the card data and kick off the page rendering
+  var cardDataUrl = "https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/data/compiled/sets/m19.json?cache=5";
+  getJsonData(cardDataUrl, (cards) => renderCardMatrix('scoretable', cardsToMatrix(filterAndExtendCards(cards))));
 
-</script>
-
-
-<script type="text/javascript">
+  // Usage tracking
   if (!isLocal) {
     var _gauges = _gauges || [];
     (function() {
