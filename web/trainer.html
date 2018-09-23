@@ -1,3 +1,9 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>MTG Trainer</title>
+
 <!--
 
 Arguments
@@ -43,9 +49,6 @@ Todo
 
 -->
 
-
-<html>
-<head>
 <style>
 
   * {
@@ -113,6 +116,9 @@ Todo
 
 <script>
 
+  // this determines if we're running the site locally or remotely
+  var isLocal = location.hostname === '';
+
   function getParameterByName(name, url) {
     if (!url) url = window.location.href;
     name = name.replace(/[\[\]]/g, "\\$&");
@@ -139,7 +145,7 @@ Todo
       dataType: 'json',
       url: url
     }).done(function(data) {
-      window.localStorage.setItem(url, JSON.stringify(data));
+      //window.localStorage.setItem(url, JSON.stringify(data));
       callback(null, data);
     });
 
@@ -421,22 +427,21 @@ Todo
     });
   });
 
-</script>
 
-<script type="text/javascript">
-  var _gauges = _gauges || [];
-  (function() {
-    var t   = document.createElement('script');
-    t.type  = 'text/javascript';
-    t.async = true;
-    t.id    = 'gauges-tracker';
-    t.setAttribute('data-site-id', '5ba649900552da6be04dd931');
-    t.setAttribute('data-track-path', 'https://track.gaug.es/track.gif');
-    t.src = 'https://d2fuc4clr7gvcn.cloudfront.net/track.js';
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(t, s);
-  })();
+  if (!isLocal) {
+    var _gauges = _gauges || [];
+    (function() {
+      var t   = document.createElement('script');
+      t.type  = 'text/javascript';
+      t.async = true;
+      t.id    = 'gauges-tracker';
+      t.setAttribute('data-site-id', '5ba649900552da6be04dd931');
+      t.setAttribute('data-track-path', 'https://track.gaug.es/track.gif');
+      t.src = 'https://d2fuc4clr7gvcn.cloudfront.net/track.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(t, s);
+    })();
+  }
 </script>
-
 </body>
 </html>
