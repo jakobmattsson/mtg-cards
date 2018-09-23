@@ -24,4 +24,9 @@ Skriv texten som jag ska använda när jag lägger ut den på reddit
 
 
 Nu:
-- Ladda ner bilderna för m19
+- Byt ut "gold" mot vad det faktiskt är i filen med de gamla setten
+- Ladda ner bilderna för de gamla setten
+- Byt ut bilderna i filen med de gamla setten
+
+
+
