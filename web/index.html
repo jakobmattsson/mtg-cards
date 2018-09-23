@@ -1,0 +1,326 @@
+<html>
+<head>
+
+<style>
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  margin: 5px;
+  background-color: black;
+  color: white;
+}
+
+#scoretable td {
+  vertical-align: top;
+  border: 1px solid rgb(160, 160, 160);
+  padding: 5px;
+}
+
+#scoretable {
+  font-family: arial;
+  font-size: 14px;
+  border: 1px solid rgb(160, 160, 160);
+}
+
+.cardname img {
+  display: none;
+}
+
+.cardname {
+  cursor: pointer;
+}
+
+.cardname.mythic {
+  color: orange;
+}
+.cardname.rare {
+  color: yellow;
+}
+.cardname.uncommon {
+  color: rgb(0, 190, 255);
+}
+.cardname.common {
+  color: white;
+}
+
+#links {
+  margin: 20px 4px 0px 4px;
+}
+
+#links a {
+  padding: 0px 20px;
+}
+
+a.whitelink, a.whitelink:visited {
+  color: white;
+}
+
+
+</style>
+
+
+</head>
+<body>
+
+
+
+<table id="scoretable" cellspacing="0"></table>
+
+<div id="links">
+  <div style="font-weight:bold;margin:20px 0px">Filters</div>
+  <div>
+    <a class="whitelink" href="index.html">All</a>
+    <a class="whitelink" href="index.html?filter=instant">Instants</a>
+    <a class="whitelink" href="index.html?filter=removal">Removals</a>
+    <a class="whitelink" href="index.html?filter=face">Face</a>
+    <a class="whitelink" href="index.html?filter=fixing">Fixing</a>
+    <a class="whitelink" href="index.html?filter=instant,removal">Instants+Removals</a>
+  </div>
+
+  <div>
+    <a class="whitelink" href="index.html?filter=white">White</a>
+    <a class="whitelink" href="index.html?filter=blue">Blue</a>
+    <a class="whitelink" href="index.html?filter=black">Black</a>
+    <a class="whitelink" href="index.html?filter=red">Red</a>
+    <a class="whitelink" href="index.html?filter=green">Green</a>
+  </div>
+
+  <div>
+    <a class="whitelink" href="index.html?filter=white,red">Boros</a>
+    <a class="whitelink" href="index.html?filter=blue,red">Izzet</a>
+    <a class="whitelink" href="index.html?filter=black,blue">Dimir</a>
+    <a class="whitelink" href="index.html?filter=white,green">Selesnya</a>
+    <a class="whitelink" href="index.html?filter=green,black">Golgari</a>
+  </div>
+
+  <div style="font-weight:bold;margin:20px 0px">Training</div>
+  <div>
+    <a class="whitelink" href="trainer.html?sets=grn&amp;rating=channelfireball">All</a>
+    <a class="whitelink" href="trainer.html?sets=grn&amp;rating=channelfireball&amp;colors=white">White</a>
+    <a class="whitelink" href="trainer.html?sets=grn&amp;rating=channelfireball&amp;colors=blue">Blue</a>
+    <a class="whitelink" href="trainer.html?sets=grn&amp;rating=channelfireball&amp;colors=black">Black</a>
+    <a class="whitelink" href="trainer.html?sets=grn&amp;rating=channelfireball&amp;colors=red">Red</a>
+    <a class="whitelink" href="trainer.html?sets=grn&amp;rating=channelfireball&amp;colors=green">Green</a>
+    <a class="whitelink" href="trainer.html?sets=grn&amp;rating=channelfireball&amp;colors=gold">Gold</a>
+  </div>
+
+</div>
+<div style="margin-top:100px">
+  <div><a class="whitelink" href="https://twitter.com/jakobmattsson">@jakobmattsson</a> 2018</div>
+  <div>Ratings by <a class="whitelink" href="https://twitter.com/lsv">@lsv</a> of <a class="whitelink" href="https://www.channelfireball.com/tag/set-review">channelfireball</a></div>
+</div>
+
+
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+
+<script src="hardcoded.js"></script>
+
+
+<script>
+
+
+
+
+  var getJsonData = function(url, callback) {
+
+    // TODO: this has to propagate errors
+    
+    // var result = JSON.parse(window.localStorage.getItem(url));
+    // if (result) {
+    //   callback(null, result);
+    //   return;
+    // }
+
+
+    // callback(null, window.allthedata);
+
+
+    $.ajax({
+      dataType: 'json',
+      url: url
+    }).done(function(data) {
+      window.localStorage.setItem(url, JSON.stringify(data));
+      callback(null, data);
+    });
+
+  };
+
+
+
+  var processData = function(error, channelfireball) {
+    if (error) {
+      alert(error)
+      return;
+    }
+
+    var columns = ['white', 'blue', 'black', 'red', 'green', 'gold', 'artifact', 'land'];
+
+
+    var getColumn = (card) => card.color.indexOf("-") === -1 && card.color.indexOf("+") === -1 ? card.color : 'gold';
+    var getScore = (card) => card.highScore == "" ? parseFloat(card.lowScore) : (parseFloat(card.highScore) + parseFloat(card.lowScore)) / 2;
+    var getRarity = (card) => card.rarity;
+
+    var rows = {};
+    var allCards = channelfireball;
+
+
+    var filter = {
+      set: 'grn',
+      instant: location.search.indexOf("instant") !== -1, 
+      removal: location.search.indexOf("removal") !== -1,
+      face: location.search.indexOf("face") !== -1,
+      fixing: location.search.indexOf("fixing") !== -1,
+      colors: [
+        (location.search.indexOf('white') === -1) ? null : 'white',
+        (location.search.indexOf('blue')  === -1) ? null : 'blue',
+        (location.search.indexOf('black') === -1) ? null : 'black',
+        (location.search.indexOf('red')   === -1) ? null : 'red',
+        (location.search.indexOf('green') === -1) ? null : 'green'
+      ].filter((x) => x)
+    };
+
+    // filter cards here
+    allCards = allCards.filter((x) =>
+      (!filter.set || filter.set == x.set) &&
+      (!filter.instant || x.instant) &&
+      (!filter.removal || x.removal) &&
+      (!filter.face || x.face) &&
+      (!filter.fixing || x.fixing) &&
+      (filter.colors.length == 0 || x.color == 'artifact' || x.color == 'land' || (x.color.indexOf('+') === -1 ? filter.colors.some((c) => x.color.indexOf(c) !== -1) : x.color.split('+').every((c) => filter.colors.indexOf(c) !== -1)))
+    );
+
+    allCards.forEach((card) => {
+      card.dualScore = card.lowScore != null && !isNaN(parseFloat(card.highScore));
+    });
+
+    var addCardWithScore = (card, score) => {
+      var col = getColumn(card);
+      rows[score] = rows[score] || {};
+      rows[score][col] = rows[score][col] || [];
+      rows[score][col].push(card);
+    };
+
+    allCards.forEach((card) => {
+      var low = parseFloat(card.lowScore);
+      var high = parseFloat(card.highScore);
+
+      if (isNaN(low)) {
+        console.log("Invalid score for: " + card.title);
+        return;
+      }
+
+      addCardWithScore(card, low)
+      if (!isNaN(high))
+        addCardWithScore(card, high)
+    });
+
+
+    var ratings = Object.keys(rows);
+    ratings.sort().reverse();
+
+
+
+    var tbl = document.getElementById('scoretable');
+
+
+    // Column headers
+    var tr = document.createElement('tr');
+    ['rating'].concat(columns).forEach((column) => {
+      var td = document.createElement('td');
+      td.innerHTML = column.toUpperCase();
+      tr.appendChild(td);
+    });
+    tbl.appendChild(tr);
+
+
+    // all the actual ratings
+    ratings.forEach((rating) => {
+      var tr = document.createElement('tr');
+
+      var td = document.createElement('td');
+      td.innerHTML = rating.toUpperCase();
+      tr.appendChild(td);
+
+      columns.forEach((column) => {
+        var cards = rows[rating][column] || [];
+        var td = document.createElement('td');
+        td.innerHTML = cards.map((card) => {
+
+          var c = getRarity(card);
+          var text = card.title.replace(/ /g, '&nbsp;');
+
+          if (card.dualScore)
+            text += "**"
+
+          var imgUrl = card.imageUrl;
+          var allText = '<div class="cardname ' + getRarity(card) + '" onclick="showCard()">' + text + '<img src="' + imgUrl + '"></div>'
+
+          return allText;
+
+        }).join('');
+        tr.appendChild(td);
+      });
+      tbl.appendChild(tr);
+    });  
+
+
+
+
+    window.showing = 'none';
+    window.currentCard = null;
+
+    var setShow = function(status) {
+
+      if (window.currentCard && window.currentCard.children[0])
+        window.currentCard.children[0].style.display = status ? "block" : 'none';
+
+      if (!status)
+        window.currentCard = null;
+
+      window.showing = status;
+    }
+
+    window.showCard = (card) => {
+
+      if (window.currentCard == window.event.target){
+        setShow(false);
+      } else {
+        setShow(false);
+        window.currentCard = window.event.target;
+        setShow(true);
+      }
+    };
+  };
+
+  var url = "https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/data/grn.json?cache=14";
+  getJsonData(url, processData);
+
+</script>
+
+
+<script type="text/javascript">
+  var _gauges = _gauges || [];
+  (function() {
+    var t   = document.createElement('script');
+    t.type  = 'text/javascript';
+    t.async = true;
+    t.id    = 'gauges-tracker';
+    t.setAttribute('data-site-id', '5ba649900552da6be04dd931');
+    t.setAttribute('data-track-path', 'https://track.gaug.es/track.gif');
+    t.src = 'https://d2fuc4clr7gvcn.cloudfront.net/track.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(t, s);
+  })();
+</script>
+
+</body>
+</html>

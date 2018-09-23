@@ -1,0 +1,31 @@
+Steg 1
+=======
+* Snyggare font -- fråga AS
+* Annat snyggande -- fråga AS (tex länkarna)
+* Gör färdigt alla reviews
+
+
+
+
+Steg 2
+======
+* Supporta flera olika data-filer (så att vi kan ha LSVs och vår egen och framtida)
+* Supporta fler set än ravnica
+
+
+
+
+Skriv texten som jag ska använda när jag lägger ut den på reddit
+
+
+
+
+
+
+
+Nu:
+- Ladda ner bilderna för m19
+
+
+
+
