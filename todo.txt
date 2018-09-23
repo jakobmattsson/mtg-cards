@@ -1,32 +1,38 @@
 Steg 1
 =======
-* Snyggare font -- fråga AS
-* Annat snyggande -- fråga AS (tex länkarna)
+* Instants+Removals är "AND" istället för "OR" som den borde vara
+* Länkar till olika set
+* Supporta fler set än ravnica (GUI-mässigt också)
+* Skriv en "about text", längst ner på botten. Förklara koncepten. Färgerna, att det är draft etc.
+* Få in LSVs review text som hover text över bilderna eller något sådant.
+* Skriv texten som jag ska använda när jag lägger ut den på reddit
+
+
+
+Steg 2 - Med AS
+===============
+* Snyggare font
+* Annat snyggande -- fråga AS (tex länkarna, färgerna, storlekarna, mellanrummen)
 * Gör färdigt alla reviews
 
 
 
 
-Steg 2
+
+Steg 3 -- release!
+==================
+* Skicka länken för m19 till LSV och kolla om han tycker det är ok att jag lägger upp den
+
+
+
+
+
+Steg 4
 ======
+* Gör så att man kan länka till specifica sidor i trainern (så att man kan skicka betyget och texten till någon)
 * Supporta flera olika data-filer (så att vi kan ha LSVs och vår egen och framtida)
-* Supporta fler set än ravnica
-
-
-
-
-Skriv texten som jag ska använda när jag lägger ut den på reddit
-
-
-
-
-
-
-
-Nu:
-- Byt ut "gold" mot vad det faktiskt är i filen med de gamla setten
-- Ladda ner bilderna för de gamla setten
-- Byt ut bilderna i filen med de gamla setten
-
+  - Dela upp rådatan i "reviews" och "facts"
+* Givet ett kort så vill man kunna se alla olika ratings för den. Lokalt kanske jag vill inkludera min egen, men inte online.
+* Städa upp de gamla setten så att man kan visa dem med (kanske bara dominaria först, så att det åtminstone finns två)
 
 

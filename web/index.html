@@ -172,7 +172,7 @@ a.whitelink, a.whitelink:visited {
 
 
     var filter = {
-      set: 'grn',
+      // set: 'grn', // not needed if we just load one set file at a time
       instant: location.search.indexOf("instant") !== -1, 
       removal: location.search.indexOf("removal") !== -1,
       face: location.search.indexOf("face") !== -1,
@@ -299,7 +299,8 @@ a.whitelink, a.whitelink:visited {
     };
   };
 
-  var url = "https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/data/compiled/all.json?cache=1";
+  //var url = "https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/data/compiled/all.json?cache=4";
+  var url = "https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/data/compiled/sets/m19.json?cache=4";
   getJsonData(url, processData);
 
 </script>
