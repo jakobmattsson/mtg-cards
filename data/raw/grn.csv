@@ -1,255 +1,255 @@
 number,title,lowScore,highScore,set,color,rarity,instant,removal,face,fixing,imageUrl
-1,Blade Instructor,2,3,grn,white,common,,,,,images/grn/Blade Instructor.png
-2,Bounty Agent,2,,grn,white,rare,,removal,,,images/grn/Bounty Agent.png
-3,Candlelight Vigil,1,,grn,white,common,,,,,images/grn/Candlelight Vigil.png
-4,Citywide Bust,4,,grn,white,rare,,removal,,,images/grn/Citywide Bust.png
-5,Collar the Culprit,3,,grn,white,common,instant,removal,,,images/grn/Collar the Culprit.png
-6,Conclave Tribunal,3.5,,grn,white,uncommon,,removal,,,images/grn/Conclave Tribunal.png
-7,Crush Contraband,3,3.5,grn,white,uncommon,instant,removal,,,images/grn/Crush Contraband.png
-8,Dawn of Hope,3,,grn,white,rare,,,,,images/grn/Dawn of Hope.png
-9,Demotion,3.5,,grn,white,uncommon,,removal,,,images/grn/Demotion.png
-10,Divine Visitation,4,5,grn,white,mythic,,,,,images/grn/Divine Visitation.png
-11,Flight of Equenauts,3,,grn,white,uncommon,,,,,images/grn/Flight of Equenauts.png
-12,Gird for Battle,1,,grn,white,uncommon,,,,,images/grn/Gird for Battle.png
-13,Haazda Marshal,1,,grn,white,uncommon,,,,,images/grn/Haazda Marshal.png
-14,Healer's Hawk,1,2,grn,white,common,,,,,images/grn/Healer's Hawk.png
-15,Hunted Witness,1,,grn,white,common,,,,,images/grn/Hunted Witness.png
-16,Inspiring Unicorn,3,,grn,white,uncommon,,,,,images/grn/Inspiring Unicorn.png
-17,Intrusive Packbeast,2,,grn,white,common,,,,,images/grn/Intrusive Packbeast.png
-18,Ledev Guardian,2,,grn,white,common,,,,,images/grn/Ledev Guardian.png
-19,Light of the Legion,4,5,grn,white,rare,,,,,images/grn/Light of the Legion.png
-20,Loxodon Restorer,2,3,grn,white,common,,,,,images/grn/Loxodon Restorer.png
-21,Luminous Bonds,3.5,,grn,white,common,,removal,,,images/grn/Luminous Bonds.png
-22,Parhelion Patrol,3,,grn,white,common,,,,,images/grn/Parhelion Patrol.png
-23,Righteous Blow,2,3,grn,white,common,instant,removal,,,images/grn/Righteous Blow.png
-24,Roc Charger,3.5,,grn,white,uncommon,,,,,images/grn/Roc Charger.png
-25,Skyline Scout,1,,grn,white,common,,,,,images/grn/Skyline Scout.png
-26,Sunhome Stalwart,3,,grn,white,uncommon,,,,,images/grn/Sunhome Stalwart.png
-27,Sworn Companions,2,,grn,white,common,,,,,images/grn/Sworn Companions.png
-28,Take Heart,2,,grn,white,common,instant,,,,images/grn/Take Heart.png
-29,Tenth District Guard,1,,grn,white,common,,,,,images/grn/Tenth District Guard.png
-30,Venerated Loxodon,4,,grn,white,rare,,,,,images/grn/Venerated Loxodon.png
-31,Capture Sphere,2,3.5,grn,blue,common,instant,removal,,,images/grn/Capture Sphere.png
-32,Chemister's Insight,3,,grn,blue,uncommon,instant,,,,images/grn/Chemister's Insight.png
-33,Citywatch Sphinx,3.5,,grn,blue,uncommon,,,,,images/grn/Citywatch Sphinx.png
-34,Dazzling Lights,2.5,3.5,grn,blue,common,instant,,,,images/grn/Dazzling Lights.png
-35,Devious Cover-Up,1.5,,grn,blue,common,instant,,,,images/grn/Devious Cover-Up.png
-36,Dimir Informant,2,2.5,grn,blue,common,,,,,images/grn/Dimir Informant.png
-37,Disdainful Stroke,2.5,,grn,blue,common,instant,,,,images/grn/Disdainful Stroke.png
-38,Dream Eater,4,4.5,grn,blue,mythic,instant,,,,images/grn/Dream Eater.png
-39,Drowned Secrets,1,,grn,blue,rare,,,,,images/grn/Drowned Secrets.png
-40,Enhanced Surveillance,3.5,,grn,blue,uncommon,,,,,images/grn/Enhanced Surveillance.png
-41,Guild Summit,1,,grn,blue,uncommon,,,,,images/grn/Guild Summit.png
-42,Leapfrog,2,,grn,blue,common,,,,,images/grn/Leapfrog.png
-43,Maximize Altitude,0,,grn,blue,common,,,,,images/grn/Maximize Altitude.png
-44,Mission Briefing,1,,grn,blue,rare,instant,,,,images/grn/Mission Briefing.png
-45,Murmuring Mystic,3,,grn,blue,uncommon,,,,,images/grn/Murmuring Mystic.png
-46,Muse Drake,2,,grn,blue,common,,,,,images/grn/Muse Drake.png
-47,Narcomoeba,0.5,,grn,blue,rare,,,,,images/grn/Narcomoeba.png
-48,Nightveil Sprite,2.5,,grn,blue,uncommon,,,,,images/grn/Nightveil Sprite.png
-49,Omnispell Adept,1,,grn,blue,rare,,,,,images/grn/Omnispell Adept.png
-50,Passwall Adept,2,3,grn,blue,common,,,,,images/grn/Passwall Adept.png
-51,Quasiduplicate,3.5,4,grn,blue,rare,,,,,images/grn/Quasiduplicate.png
-52,Radical Idea,0.5,,grn,blue,common,instant,,,,images/grn/Radical Idea.png
-53,Selective Snare,2,,grn,blue,uncommon,,removal,,,images/grn/Selective Snare.png
-54,Sinister Sabotage,3,,grn,blue,uncommon,instant,,,,images/grn/Sinister Sabotage.png
-55,Thoughtbound Phantasm,2,2.5,grn,blue,uncommon,,,,,images/grn/Thoughtbound Phantasm.png
-56,Unexplained Disappearance,2,,grn,blue,common,instant,removal,,,images/grn/Unexplained Disappearance.png
-57,Vedalken Mesmerist,1,,grn,blue,common,,,,,images/grn/Vedalken Mesmerist.png
-58,Wall of Mist,1,1.5,grn,blue,common,,,,,images/grn/Wall of Mist.png
-59,Watcher in the Mist,3.5,,grn,blue,common,,,,,images/grn/Watcher in the Mist.png
-60,Wishcoin Crab,1,,grn,blue,common,,,,,images/grn/Wishcoin Crab.png
-61,Barrier of Bones,1,,grn,black,common,,,,,images/grn/Barrier of Bones.png
-62,Bartizan Bats,1,2,grn,black,common,,,,,images/grn/Bartizan Bats.png
-63,Blood Operative,3.5,,grn,black,rare,,,,,images/grn/Blood Operative.png
-64,Burglar Rat,1,,grn,black,common,,,,,images/grn/Burglar Rat.png
-65,Child of Night,2,,grn,black,common,,,,,images/grn/Child of Night.png
-66,Creeping Chill,1,,grn,black,uncommon,,,face,,images/grn/Creeping Chill.png
-67,Dead Weight,3,,grn,black,common,,removal,,,images/grn/Dead Weight.png
-68,Deadly Visit,3.5,,grn,black,common,,removal,,,images/grn/Deadly Visit.png
-69,Doom Whisperer,5,,grn,black,mythic,,,,,images/grn/Doom Whisperer.png
-70,Douser of Lights,2,,grn,black,common,,,,,images/grn/Douser of Lights.png
-71,Gruesome Menagerie,1,,grn,black,rare,,,,,images/grn/Gruesome Menagerie.png
-72,Hired Poisoner,3,,grn,black,common,,,,,images/grn/Hired Poisoner.png
-73,Kraul Swarm,2,,grn,black,uncommon,,,,,images/grn/Kraul Swarm.png
-74,Lotleth Giant,2,,grn,black,uncommon,,,,,images/grn/Lotleth Giant.png
-75,Mausoleum Secrets,3,,grn,black,rare,instant,,,,images/grn/Mausoleum Secrets.png
-76,Mephitic Vapors,2,,grn,black,common,,removal,,,images/grn/Mephitic Vapors.png
-77,Midnight Reaper,2,3,grn,black,rare,,,,,images/grn/Midnight Reaper.png
-78,Moodmark Painter,2.5,,grn,black,common,,,,,images/grn/Moodmark Painter.png
-79,Necrotic Wound,3.5,,grn,black,uncommon,instant,removal,,,images/grn/Necrotic Wound.png
-80,Never Happened,1,,grn,black,common,,,,,images/grn/Never Happened.png
-81,Pilfering Imp,2,,grn,black,uncommon,,,,,images/grn/Pilfering Imp.png
-82,Plaguecrafter,1,,grn,black,uncommon,,removal,,,images/grn/Plaguecrafter.png
-83,Price of Fame,4,,grn,black,uncommon,instant,removal,,,images/grn/Price of Fame.png
-84,Ritual of Soot,1,,grn,black,rare,,removal,,,images/grn/Ritual of Soot.png
-85,Severed Strands,2.5,,grn,black,common,,removal,,,images/grn/Severed Strands.png
-86,Spinal Centipede,2,,grn,black,common,,,,,images/grn/Spinal Centipede.png
-87,Undercity Necrolisk,2,,grn,black,uncommon,,,,,images/grn/Undercity Necrolisk.png
-88,Veiled Shade,1,,grn,black,common,,,,,images/grn/Veiled Shade.png
-89,Vicious Rumors,0,,grn,black,common,,,,,images/grn/Vicious Rumors.png
-90,Whispering Snitch,1,2,grn,black,uncommon,,,,,images/grn/Whispering Snitch.png
-91,Arclight Phoenix,0,,grn,red,mythic,,,,,images/grn/Arclight Phoenix.png
-92,Barging Sergeant,0,,grn,red,common,,,,,images/grn/Barging Sergeant.png
-93,Book Devourer,0,,grn,red,uncommon,,,,,images/grn/Book Devourer.png
-94,Command the Storm,0,,grn,red,common,instant,removal,,,images/grn/Command the Storm.png
-95,Cosmotronic Wave,0,,grn,red,common,,removal,,,images/grn/Cosmotronic Wave.png
-96,Direct Current,0,,grn,red,common,,removal,,,images/grn/Direct Current.png
-97,Electrostatic Field,0,,grn,red,uncommon,,,,,images/grn/Electrostatic Field.png
-98,Erratic Cyclops,0,,grn,red,rare,,,,,images/grn/Erratic Cyclops.png
-99,Experimental Frenzy,0,,grn,red,rare,,,,,images/grn/Experimental Frenzy.png
-100,Fearless Halberdier,0,,grn,red,common,,,,,images/grn/Fearless Halberdier.png
-101,Fire Urchin,0,,grn,red,common,,,,,images/grn/Fire Urchin.png
-102,Goblin Banneret,0,,grn,red,uncommon,,,,,images/grn/Goblin Banneret.png
-103,Goblin Cratermaker,0,,grn,red,uncommon,,removal,,,images/grn/Goblin Cratermaker.png
-104,Goblin Locksmith,0,,grn,red,common,,,,,images/grn/Goblin Locksmith.png
-105,Gravitic Punch,0,,grn,red,common,,,face,,images/grn/Gravitic Punch.png
-106,Hellkite Whelp,0,,grn,red,uncommon,,,,,images/grn/Hellkite Whelp.png
-107,Inescapable Blaze,0,,grn,red,uncommon,instant,removal,face,,images/grn/Inescapable Blaze.png
-108,Lava Coil,0,,grn,red,uncommon,,removal,,,images/grn/Lava Coil.png
-109,Legion Warboss,0,,grn,red,rare,,,,,images/grn/Legion Warboss.png
-110,Maniacal Rage,0,,grn,red,common,,,,,images/grn/Maniacal Rage.png
-111,Maximize Velocity,0,,grn,red,common,,,,,images/grn/Maximize Velocity.png
-112,Ornery Goblin,0,,grn,red,common,,,,,images/grn/Ornery Goblin.png
-113,Risk Factor,0,,grn,red,rare,instant,,face,,images/grn/Risk Factor.png
-114,Rubblebelt Boar,0,,grn,red,common,,,,,images/grn/Rubblebelt Boar.png
-115,Runaway Steam-Kin,0,,grn,red,rare,,,,,images/grn/Runaway Steam-Kin.png
-116,Smelt-Ward Minotaur,0,,grn,red,uncommon,,,,,images/grn/Smelt-Ward Minotaur.png
-117,Street Riot,0,,grn,red,uncommon,,,,,images/grn/Street Riot.png
-118,Sure Strike,0,,grn,red,common,instant,,,,images/grn/Sure Strike.png
-119,Torch Courier,0,,grn,red,common,,,,,images/grn/Torch Courier.png
-120,Wojek Bodyguard,0,,grn,red,common,,,,,images/grn/Wojek Bodyguard.png
-121,Affectionate Indrik,0,,grn,green,uncommon,,removal,,,images/grn/Affectionate Indrik.png
-122,Arboretum Elemental,0,,grn,green,uncommon,,,,,images/grn/Arboretum Elemental.png
-123,Beast Whisperer,0,,grn,green,rare,,,,,images/grn/Beast Whisperer.png
-124,Bounty of Might,0,,grn,green,rare,instant,,,,images/grn/Bounty of Might.png
-125,Circuitous Route,0,,grn,green,uncommon,,,,fixing,images/grn/Circuitous Route.png
-126,Crushing Canopy,0,,grn,green,common,instant,removal,,,images/grn/Crushing Canopy.png
-127,Devkarin Dissident,0,,grn,green,common,,,,,images/grn/Devkarin Dissident.png
-128,District Guide,0,,grn,green,uncommon,,,,fixing,images/grn/District Guide.png
-129,Generous Stray,0,,grn,green,common,,,,,images/grn/Generous Stray.png
-130,Golgari Raiders,0,,grn,green,uncommon,,,,,images/grn/Golgari Raiders.png
-131,Grappling Sundew,0,,grn,green,uncommon,,,,,images/grn/Grappling Sundew.png
-132,Hatchery Spider,0,,grn,green,rare,,,,,images/grn/Hatchery Spider.png
-133,Hitchclaw Recluse,0,,grn,green,common,,,,,images/grn/Hitchclaw Recluse.png
-134,Ironshell Beetle,0,,grn,green,common,,,,,images/grn/Ironshell Beetle.png
-135,Kraul Foragers,0,,grn,green,common,,,,,images/grn/Kraul Foragers.png
-136,Kraul Harpooner,0,,grn,green,uncommon,,removal,,,images/grn/Kraul Harpooner.png
-137,Might of the Masses,0,,grn,green,uncommon,instant,,,,images/grn/Might of the Masses.png
-138,Nullhide Ferox,0,,grn,green,mythic,,,,,images/grn/Nullhide Ferox.png
-139,Pack's Favor,0,,grn,green,common,instant,,,,images/grn/Pack's Favor.png
-140,Pause for Reflection,0,,grn,green,common,instant,,,,images/grn/Pause for Reflection.png
-141,Pelt Collector,0,,grn,green,rare,,,,,images/grn/Pelt Collector.png
-142,Portcullis Vine,0,,grn,green,common,,,,,images/grn/Portcullis Vine.png
-143,Prey Upon,0,,grn,green,common,,removal,,,images/grn/Prey Upon.png
-144,Siege Wurm,0,,grn,green,common,,,,,images/grn/Siege Wurm.png
-145,Sprouting Renewal,0,,grn,green,uncommon,,removal,,,images/grn/Sprouting Renewal.png
-146,Urban Utopia,0,,grn,green,common,,,,fixing,images/grn/Urban Utopia.png
-147,Vigorspore Wurm,0,,grn,green,common,,,,,images/grn/Vigorspore Wurm.png
-148,Vivid Revival,0,,grn,green,rare,,,,,images/grn/Vivid Revival.png
-149,Wary Okapi,0,,grn,green,common,,,,,images/grn/Wary Okapi.png
-150,Wild Ceratok,0,,grn,green,common,,,,,images/grn/Wild Ceratok.png
-151,Artful Takedown,0,,grn,blue+black,common,instant,removal,,,images/grn/Artful Takedown.png
-152,Assassin's Trophy,0,,grn,black+green,rare,instant,removal,,,images/grn/Assassin's Trophy.png
-153,"Aurelia, Exemplar of Justice",0,,grn,red+white,mythic,,,,,"images/grn/Aurelia, Exemplar of Justice.png"
-154,Beacon Bolt,0,,grn,blue+red,uncommon,,removal,,,images/grn/Beacon Bolt.png
-155,Beamsplitter Mage,0,,grn,blue+red,uncommon,,,,,images/grn/Beamsplitter Mage.png
-156,Boros Challenger,0,,grn,red+white,uncommon,,,,,images/grn/Boros Challenger.png
-157,Camaraderie,0,,grn,green+white,rare,,,,,images/grn/Camaraderie.png
-158,Centaur Peacemaker,0,,grn,green+white,common,,,,,images/grn/Centaur Peacemaker.png
-159,Chance for Glory,0,,grn,red+white,mythic,instant,,,,images/grn/Chance for Glory.png
-160,Charnel Troll,0,,grn,black+green,rare,,,,,images/grn/Charnel Troll.png
-161,Conclave Cavalier,0,,grn,green+white,uncommon,,,,,images/grn/Conclave Cavalier.png
-162,Conclave Guildmage,0,,grn,green+white,uncommon,,,,,images/grn/Conclave Guildmage.png
-163,Crackling Drake,0,,grn,blue+red,uncommon,,,,,images/grn/Crackling Drake.png
-164,Darkblade Agent,0,,grn,blue+black,common,,,,,images/grn/Darkblade Agent.png
-165,Deafening Clarion,0,,grn,red+white,rare,,removal,,,images/grn/Deafening Clarion.png
-166,Dimir Spybug,0,,grn,blue+black,uncommon,,,,,images/grn/Dimir Spybug.png
-167,Disinformation Campaign,0,,grn,blue+black,uncommon,,,,,images/grn/Disinformation Campaign.png
-168,"Emmara, Soul of the Accord",0,,grn,green+white,rare,,,,,"images/grn/Emmara, Soul of the Accord.png"
-169,Erstwhile Trooper,0,,grn,black+green,common,,,,,images/grn/Erstwhile Trooper.png
-170,"Etrata, the Silencer",0,,grn,blue+black,rare,,,,,"images/grn/Etrata, the Silencer.png"
-171,Firemind's Research,0,,grn,blue+red,rare,,,,,images/grn/Firemind's Research.png
-172,Garrison Sergeant,0,,grn,red+white,common,,,,,images/grn/Garrison Sergeant.png
-173,Glowspore Shaman,0,,grn,black+green,uncommon,,,,,images/grn/Glowspore Shaman.png
-174,Goblin Electromancer,0,,grn,blue+red,common,,,,,images/grn/Goblin Electromancer.png
-175,Golgari Findbroker,0,,grn,black+green,uncommon,,,,,images/grn/Golgari Findbroker.png
-176,Hammer Dropper,0,,grn,red+white,common,,,,,images/grn/Hammer Dropper.png
-177,House Guildmage,0,,grn,blue+red,uncommon,,,,,images/grn/House Guildmage.png
-178,Hypothesizzle,0,,grn,blue+red,common,instant,removal,,,images/grn/Hypothesizzle.png
-179,Ionize,0,,grn,blue+red,rare,instant,,face,,images/grn/Ionize.png
-180,"Izoni, Thousand-Eyed",0,,grn,black+green,rare,,,,,"images/grn/Izoni, Thousand-Eyed.png"
-181,Join Shields,0,,grn,green+white,uncommon,instant,,,,images/grn/Join Shields.png
-182,Justice Strike,0,,grn,red+white,uncommon,instant,removal,,,images/grn/Justice Strike.png
-183,Knight of Autumn,0,,grn,green+white,rare,,removal,,,images/grn/Knight of Autumn.png
-184,"Lazav, the Multifarious",0,,grn,blue+black,mythic,,,,,"images/grn/Lazav, the Multifarious.png"
-185,League Guildmage,0,,grn,blue+red,uncommon,,,,,images/grn/League Guildmage.png
-186,Ledev Champion,0,,grn,green+white,uncommon,,,,,images/grn/Ledev Champion.png
-187,Legion Guildmage,0,,grn,red+white,uncommon,,,,,images/grn/Legion Guildmage.png
-188,March of the Multitudes,0,,grn,green+white,mythic,instant,,,,images/grn/March of the Multitudes.png
-189,Mnemonic Betrayal,0,,grn,blue+black,mythic,,,,,images/grn/Mnemonic Betrayal.png
-190,Molderhulk,0,,grn,black+green,uncommon,,,,,images/grn/Molderhulk.png
-191,Nightveil Predator,0,,grn,blue+black,uncommon,,,,,images/grn/Nightveil Predator.png
-192,"Niv-Mizzet, Parun",0,,grn,blue+red,rare,,,,,"images/grn/Niv-Mizzet, Parun.png"
-193,Notion Rain,0,,grn,blue+black,common,,,,,images/grn/Notion Rain.png
-194,Ochran Assassin,0,,grn,black+green,uncommon,,,,,images/grn/Ochran Assassin.png
-195,"Ral, Izzet Viceroy",0,,grn,blue+red,mythic,,removal,,,"images/grn/Ral, Izzet Viceroy.png"
-196,Rhizome Lurcher,0,,grn,black+green,common,,,,,images/grn/Rhizome Lurcher.png
-197,Rosemane Centaur,0,,grn,green+white,common,,,,,images/grn/Rosemane Centaur.png
-198,Skyknight Legionnaire,0,,grn,red+white,common,,,,,images/grn/Skyknight Legionnaire.png
-199,Sonic Assault,0,,grn,blue+red,common,instant,,face,,images/grn/Sonic Assault.png
-200,Sumala Woodshaper,0,,grn,green+white,common,,,,,images/grn/Sumala Woodshaper.png
-201,Swarm Guildmage,0,,grn,black+green,uncommon,,,,,images/grn/Swarm Guildmage.png
-202,Swathcutter Giant,0,,grn,red+white,uncommon,,,,,images/grn/Swathcutter Giant.png
-203,Swiftblade Vindicator,0,,grn,red+white,rare,,,,,images/grn/Swiftblade Vindicator.png
-204,"Tajic, Legion's Edge",0,,grn,red+white,rare,,,,,"images/grn/Tajic, Legion's Edge.png"
-205,Thief of Sanity,0,,grn,blue+black,rare,,,,,images/grn/Thief of Sanity.png
-206,Thought Erasure,0,,grn,blue+black,uncommon,,,,,images/grn/Thought Erasure.png
-207,Thousand-Year Storm,0,,grn,blue+red,mythic,,,,,images/grn/Thousand-Year Storm.png
-208,Trostani Discordant,0,,grn,green+white,mythic,,,,,images/grn/Trostani Discordant.png
-209,Truefire Captain,0,,grn,red+white,uncommon,,,,,images/grn/Truefire Captain.png
-210,Undercity Uprising,0,,grn,black+green,common,,removal,,,images/grn/Undercity Uprising.png
-211,Underrealm Lich,0,,grn,black+green,mythic,,,,,images/grn/Underrealm Lich.png
-212,Unmoored Ego,0,,grn,blue+black,rare,,,,,images/grn/Unmoored Ego.png
-213,"Vraska, Golgari Queen",0,,grn,black+green,mythic,,removal,,,"images/grn/Vraska, Golgari Queen.png"
-214,Wee Dragonauts,0,,grn,blue+red,uncommon,,,,,images/grn/Wee Dragonauts.png
-215,Worldsoul Colossus,0,,grn,green+white,uncommon,,,,,images/grn/Worldsoul Colossus.png
-216,Fresh-Faced Recruit,0,,grn,red-white,common,,,,,images/grn/Fresh-Faced Recruit.png
-217,Piston-Fist Cyclops,0,,grn,blue-red,common,,,,,images/grn/Piston-Fist Cyclops.png
-218,Pitiless Gorgon,0,,grn,black-green,common,,,,,images/grn/Pitiless Gorgon.png
-219,Vernadi Shieldmate,0,,grn,green-white,common,,,,,images/grn/Vernadi Shieldmate.png
-220,Whisper Agent,0,,grn,blue-black,common,instant,,,,images/grn/Whisper Agent.png
-221,Assure // Assemble,0,,grn,green-white,rare,instant,,,,images/grn/Assure -- Assemble.png
-222,Connive // Concoct,0,,grn,blue-black,rare,,,,,images/grn/Connive -- Concoct.png
-223,Discovery // Dispersal,0,,grn,blue-black,uncommon,instant,,,,images/grn/Discovery -- Dispersal.png
-224,Expansion // Explosion,0,,grn,blue-red,rare,instant,removal,face,,images/grn/Expansion -- Explosion.png
-225,Find // Finality,0,,grn,black-green,rare,,removal,,,images/grn/Find -- Finality.png
-226,Flower // Flourish,0,,grn,green-white,uncommon,,,,fixing,images/grn/Flower -- Flourish.png
-227,Integrity // Intervention,0,,grn,red-white,uncommon,instant,removal,face,,images/grn/Integrity -- Intervention.png
-228,Invert // Invent,0,,grn,blue-red,uncommon,instant,,,,images/grn/Invert -- Invent.png
-229,Response // Resurgence,0,,grn,red-white,rare,instant,removal,,,images/grn/Response -- Resurgence.png
-230,Status // Statue,0,,grn,black-green,uncommon,instant,removal,,,images/grn/Status -- Statue.png
-231,Boros Locket,0,,grn,artifact,common,,,,fixing,images/grn/Boros Locket.png
-232,Chamber Sentry,0,,grn,artifact,rare,,,,,images/grn/Chamber Sentry.png
-233,Chromatic Lantern,0,,grn,artifact,rare,,,,,images/grn/Chromatic Lantern.png
-234,Dimir Locket,0,,grn,artifact,common,,,,fixing,images/grn/Dimir Locket.png
-235,Gatekeeper Gargoyle,0,,grn,artifact,uncommon,,,,,images/grn/Gatekeeper Gargoyle.png
-236,Glaive of the Guildpact,0,,grn,artifact,uncommon,,,,,images/grn/Glaive of the Guildpact.png
-237,Golgari Locket,0,,grn,artifact,common,,,,fixing,images/grn/Golgari Locket.png
-238,Izzet Locket,0,,grn,artifact,common,,,,fixing,images/grn/Izzet Locket.png
-239,Rampaging Monument,0,,grn,artifact,uncommon,,,,,images/grn/Rampaging Monument.png
-240,Selesnya Locket,0,,grn,artifact,common,,,,fixing,images/grn/Selesnya Locket.png
-241,Silent Dart,0,,grn,artifact,uncommon,,removal,,,images/grn/Silent Dart.png
-242,Wand of Vertebrae,0,,grn,artifact,uncommon,,,,,images/grn/Wand of Vertebrae.png
-243,Boros Guildgate,0,,grn,land,common,,,,fixing,images/grn/Boros Guildgate (a).png
-245,Dimir Guildgate,0,,grn,land,common,,,,fixing,images/grn/Dimir Guildgate (a).png
-247,Gateway Plaza,0,,grn,land,common,,,,fixing,images/grn/Gateway Plaza.png
-248,Golgari Guildgate,0,,grn,land,common,,,,fixing,images/grn/Golgari Guildgate (a).png
-250,Guildmages' Forum,0,,grn,land,rare,,,,fixing,images/grn/Guildmages' Forum.png
-251,Izzet Guildgate,0,,grn,land,common,,,,fixing,images/grn/Izzet Guildgate (a).png
-253,Overgrown Tomb,0,,grn,land,rare,,,,fixing,images/grn/Overgrown Tomb.png
-254,Sacred Foundry,0,,grn,land,rare,,,,fixing,images/grn/Sacred Foundry.png
-255,Selesnya Guildgate,0,,grn,land,common,,,,fixing,images/grn/Selesnya Guildgate (a).png
-257,Steam Vents,0,,grn,land,rare,,,,fixing,images/grn/Steam Vents.png
-258,Temple Garden,0,,grn,land,rare,,,,fixing,images/grn/Temple Garden.png
-259,Watery Grave,0,,grn,land,rare,,,,fixing,images/grn/Watery Grave.png
+1,Blade Instructor,2,3,grn,white,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Blade Instructor.png
+2,Bounty Agent,2,,grn,white,rare,,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Bounty Agent.png
+3,Candlelight Vigil,1,,grn,white,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Candlelight Vigil.png
+4,Citywide Bust,4,,grn,white,rare,,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Citywide Bust.png
+5,Collar the Culprit,3,,grn,white,common,instant,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Collar the Culprit.png
+6,Conclave Tribunal,3.5,,grn,white,uncommon,,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Conclave Tribunal.png
+7,Crush Contraband,3,3.5,grn,white,uncommon,instant,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Crush Contraband.png
+8,Dawn of Hope,3,,grn,white,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Dawn of Hope.png
+9,Demotion,3.5,,grn,white,uncommon,,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Demotion.png
+10,Divine Visitation,4,5,grn,white,mythic,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Divine Visitation.png
+11,Flight of Equenauts,3,,grn,white,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Flight of Equenauts.png
+12,Gird for Battle,1,,grn,white,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Gird for Battle.png
+13,Haazda Marshal,1,,grn,white,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Haazda Marshal.png
+14,Healer's Hawk,1,2,grn,white,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Healer's Hawk.png
+15,Hunted Witness,1,,grn,white,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Hunted Witness.png
+16,Inspiring Unicorn,3,,grn,white,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Inspiring Unicorn.png
+17,Intrusive Packbeast,2,,grn,white,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Intrusive Packbeast.png
+18,Ledev Guardian,2,,grn,white,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Ledev Guardian.png
+19,Light of the Legion,4,5,grn,white,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Light of the Legion.png
+20,Loxodon Restorer,2,3,grn,white,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Loxodon Restorer.png
+21,Luminous Bonds,3.5,,grn,white,common,,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Luminous Bonds.png
+22,Parhelion Patrol,3,,grn,white,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Parhelion Patrol.png
+23,Righteous Blow,2,3,grn,white,common,instant,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Righteous Blow.png
+24,Roc Charger,3.5,,grn,white,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Roc Charger.png
+25,Skyline Scout,1,,grn,white,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Skyline Scout.png
+26,Sunhome Stalwart,3,,grn,white,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Sunhome Stalwart.png
+27,Sworn Companions,2,,grn,white,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Sworn Companions.png
+28,Take Heart,2,,grn,white,common,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Take Heart.png
+29,Tenth District Guard,1,,grn,white,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Tenth District Guard.png
+30,Venerated Loxodon,4,,grn,white,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Venerated Loxodon.png
+31,Capture Sphere,2,3.5,grn,blue,common,instant,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Capture Sphere.png
+32,Chemister's Insight,3,,grn,blue,uncommon,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Chemister's Insight.png
+33,Citywatch Sphinx,3.5,,grn,blue,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Citywatch Sphinx.png
+34,Dazzling Lights,2.5,3.5,grn,blue,common,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Dazzling Lights.png
+35,Devious Cover-Up,1.5,,grn,blue,common,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Devious Cover-Up.png
+36,Dimir Informant,2,2.5,grn,blue,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Dimir Informant.png
+37,Disdainful Stroke,2.5,,grn,blue,common,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Disdainful Stroke.png
+38,Dream Eater,4,4.5,grn,blue,mythic,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Dream Eater.png
+39,Drowned Secrets,1,,grn,blue,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Drowned Secrets.png
+40,Enhanced Surveillance,3.5,,grn,blue,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Enhanced Surveillance.png
+41,Guild Summit,1,,grn,blue,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Guild Summit.png
+42,Leapfrog,2,,grn,blue,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Leapfrog.png
+43,Maximize Altitude,0,,grn,blue,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Maximize Altitude.png
+44,Mission Briefing,1,,grn,blue,rare,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Mission Briefing.png
+45,Murmuring Mystic,3,,grn,blue,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Murmuring Mystic.png
+46,Muse Drake,2,,grn,blue,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Muse Drake.png
+47,Narcomoeba,0.5,,grn,blue,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Narcomoeba.png
+48,Nightveil Sprite,2.5,,grn,blue,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Nightveil Sprite.png
+49,Omnispell Adept,1,,grn,blue,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Omnispell Adept.png
+50,Passwall Adept,2,3,grn,blue,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Passwall Adept.png
+51,Quasiduplicate,3.5,4,grn,blue,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Quasiduplicate.png
+52,Radical Idea,0.5,,grn,blue,common,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Radical Idea.png
+53,Selective Snare,2,,grn,blue,uncommon,,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Selective Snare.png
+54,Sinister Sabotage,3,,grn,blue,uncommon,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Sinister Sabotage.png
+55,Thoughtbound Phantasm,2,2.5,grn,blue,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Thoughtbound Phantasm.png
+56,Unexplained Disappearance,2,,grn,blue,common,instant,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Unexplained Disappearance.png
+57,Vedalken Mesmerist,1,,grn,blue,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Vedalken Mesmerist.png
+58,Wall of Mist,1,1.5,grn,blue,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Wall of Mist.png
+59,Watcher in the Mist,3.5,,grn,blue,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Watcher in the Mist.png
+60,Wishcoin Crab,1,,grn,blue,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Wishcoin Crab.png
+61,Barrier of Bones,1,,grn,black,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Barrier of Bones.png
+62,Bartizan Bats,1,2,grn,black,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Bartizan Bats.png
+63,Blood Operative,3.5,,grn,black,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Blood Operative.png
+64,Burglar Rat,1,,grn,black,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Burglar Rat.png
+65,Child of Night,2,,grn,black,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Child of Night.png
+66,Creeping Chill,1,,grn,black,uncommon,,,face,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Creeping Chill.png
+67,Dead Weight,3,,grn,black,common,,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Dead Weight.png
+68,Deadly Visit,3.5,,grn,black,common,,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Deadly Visit.png
+69,Doom Whisperer,5,,grn,black,mythic,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Doom Whisperer.png
+70,Douser of Lights,2,,grn,black,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Douser of Lights.png
+71,Gruesome Menagerie,1,,grn,black,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Gruesome Menagerie.png
+72,Hired Poisoner,3,,grn,black,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Hired Poisoner.png
+73,Kraul Swarm,2,,grn,black,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Kraul Swarm.png
+74,Lotleth Giant,2,,grn,black,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Lotleth Giant.png
+75,Mausoleum Secrets,3,,grn,black,rare,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Mausoleum Secrets.png
+76,Mephitic Vapors,2,,grn,black,common,,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Mephitic Vapors.png
+77,Midnight Reaper,2,3,grn,black,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Midnight Reaper.png
+78,Moodmark Painter,2.5,,grn,black,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Moodmark Painter.png
+79,Necrotic Wound,3.5,,grn,black,uncommon,instant,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Necrotic Wound.png
+80,Never Happened,1,,grn,black,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Never Happened.png
+81,Pilfering Imp,2,,grn,black,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Pilfering Imp.png
+82,Plaguecrafter,1,,grn,black,uncommon,,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Plaguecrafter.png
+83,Price of Fame,4,,grn,black,uncommon,instant,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Price of Fame.png
+84,Ritual of Soot,1,,grn,black,rare,,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Ritual of Soot.png
+85,Severed Strands,2.5,,grn,black,common,,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Severed Strands.png
+86,Spinal Centipede,2,,grn,black,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Spinal Centipede.png
+87,Undercity Necrolisk,2,,grn,black,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Undercity Necrolisk.png
+88,Veiled Shade,1,,grn,black,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Veiled Shade.png
+89,Vicious Rumors,0,,grn,black,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Vicious Rumors.png
+90,Whispering Snitch,1,2,grn,black,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Whispering Snitch.png
+91,Arclight Phoenix,0,,grn,red,mythic,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Arclight Phoenix.png
+92,Barging Sergeant,0,,grn,red,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Barging Sergeant.png
+93,Book Devourer,0,,grn,red,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Book Devourer.png
+94,Command the Storm,0,,grn,red,common,instant,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Command the Storm.png
+95,Cosmotronic Wave,0,,grn,red,common,,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Cosmotronic Wave.png
+96,Direct Current,0,,grn,red,common,,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Direct Current.png
+97,Electrostatic Field,0,,grn,red,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Electrostatic Field.png
+98,Erratic Cyclops,0,,grn,red,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Erratic Cyclops.png
+99,Experimental Frenzy,0,,grn,red,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Experimental Frenzy.png
+100,Fearless Halberdier,0,,grn,red,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Fearless Halberdier.png
+101,Fire Urchin,0,,grn,red,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Fire Urchin.png
+102,Goblin Banneret,0,,grn,red,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Goblin Banneret.png
+103,Goblin Cratermaker,0,,grn,red,uncommon,,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Goblin Cratermaker.png
+104,Goblin Locksmith,0,,grn,red,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Goblin Locksmith.png
+105,Gravitic Punch,0,,grn,red,common,,,face,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Gravitic Punch.png
+106,Hellkite Whelp,0,,grn,red,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Hellkite Whelp.png
+107,Inescapable Blaze,0,,grn,red,uncommon,instant,removal,face,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Inescapable Blaze.png
+108,Lava Coil,0,,grn,red,uncommon,,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Lava Coil.png
+109,Legion Warboss,0,,grn,red,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Legion Warboss.png
+110,Maniacal Rage,0,,grn,red,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Maniacal Rage.png
+111,Maximize Velocity,0,,grn,red,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Maximize Velocity.png
+112,Ornery Goblin,0,,grn,red,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Ornery Goblin.png
+113,Risk Factor,0,,grn,red,rare,instant,,face,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Risk Factor.png
+114,Rubblebelt Boar,0,,grn,red,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Rubblebelt Boar.png
+115,Runaway Steam-Kin,0,,grn,red,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Runaway Steam-Kin.png
+116,Smelt-Ward Minotaur,0,,grn,red,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Smelt-Ward Minotaur.png
+117,Street Riot,0,,grn,red,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Street Riot.png
+118,Sure Strike,0,,grn,red,common,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Sure Strike.png
+119,Torch Courier,0,,grn,red,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Torch Courier.png
+120,Wojek Bodyguard,0,,grn,red,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Wojek Bodyguard.png
+121,Affectionate Indrik,0,,grn,green,uncommon,,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Affectionate Indrik.png
+122,Arboretum Elemental,0,,grn,green,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Arboretum Elemental.png
+123,Beast Whisperer,0,,grn,green,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Beast Whisperer.png
+124,Bounty of Might,0,,grn,green,rare,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Bounty of Might.png
+125,Circuitous Route,0,,grn,green,uncommon,,,,fixing,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Circuitous Route.png
+126,Crushing Canopy,0,,grn,green,common,instant,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Crushing Canopy.png
+127,Devkarin Dissident,0,,grn,green,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Devkarin Dissident.png
+128,District Guide,0,,grn,green,uncommon,,,,fixing,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/District Guide.png
+129,Generous Stray,0,,grn,green,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Generous Stray.png
+130,Golgari Raiders,0,,grn,green,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Golgari Raiders.png
+131,Grappling Sundew,0,,grn,green,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Grappling Sundew.png
+132,Hatchery Spider,0,,grn,green,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Hatchery Spider.png
+133,Hitchclaw Recluse,0,,grn,green,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Hitchclaw Recluse.png
+134,Ironshell Beetle,0,,grn,green,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Ironshell Beetle.png
+135,Kraul Foragers,0,,grn,green,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Kraul Foragers.png
+136,Kraul Harpooner,0,,grn,green,uncommon,,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Kraul Harpooner.png
+137,Might of the Masses,0,,grn,green,uncommon,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Might of the Masses.png
+138,Nullhide Ferox,0,,grn,green,mythic,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Nullhide Ferox.png
+139,Pack's Favor,0,,grn,green,common,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Pack's Favor.png
+140,Pause for Reflection,0,,grn,green,common,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Pause for Reflection.png
+141,Pelt Collector,0,,grn,green,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Pelt Collector.png
+142,Portcullis Vine,0,,grn,green,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Portcullis Vine.png
+143,Prey Upon,0,,grn,green,common,,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Prey Upon.png
+144,Siege Wurm,0,,grn,green,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Siege Wurm.png
+145,Sprouting Renewal,0,,grn,green,uncommon,,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Sprouting Renewal.png
+146,Urban Utopia,0,,grn,green,common,,,,fixing,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Urban Utopia.png
+147,Vigorspore Wurm,0,,grn,green,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Vigorspore Wurm.png
+148,Vivid Revival,0,,grn,green,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Vivid Revival.png
+149,Wary Okapi,0,,grn,green,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Wary Okapi.png
+150,Wild Ceratok,0,,grn,green,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Wild Ceratok.png
+151,Artful Takedown,0,,grn,blue+black,common,instant,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Artful Takedown.png
+152,Assassin's Trophy,0,,grn,black+green,rare,instant,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Assassin's Trophy.png
+153,"Aurelia, Exemplar of Justice",0,,grn,red+white,mythic,,,,,"https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Aurelia, Exemplar of Justice.png"
+154,Beacon Bolt,0,,grn,blue+red,uncommon,,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Beacon Bolt.png
+155,Beamsplitter Mage,0,,grn,blue+red,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Beamsplitter Mage.png
+156,Boros Challenger,0,,grn,red+white,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Boros Challenger.png
+157,Camaraderie,0,,grn,green+white,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Camaraderie.png
+158,Centaur Peacemaker,0,,grn,green+white,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Centaur Peacemaker.png
+159,Chance for Glory,0,,grn,red+white,mythic,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Chance for Glory.png
+160,Charnel Troll,0,,grn,black+green,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Charnel Troll.png
+161,Conclave Cavalier,0,,grn,green+white,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Conclave Cavalier.png
+162,Conclave Guildmage,0,,grn,green+white,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Conclave Guildmage.png
+163,Crackling Drake,0,,grn,blue+red,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Crackling Drake.png
+164,Darkblade Agent,0,,grn,blue+black,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Darkblade Agent.png
+165,Deafening Clarion,0,,grn,red+white,rare,,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Deafening Clarion.png
+166,Dimir Spybug,0,,grn,blue+black,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Dimir Spybug.png
+167,Disinformation Campaign,0,,grn,blue+black,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Disinformation Campaign.png
+168,"Emmara, Soul of the Accord",0,,grn,green+white,rare,,,,,"https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Emmara, Soul of the Accord.png"
+169,Erstwhile Trooper,0,,grn,black+green,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Erstwhile Trooper.png
+170,"Etrata, the Silencer",0,,grn,blue+black,rare,,,,,"https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Etrata, the Silencer.png"
+171,Firemind's Research,0,,grn,blue+red,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Firemind's Research.png
+172,Garrison Sergeant,0,,grn,red+white,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Garrison Sergeant.png
+173,Glowspore Shaman,0,,grn,black+green,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Glowspore Shaman.png
+174,Goblin Electromancer,0,,grn,blue+red,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Goblin Electromancer.png
+175,Golgari Findbroker,0,,grn,black+green,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Golgari Findbroker.png
+176,Hammer Dropper,0,,grn,red+white,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Hammer Dropper.png
+177,House Guildmage,0,,grn,blue+red,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/House Guildmage.png
+178,Hypothesizzle,0,,grn,blue+red,common,instant,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Hypothesizzle.png
+179,Ionize,0,,grn,blue+red,rare,instant,,face,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Ionize.png
+180,"Izoni, Thousand-Eyed",0,,grn,black+green,rare,,,,,"https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Izoni, Thousand-Eyed.png"
+181,Join Shields,0,,grn,green+white,uncommon,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Join Shields.png
+182,Justice Strike,0,,grn,red+white,uncommon,instant,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Justice Strike.png
+183,Knight of Autumn,0,,grn,green+white,rare,,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Knight of Autumn.png
+184,"Lazav, the Multifarious",0,,grn,blue+black,mythic,,,,,"https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Lazav, the Multifarious.png"
+185,League Guildmage,0,,grn,blue+red,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/League Guildmage.png
+186,Ledev Champion,0,,grn,green+white,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Ledev Champion.png
+187,Legion Guildmage,0,,grn,red+white,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Legion Guildmage.png
+188,March of the Multitudes,0,,grn,green+white,mythic,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/March of the Multitudes.png
+189,Mnemonic Betrayal,0,,grn,blue+black,mythic,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Mnemonic Betrayal.png
+190,Molderhulk,0,,grn,black+green,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Molderhulk.png
+191,Nightveil Predator,0,,grn,blue+black,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Nightveil Predator.png
+192,"Niv-Mizzet, Parun",0,,grn,blue+red,rare,,,,,"https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Niv-Mizzet, Parun.png"
+193,Notion Rain,0,,grn,blue+black,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Notion Rain.png
+194,Ochran Assassin,0,,grn,black+green,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Ochran Assassin.png
+195,"Ral, Izzet Viceroy",0,,grn,blue+red,mythic,,removal,,,"https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Ral, Izzet Viceroy.png"
+196,Rhizome Lurcher,0,,grn,black+green,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Rhizome Lurcher.png
+197,Rosemane Centaur,0,,grn,green+white,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Rosemane Centaur.png
+198,Skyknight Legionnaire,0,,grn,red+white,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Skyknight Legionnaire.png
+199,Sonic Assault,0,,grn,blue+red,common,instant,,face,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Sonic Assault.png
+200,Sumala Woodshaper,0,,grn,green+white,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Sumala Woodshaper.png
+201,Swarm Guildmage,0,,grn,black+green,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Swarm Guildmage.png
+202,Swathcutter Giant,0,,grn,red+white,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Swathcutter Giant.png
+203,Swiftblade Vindicator,0,,grn,red+white,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Swiftblade Vindicator.png
+204,"Tajic, Legion's Edge",0,,grn,red+white,rare,,,,,"https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Tajic, Legion's Edge.png"
+205,Thief of Sanity,0,,grn,blue+black,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Thief of Sanity.png
+206,Thought Erasure,0,,grn,blue+black,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Thought Erasure.png
+207,Thousand-Year Storm,0,,grn,blue+red,mythic,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Thousand-Year Storm.png
+208,Trostani Discordant,0,,grn,green+white,mythic,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Trostani Discordant.png
+209,Truefire Captain,0,,grn,red+white,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Truefire Captain.png
+210,Undercity Uprising,0,,grn,black+green,common,,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Undercity Uprising.png
+211,Underrealm Lich,0,,grn,black+green,mythic,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Underrealm Lich.png
+212,Unmoored Ego,0,,grn,blue+black,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Unmoored Ego.png
+213,"Vraska, Golgari Queen",0,,grn,black+green,mythic,,removal,,,"https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Vraska, Golgari Queen.png"
+214,Wee Dragonauts,0,,grn,blue+red,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Wee Dragonauts.png
+215,Worldsoul Colossus,0,,grn,green+white,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Worldsoul Colossus.png
+216,Fresh-Faced Recruit,0,,grn,red-white,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Fresh-Faced Recruit.png
+217,Piston-Fist Cyclops,0,,grn,blue-red,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Piston-Fist Cyclops.png
+218,Pitiless Gorgon,0,,grn,black-green,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Pitiless Gorgon.png
+219,Vernadi Shieldmate,0,,grn,green-white,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Vernadi Shieldmate.png
+220,Whisper Agent,0,,grn,blue-black,common,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Whisper Agent.png
+221,Assure // Assemble,0,,grn,green-white,rare,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Assure -- Assemble.png
+222,Connive // Concoct,0,,grn,blue-black,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Connive -- Concoct.png
+223,Discovery // Dispersal,0,,grn,blue-black,uncommon,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Discovery -- Dispersal.png
+224,Expansion // Explosion,0,,grn,blue-red,rare,instant,removal,face,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Expansion -- Explosion.png
+225,Find // Finality,0,,grn,black-green,rare,,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Find -- Finality.png
+226,Flower // Flourish,0,,grn,green-white,uncommon,,,,fixing,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Flower -- Flourish.png
+227,Integrity // Intervention,0,,grn,red-white,uncommon,instant,removal,face,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Integrity -- Intervention.png
+228,Invert // Invent,0,,grn,blue-red,uncommon,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Invert -- Invent.png
+229,Response // Resurgence,0,,grn,red-white,rare,instant,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Response -- Resurgence.png
+230,Status // Statue,0,,grn,black-green,uncommon,instant,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Status -- Statue.png
+231,Boros Locket,0,,grn,artifact,common,,,,fixing,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Boros Locket.png
+232,Chamber Sentry,0,,grn,artifact,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Chamber Sentry.png
+233,Chromatic Lantern,0,,grn,artifact,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Chromatic Lantern.png
+234,Dimir Locket,0,,grn,artifact,common,,,,fixing,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Dimir Locket.png
+235,Gatekeeper Gargoyle,0,,grn,artifact,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Gatekeeper Gargoyle.png
+236,Glaive of the Guildpact,0,,grn,artifact,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Glaive of the Guildpact.png
+237,Golgari Locket,0,,grn,artifact,common,,,,fixing,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Golgari Locket.png
+238,Izzet Locket,0,,grn,artifact,common,,,,fixing,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Izzet Locket.png
+239,Rampaging Monument,0,,grn,artifact,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Rampaging Monument.png
+240,Selesnya Locket,0,,grn,artifact,common,,,,fixing,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Selesnya Locket.png
+241,Silent Dart,0,,grn,artifact,uncommon,,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Silent Dart.png
+242,Wand of Vertebrae,0,,grn,artifact,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Wand of Vertebrae.png
+243,Boros Guildgate,0,,grn,land,common,,,,fixing,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Boros Guildgate.png
+245,Dimir Guildgate,0,,grn,land,common,,,,fixing,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Dimir Guildgate.png
+247,Gateway Plaza,0,,grn,land,common,,,,fixing,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Gateway Plaza.png
+248,Golgari Guildgate,0,,grn,land,common,,,,fixing,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Golgari Guildgate.png
+250,Guildmages' Forum,0,,grn,land,rare,,,,fixing,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Guildmages' Forum.png
+251,Izzet Guildgate,0,,grn,land,common,,,,fixing,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Izzet Guildgate.png
+253,Overgrown Tomb,0,,grn,land,rare,,,,fixing,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Overgrown Tomb.png
+254,Sacred Foundry,0,,grn,land,rare,,,,fixing,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Sacred Foundry.png
+255,Selesnya Guildgate,0,,grn,land,common,,,,fixing,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Selesnya Guildgate.png
+257,Steam Vents,0,,grn,land,rare,,,,fixing,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Steam Vents.png
+258,Temple Garden,0,,grn,land,rare,,,,fixing,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Temple Garden.png
+259,Watery Grave,0,,grn,land,rare,,,,fixing,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/grn/Watery Grave.png
