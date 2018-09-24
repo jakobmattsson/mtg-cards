@@ -220,4 +220,13 @@ module.exports = [{
     actual_lastCard: { title: "Rupture Spire", lowScore: 2, highScore: null, review: "I’d play this in 3-color decks" },
     specificCards: [{ title: "Transmogrifying Wand", lowScore: 3.5, highScore: null, review: "There are some boards where this doesn't do" }]
   }
+}, {
+  set: 'grn',
+  color: 'white',
+  format: 'limited',
+  url: 'https://www.channelfireball.com/articles/guilds-of-ravnica-limited-set-review-white/',
+  assert: {
+    firstCard: { title: "Blade Instructor", lowScore: 2, highScore: null, review: "I'd be happy enough running this " },
+    lastCard: { title: "Venerated Loxodon", lowScore: 4, highScore:null, review: "Not only is this a cheap 4/4, it also" }
+  }
 }]

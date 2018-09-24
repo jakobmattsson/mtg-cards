@@ -31,15 +31,20 @@ html {
 }
 .cardname.mythic {
   color: orange;
+  /*color: #F2993B;*/
 }
 .cardname.rare {
   color: yellow;
+  /*color: #E9D198;*/
 }
 .cardname.uncommon {
   color: rgb(0, 190, 222);
+  /*color: #CAE7EF*/
+  /*color: #7598A4;*/
 }
 .cardname.common {
   color: white;
+/*  color: #D3D2D2;*/
 }
 .section {
   margin-top: 30px;
@@ -148,7 +153,7 @@ html {
   var isLocal = location.hostname === '';
 
   // find the currently selected set (or default to one)
-  var currentSet = getQueryArgs()['sets'] || 'm19';
+  var currentSet = getQueryArgs()['sets'] || 'grn';
 
   // This loads card data
   var getJsonData = (url, callback) => {
@@ -188,7 +193,7 @@ html {
   var filterAndExtendCards = (allCards) => {
 
     var filter = {
-      set: currentSet, // not needed if we just load one set file at a time
+      //set: currentSet, // not needed while we just load one set file at a time
       instant: location.search.indexOf("instant") !== -1,
       removal: location.search.indexOf("removal") !== -1,
       face: location.search.indexOf("face") !== -1,
@@ -295,7 +300,7 @@ html {
 
   // Load the card data and kick off the page rendering
   var urlRoot = "https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/data/compiled/sets";
-  var cardDataUrl = urlRoot + "/" + currentSet + ".json?cache=9";
+  var cardDataUrl = urlRoot + "/" + currentSet + ".json?cache=10";
   getJsonData(cardDataUrl, (cards) => renderCardMatrix('scoretable', cardsToMatrix(filterAndExtendCards(cards))));
 
   // Usage tracking
