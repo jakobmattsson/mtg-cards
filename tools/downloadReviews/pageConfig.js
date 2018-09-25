@@ -229,4 +229,13 @@ module.exports = [{
     firstCard: { title: "Blade Instructor", lowScore: 2, highScore: null, review: "I'd be happy enough running this " },
     lastCard: { title: "Venerated Loxodon", lowScore: 4, highScore:null, review: "Not only is this a cheap 4/4, it also" }
   }
+}, {
+  set: 'grn',
+  color: 'blue',
+  format: 'limited',
+  url: 'https://www.channelfireball.com/articles/guilds-of-ravnica-limited-set-review-blue/',
+  assert: {
+    firstCard: { title: "Capture Sphere", lowScore: 3, highScore: null, review: "I'm fine paying 4 mana for this effect" },
+    lastCard: { title: "Wishcoin Crab", lowScore: 1, highScore:null, review: "One of my wishes for this format is" }
+  }
 }]
