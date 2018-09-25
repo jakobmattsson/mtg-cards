@@ -46,6 +46,9 @@ html {
   color: white;
 /*  color: #D3D2D2;*/
 }
+.cardname img {
+  position: absolute;
+}
 .section {
   margin-top: 30px;
 }
@@ -153,6 +156,9 @@ html {
   // find the currently selected set (or default to one)
   var currentSet = getQueryArgs()['sets'] || 'grn';
 
+  // Helper
+  var listify = (list) => Array.prototype.slice.call(list, 0);
+
   // This loads card data
   var getJsonData = (url, callback) => {
     if (isLocal) {
@@ -176,12 +182,12 @@ html {
         currentCard = null;
       showing = status;
     };
-    return () => {
-      if (currentCard === window.event.target){
+    return (ev) => {
+      if (currentCard === ev.target){
         setShow(false);
       } else {
         setShow(false);
-        currentCard = window.event.target;
+        currentCard = ev.target;
         setShow(true);
       }
     };
@@ -283,7 +289,7 @@ html {
         td.innerHTML = cards.map((card) => {
           var text = card.title.replace(/ /g, '&nbsp;').replace(/-/g, '&#8209;') + (card.dualScore ? '*' : '');
           var imgUrl = getCardImageUrl(card);
-          return '<div class="cardname ' + card.rarity + '" onclick="showCard()">' + text + '<img style="display:none" src="' + imgUrl + '"></div>';
+          return '<div class="cardname ' + card.rarity + '" onclick="showCard(event)">' + text + '<img style="display:none" src="' + imgUrl + '"></div>';
         }).join('');
         tr.appendChild(td);
       });
@@ -292,7 +298,7 @@ html {
   };
 
   // Adjust all the filters to be for the current set
-  document.querySelectorAll('.filter-links a').forEach((a) => {
+  listify(document.querySelectorAll('.filter-links a')).forEach((a) => {
     a.href = a.href + "&sets=" + currentSet;
   });
 
