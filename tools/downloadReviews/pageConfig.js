@@ -238,4 +238,24 @@ module.exports = [{
     firstCard: { title: "Capture Sphere", lowScore: 3, highScore: null, review: "I'm fine paying 4 mana for this effect" },
     lastCard: { title: "Wishcoin Crab", lowScore: 1, highScore:null, review: "One of my wishes for this format is" }
   }
+
+
+}, {
+  set: 'grn',
+  color: 'black',
+  format: 'limited',
+  url: 'https://www.channelfireball.com/articles/guilds-of-ravnica-limited-set-review-black/',
+  assert: {
+    firstCard: { title: "Barrier of Bones", lowScore: 1, highScore: null, review: "The barrier for entry is high when it comes" },
+    lastCard: { title: "Whispering Snitch", lowScore: 2.5, highScore: null, review: "There's enough surveil in the format that this will basically" }
+  }
+}, {
+  set: 'grn',
+  color: 'red',
+  format: 'limited',
+  url: 'https://www.channelfireball.com/articles/guilds-of-ravnica-limited-set-review-red/',
+  assert: {
+    firstCard: { title: "Arclight Phoenix", lowScore: 3.5, highScore: null, review: "A Snapping Drake with haste is good enough" },
+    lastCard: { title: "Wojek Bodyguard", lowScore: 3, highScore:null, review: "I'm a fan of Boros flunkies here" }
+  }
 }]

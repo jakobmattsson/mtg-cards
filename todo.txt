@@ -1,7 +1,6 @@
 Steg 1
 =======
 * Skriv texten som jag kommer lägga upp länken på Reddit.
-* Ta hand om all feedback från Jonas N
 
 
 Steg 2
@@ -19,3 +18,4 @@ Steg 3
 * Kan man ta bort jquery och köra något inbygd ajax i browser istället nu för tiden?
 * Lägg in Ixalan också (och klicka igenom alla efter att ha gjort detta för att kolla att länkarna är ok)
 * Kontrollera GRN (genom att klicka igenom alla korten)
+* Testa lite med Jonas N's designförslag
