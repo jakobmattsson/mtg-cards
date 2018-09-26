@@ -304,7 +304,7 @@ html {
 
   // Load the card data and kick off the page rendering
   var urlRoot = "https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/data/compiled/sets";
-  var cardDataUrl = urlRoot + "/" + currentSet + ".json?cache=12";
+  var cardDataUrl = urlRoot + "/" + currentSet + ".json?cache=13";
   getJsonData(cardDataUrl, (cards) => renderCardMatrix('scoretable', cardsToMatrix(filterAndExtendCards(cards))));
 
   // Usage tracking
