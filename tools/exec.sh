@@ -1,20 +1,23 @@
 
-# Download the new CSV and merge it with the current one (could it be made so it doesn't add duplicates?)
-# Updates both .json and .csv
-node tools/downloadReviews/getReview.js > data/channelfireball-new.csv
-csvstack data/channelfireball.csv data/channelfireball-new.csv | grep -Ev "^$" > data/channelfireball-all-temp.csv
-mv data/channelfireball-all-temp.csv data/channelfireball.csv
-rm data/channelfireball-new.csv
-csvtojson data/channelfireball.csv > data/channelfireball.json
+
+# Script. Antag att det finns en fil med alla kort (jas)
+
+
+JOINFILE="data/raw/jas.csv"
+OUTFILE="data/raw/grn.csv"
+
+mkdir -p tmp
+node tools/downloadReviews/getReview.js > tmp/lsv-ratings.csv # get the reviews as configured in "getReview"
+cat tmp/lsv-ratings.csv | csvcut -c title,lowScore,highScore,review > tmp/lsv-min.csv
+cat $JOINFILE | csvcut -C lowScore,highScore > tmp/raw.csv
+csvjoin --right -c title tmp/lsv-min.csv tmp/raw.csv | csvcut -C 1 > $OUTFILE # output as 
 
 
 
 
 
-# Produce the rated file
-csvjoin --left -c title data/channelfireball.csv data/rarities.csv | csvcut -c title,imageUrl,lowScore,highScore,review,color,set,rarity,type,removal > data/channelfireball_rarity.csv
-csvtojson data/channelfireball_rarity.csv > data/channelfireball_rarity.json
-
+# USEFUL SNIPPETS
+# ===============
 
 # Convert from excel
-csvformat -d ";" data/raw/Arbetsbok1.csv > data/raw/arb1.csv
+# csvformat -d ";" data/raw/Arbetsbok1.csv > data/raw/arb1.csv

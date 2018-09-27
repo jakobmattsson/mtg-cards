@@ -216,10 +216,12 @@ module.exports = [{
   url: 'https://www.channelfireball.com/articles/core-set-2019-limited-set-review-gold-artifacts-and-lands',
   assert: {
     firstCard: { title: "Aerial Engineer", lowScore: 3, highScore: null, review: "Aerial Engineer is a solid body by itself, though" },
-    lastCard: { title: "Reliquary Tower", lowScore:0, highScore:null, review:"You should never end up in this position" },
+    lastCard: { title: "Reliquary Tower", lowScore:0, highScore: null, review:"You should never end up in this position" },
     actual_lastCard: { title: "Rupture Spire", lowScore: 2, highScore: null, review: "I’d play this in 3-color decks" },
     specificCards: [{ title: "Transmogrifying Wand", lowScore: 3.5, highScore: null, review: "There are some boards where this doesn't do" }]
   }
+
+
 }, {
   set: 'grn',
   color: 'white',
@@ -227,7 +229,7 @@ module.exports = [{
   url: 'https://www.channelfireball.com/articles/guilds-of-ravnica-limited-set-review-white/',
   assert: {
     firstCard: { title: "Blade Instructor", lowScore: 2, highScore: null, review: "I'd be happy enough running this " },
-    lastCard: { title: "Venerated Loxodon", lowScore: 4, highScore:null, review: "Not only is this a cheap 4/4, it also" }
+    lastCard: { title: "Venerated Loxodon", lowScore: 4, highScore: null, review: "Not only is this a cheap 4/4, it also" }
   }
 }, {
   set: 'grn',
@@ -236,10 +238,8 @@ module.exports = [{
   url: 'https://www.channelfireball.com/articles/guilds-of-ravnica-limited-set-review-blue/',
   assert: {
     firstCard: { title: "Capture Sphere", lowScore: 3, highScore: null, review: "I'm fine paying 4 mana for this effect" },
-    lastCard: { title: "Wishcoin Crab", lowScore: 1, highScore:null, review: "One of my wishes for this format is" }
+    lastCard: { title: "Wishcoin Crab", lowScore: 1, highScore: null, review: "One of my wishes for this format is" }
   }
-
-
 }, {
   set: 'grn',
   color: 'black',
@@ -256,6 +256,33 @@ module.exports = [{
   url: 'https://www.channelfireball.com/articles/guilds-of-ravnica-limited-set-review-red/',
   assert: {
     firstCard: { title: "Arclight Phoenix", lowScore: 3.5, highScore: null, review: "A Snapping Drake with haste is good enough" },
-    lastCard: { title: "Wojek Bodyguard", lowScore: 3, highScore:null, review: "I'm a fan of Boros flunkies here" }
+    lastCard: { title: "Wojek Bodyguard", lowScore: 3, highScore: null, review: "I'm a fan of Boros flunkies here" }
+  }
+}, {
+  set: 'grn',
+  color: 'green',
+  format: 'limited',
+  url: 'https://www.channelfireball.com/articles/guilds-of-ravnica-limited-set-review-green/',
+  assert: {
+    firstCard: { title: "Affectionate Indrik", lowScore: 3.0, highScore: null, review: "A 4/4 for 6 is slightly smaller than I'd like, but getting a" },
+    lastCard: { title: "Impervious Greatwurm", lowScore: 1.5, highScore: null, review: "Most decks can't handle something of this magnitude" }
+  }
+}, {
+  set: 'grn',
+  color: 'gold',
+  format: 'limited',
+  url: 'https://www.channelfireball.com/articles/guilds-of-ravnica-limited-set-review-boros/',
+  assert: {
+    firstCard: { title: "Aurelia, Exemplar of Justice", lowScore: 4.5, highScore: null, review: "Aurelia gives you everything you want out" },
+    lastCard: { title: "Truefire Captain", lowScore: 3, highScore: null, review: "The difficulty to cast does come into play here" }
+  }
+}, {
+  set: 'grn',
+  color: 'gold',
+  format: 'limited',
+  url: 'https://www.channelfireball.com/articles/guilds-of-ravnica-limited-set-review-dimir/',
+  assert: {
+    firstCard: { title: "Artful Takedown", lowScore: 3.5, highScore: null, review: "I'm in love with this card. It does a ton" },
+    lastCard: { title: "Whisper Agent", lowScore: 3, highScore: null, review: "It's no secret that this is a rock-solid" }
   }
 }]
