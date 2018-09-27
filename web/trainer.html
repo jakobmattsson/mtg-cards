@@ -58,6 +58,7 @@ Todo
 
   body {
     padding: 10px;
+    font-family: arial;
   }
 
   #grade {
@@ -67,7 +68,6 @@ Todo
     color: white;
     font-size: 60px;
     font-weight: bold;
-    font-family: arial;
     background-color: black;
     width: 160px;
     height: 70px;
@@ -279,14 +279,14 @@ Todo
     sets: filterSets,
     colors: filterColors.indexOf('gold') !== -1 ? [] : filterColors, // if it contains "gold", get all cards
     rarity: filterRarity
-  }, function(err, cards, reviews) {
+  }, function(err, cards) {
     if (err) {
       $("#status").text(err);
       return;
     }
 
     var reviewMap = {};
-    reviews.forEach(function(review) {
+    cards.forEach(function(review) {
       reviewMap[review.title] = review;
     });
 
