@@ -58,6 +58,29 @@ html {
 .section.link-list div a {
   margin-left: 10px;
 }
+
+
+@media print {
+  .cardname.common {
+    color: black;
+  }
+  h1 {
+    display: none;
+  }
+  div.section {
+    display: none;
+  }
+  #scoretable {
+    width: 100%;
+    font-size: 13pt;
+    border-color: black;
+  }
+  #scoretable td {
+    border-color: black;
+    color: black;
+  }
+}
+
 </style>
 </head>
 <body>
@@ -113,6 +136,7 @@ html {
 
 <div class="section">
   <h2>About</h2>
+  <div>- The ratings are fairly printer-friendly; just press print in your browser and it should come out ok-ish.</div>
   <div>- The ratings are not for constructed play, but limited; draft in particular.</div>
   <div>- 5's are best, 0's are worst.</div>
   <div>- Card name colors reflect the rarity of the card.</div>
@@ -151,7 +175,7 @@ html {
   };
 
   // this determines if we're running the site locally or remotely
-  var isLocal = location.hostname === '';
+  var isLocal = false && location.hostname === '';
 
   // find the currently selected set (or default to one)
   var currentSet = getQueryArgs()['sets'] || 'grn';
