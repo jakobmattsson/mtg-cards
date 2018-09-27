@@ -66,7 +66,7 @@ Todo
     top: 95px;
     left: 30px;
     color: white;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bold;
     background-color: black;
     width: 160px;
@@ -204,6 +204,14 @@ Todo
     next(0);
   }
 
+  var toDictionary = function(list, selector) {
+    var dict = {};
+    list.forEach((e) => {
+      dict[selector(e)] = e;
+    });
+    return dict;
+  };
+
 
   // same as getAll, but gets them from channelfireball reviews instead of the general API.
   // * This will always exclude non-reviewed cards.
@@ -215,6 +223,11 @@ Todo
         return;
       }
 
+
+      // this line is a hack
+      var jas = toDictionary(data.filter((card) => card.set === 'jas'), (c) => c.title);
+
+
       var filteredCards = data.filter((card) => {
         if (query.colors && query.colors.length > 0 && query.colors.indexOf(card.color) === -1) {
           return false;
@@ -222,8 +235,27 @@ Todo
         if (query.sets && query.sets.length > 0 && query.sets.indexOf(card.set) === -1) {
           return false;
         }
+
+        if (query.diffs) {
+          // All of these if-statements are hacks
+          if (!card.lowScore || !jas[card.title].lowScore)
+            return false;
+          if (Math.abs(jas[card.title].lowScore - card.lowScore) > 0.9)
+            return true;
+          if (!!jas[card.title].highScore && Math.abs(jas[card.title].highScore - card.lowScore) > 0.9)
+            return true;
+          if (!!jas[card.title].highScore && !!card.highScore && Math.abs(jas[card.title].highScore - card.highScore) > 0.9)
+            return true;
+          if (!!card.highScore && Math.abs(jas[card.title].lowScore - card.highScore) > 0.9)
+            return true;
+          return false;
+        }
         return true;
       });
+
+
+
+
 
       var fiveColors = ['white', 'blue', 'black', 'red', 'green'];
 
@@ -276,6 +308,7 @@ Todo
   }
 
   getAll2({
+    diffs: getParameterByName("diffs") == "diffs",
     sets: filterSets,
     colors: filterColors.indexOf('gold') !== -1 ? [] : filterColors, // if it contains "gold", get all cards
     rarity: filterRarity
