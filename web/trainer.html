@@ -131,51 +131,13 @@ Todo
 
 
   var getJsonData = function(url, callback) {
-
-    // TODO: this has to propagate errors
-
-    // Uncomment this to enable caching    
-    // var result = JSON.parse(window.localStorage.getItem(url));
-    // if (result) {
-    //   callback(null, result);
-    //   return;
-    // }
-
     $.ajax({
       dataType: 'json',
       url: url
     }).done(function(data) {
-      //window.localStorage.setItem(url, JSON.stringify(data));
       callback(null, data);
     });
-
   };
-
-  var getMatching = function(query, callback) {
-
-    var pageSize = 100;
-    var colorsQuery = query.colors.length > 0 ? "&colors=" + query.colors.join("|") : "";
-    var url = "https://api.magicthegathering.io/v1/cards?set=" + query.sets.join("|") + colorsQuery + "&rarity=" + query.rarity.join("|") + "&pageSize=" + pageSize;
-
-    var resultSoFar = [];
-
-    var getPage = function(page) {
-      getJsonData(url + "&page=" + page, function(error, result) {
-        if (error)
-          return callback(error);
-
-        var resultCards = result.cards;
-        resultSoFar = resultSoFar.concat(resultCards);
-        if (resultCards.length === pageSize) {
-          getPage(page+1);
-        } else {
-          callback(null, resultSoFar);
-        }
-      });
-    };
-
-    getPage(1);
-  }
 
   var shuffle = function(list) {
     var a = list.slice(0);
@@ -216,7 +178,7 @@ Todo
 
 
   var getReview = function(callback) {
-    var url = "https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/data/compiled/all.json?cache=15";
+    var url = "https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/data/compiled/all.json?cache=16";
     getJsonData(url, callback);
   };
 
@@ -242,17 +204,6 @@ Todo
     next(0);
   }
 
-  var getAll = function(query, callback) {
-    getMatching(query, function(err, cards) {
-      if (err) {
-        callback(err);
-        return;
-      }
-      getReview(function(err, reviews) {
-        callback(err, cards, reviews);
-      });
-    });
-  };
 
   // same as getAll, but gets them from channelfireball reviews instead of the general API.
   // * This will always exclude non-reviewed cards.
