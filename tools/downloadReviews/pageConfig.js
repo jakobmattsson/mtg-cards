@@ -285,4 +285,13 @@ module.exports = [{
     firstCard: { title: "Artful Takedown", lowScore: 3.5, highScore: null, review: "I'm in love with this card. It does a ton" },
     lastCard: { title: "Whisper Agent", lowScore: 3, highScore: null, review: "It's no secret that this is a rock-solid" }
   }
+}, {
+  set: 'grn',
+  color: 'gold',
+  format: 'limited',
+  url: 'https://www.channelfireball.com/articles/guilds-of-ravnica-limited-set-review-golgari/',
+  assert: {
+    firstCard: { title: "Assassin's Trophy", lowScore: 4, highScore: null, review: "2 mana to kill anything is quite a bit better" },
+    lastCard: { title: "Status // Statue", lowScore: 4, highScore: null, review: "A cheap combat trick plus a removal spell" }
+  }
 }]
