@@ -294,4 +294,31 @@ module.exports = [{
     firstCard: { title: "Assassin's Trophy", lowScore: 4, highScore: null, review: "2 mana to kill anything is quite a bit better" },
     lastCard: { title: "Status // Statue", lowScore: 4, highScore: null, review: "A cheap combat trick plus a removal spell" }
   }
+}, {
+  set: 'grn',
+  color: 'gold',
+  format: 'limited',
+  url: 'https://www.channelfireball.com/articles/guilds-of-ravnica-limited-set-review-izzet/',
+  assert: {
+    firstCard: { title: "Beacon Bolt", lowScore: 3, highScore: null, review: "Not every Izzet deck will want this" },
+    lastCard: { title: "Invert // Invent", lowScore: 1, highScore: null, review: "This card is confusing" }
+  }
+}, {
+  set: 'grn',
+  color: 'gold',
+  format: 'limited',
+  url: 'https://www.channelfireball.com/articles/guilds-of-ravnica-limited-set-review-selesnya/',
+  assert: {
+    firstCard: { title: "Camaraderie", lowScore: 4, highScore: null, review: "I've had the pleasure of casting this one" },
+    lastCard: { title: "Flower // Flourish", lowScore: 3.5, highScore: null, review: "This may not look that great, but a ton of the power is hidden" }
+  }
+}, {
+  set: 'grn',
+  color: 'gold',
+  format: 'limited',
+  url: 'https://www.channelfireball.com/articles/guilds-of-ravnica-limited-set-review-artifacts-lands-and-guild-ranking/',
+  assert: {
+    firstCard: { title: "Dimir Locket, Golgari Locket, Izzet Locket, Selesnya Locket", lowScore: 2, highScore: null, review: "I've played a few Sealeds" },
+    lastCard: { title: "Guildmages' Forum", lowScore: 2.5, highScore: null, review: "In a deck with three or more gold creatures" }
+  }
 }]
