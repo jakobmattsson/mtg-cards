@@ -249,14 +249,64 @@ html {
     return allCards.sort((a, b) => a.title.localeCompare(b.title));
   };
 
+  var columnNamesForCard = (card) => {
+
+    // This is the traditional "by color" columns
+    if (location.search.indexOf("guilds") === -1) {
+      var col = card.color.indexOf("-") === -1 && card.color.indexOf("+") === -1 ? card.color : 'gold';
+      return [col];
+    }
+
+    var colorLookup = {
+      green: ['golgari', 'selesnya'],
+      red: ['boros', 'izzet'],
+      blue: ['izzet', 'dimir'],
+      white: ['boros', 'selesnya'],
+      black: ['golgari', 'dimir']
+    };
+
+    var guildsToAddTo = {}
+
+    if (card.color.indexOf("-") !== -1) {
+      card.color.split('-').forEach((color) => {
+        colorLookup[color].forEach((p) => {
+          guildsToAddTo[p] = 1;
+        });
+      });
+    } else if (card.color.indexOf("+") !== -1) {
+      var parts = card.color.split("+");
+      var counter = {}
+      parts.forEach((p) => {
+        colorLookup[p].forEach((c) => {
+          counter[c] = (counter[c] || 0) + 1;
+        });
+      });
+      Object.keys(counter).forEach((key) => {
+        if (counter[key] == parts.length) {
+          guildsToAddTo[key] = 1;
+        }
+      });
+    } else if (card.color === 'artifact' || card.color === 'land') {
+      guildsToAddTo[card.color] = 1
+    } else {
+      colorLookup[card.color].forEach((p) => {
+        guildsToAddTo[p] = 1;
+      });
+    }
+
+    return Object.keys(guildsToAddTo);
+  };
+
   // Puts the given cards into a color/rating matrix
   var cardsToMatrix = (cards) => {
     var rows = {};
     var addCardWithScore = (card, score) => {
-      var col = card.color.indexOf("-") === -1 && card.color.indexOf("+") === -1 ? card.color : 'gold';
-      rows[score] = rows[score] || {};
-      rows[score][col] = rows[score][col] || [];
-      rows[score][col].push(card);
+      var cols = columnNamesForCard(card);
+      cols.forEach((col) => {
+        rows[score] = rows[score] || {};
+        rows[score][col] = rows[score][col] || [];
+        rows[score][col].push(card);
+      });
     };
     cards.forEach((card) => {
       var low = parseFloat(card.lowScore);
@@ -284,7 +334,7 @@ html {
   // Render a matrix of cards to a given table
   var renderCardMatrix = (tableId, cardMatrix) => {
 
-    var potentialColumns = ['white', 'blue', 'black', 'red', 'green', 'gold', 'artifact', 'land'];
+    var potentialColumns = ['white', 'blue', 'black', 'red', 'green', 'azorius', 'boros', 'dimir', 'golgari', 'gruul', 'izzet', 'orzhov', 'rakdos', 'selesnya', 'simic', 'gold', 'artifact', 'land'];
     var usedColumns = Array.prototype.concat.apply([], Object.keys(cardMatrix).map((r) => Object.keys(cardMatrix[r])));
     var columns = potentialColumns.filter((c) => usedColumns.indexOf(c) !== -1);
     var tbl = document.getElementById(tableId);
@@ -326,7 +376,7 @@ html {
 
   // Load the card data and kick off the page rendering
   var urlRoot = "https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/data/compiled/sets";
-  var cardDataUrl = urlRoot + "/" + currentSet + ".json?cache=19";
+  var cardDataUrl = urlRoot + "/" + currentSet + ".json?cache=20";
   getJsonData(cardDataUrl, (cards) => renderCardMatrix('scoretable', cardsToMatrix(filterAndExtendCards(cards))));
 
   // Usage tracking
