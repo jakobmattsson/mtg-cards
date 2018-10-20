@@ -246,7 +246,7 @@ html {
       card.dualScore = card.lowScore != null && !isNaN(parseFloat(card.highScore));
     });
 
-    return allCards;
+    return allCards.sort((a, b) => a.title.localeCompare(b.title));
   };
 
   // Puts the given cards into a color/rating matrix
