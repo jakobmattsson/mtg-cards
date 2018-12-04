@@ -178,7 +178,7 @@ Todo
 
 
   var getReview = function(callback) {
-    var url = "https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/data/compiled/all.json?cache=19";
+    var url = "https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/data/compiled/all.json?cache=21";
     getJsonData(url, callback);
   };
 
@@ -213,9 +213,6 @@ Todo
   };
 
 
-  // same as getAll, but gets them from channelfireball reviews instead of the general API.
-  // * This will always exclude non-reviewed cards.
-  // * It does not filter on rarity; you always get all of them.
   var getAll2 = function(query, callback) {
     getReview((err, data) => {
       if (err) {
@@ -233,6 +230,9 @@ Todo
           return false;
         }
         if (query.sets && query.sets.length > 0 && query.sets.indexOf(card.set) === -1) {
+          return false;
+        }
+        if (query.rarity && query.rarity.length > 0 && query.rarity.indexOf(card.rarity) === -1) {
           return false;
         }
 
@@ -299,7 +299,7 @@ Todo
 
   var filterColors = (getParameterByName("colors") || '').toLowerCase().split('.').filter(function(x) { return x; });
   var filterSets = (getParameterByName("sets") || 'xln.rix').toLowerCase().split('.');
-  var filterRarity = (getParameterByName("rarities") || "common.uncommon.rare.mythic").toLowerCase().replace("mythic", "mythic rare").split('.');
+  var filterRarity = (getParameterByName("rarities") || "common.uncommon.rare.mythic").toLowerCase().split('.');
   var ratingScale = (getParameterByName("rating") || 'channelfireball').toLowerCase();
   var includeUnrated = (getParameterByName("unrated") || 'include').toLowerCase() === "include";
 

@@ -1,3 +1,4 @@
+csvtojson data/raw/uma.csv > data/compiled/sets/uma.json
 csvtojson data/raw/dom.csv > data/compiled/sets/dom.json
 csvtojson data/raw/grn.csv > data/compiled/sets/grn.json
 csvtojson data/raw/m19.csv > data/compiled/sets/m19.json
@@ -10,3 +11,14 @@ ls data/compiled/sets | xargs node -e "_ = require('lodash');console.log(JSON.st
 
 echo 'var allthedata = ' > web/hardcoded.js
 cat data/compiled/all.json >> web/hardcoded.js
+
+
+
+
+
+# Use this to convert a csv export from Mac Excel to proper csv
+#
+# csvformat sheet.csv -D , -d ";"
+#
+
+
