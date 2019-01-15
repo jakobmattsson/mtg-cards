@@ -1,11 +1,10 @@
 Steg 1
 =======
-* Skriv texten som jag kommer lägga upp länken på Reddit.
+* Gör något som tar fram diffen mellan våra ratings och LSVs
 
 
 Steg 2
-==================
-* Skicka länken till Dark Sphere för att kolla vad de tycker
+======
 * Supporta flera olika data-filer (så att vi kan ha LSVs och vår egen och framtida). Dela upp rådatan i "reviews" och "facts"
 
 
@@ -14,8 +13,5 @@ Steg 3
 * Få in LSVs review text som hover text över bilderna eller något sådant.
 * Gör så att man kan länka till specifica sidor i trainern (så att man kan skicka betyget och texten till någon)
 * Givet ett kort så vill man kunna se alla olika ratings för den. Lokalt kanske jag vill inkludera min egen, men inte online.
-* Gör färdigt alla våra egna reviews av GRN
 * Kan man ta bort jquery och köra något inbygd ajax i browser istället nu för tiden?
 * Lägg in Ixalan också (och klicka igenom alla efter att ha gjort detta för att kolla att länkarna är ok)
-* Kontrollera GRN (genom att klicka igenom alla korten)
-* Testa lite med Jonas N's designförslag
