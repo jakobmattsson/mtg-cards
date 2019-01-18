@@ -375,4 +375,13 @@ module.exports = [{
     firstCard: { title: "Absorb", lowScore: 2, highScore: null, review: "Azorius will be in the market for 3-mana counters" },
     lastCard: { title: "Warrant // Warden", lowScore: 4, highScore: null, review: "Warrant // Warden offers two excellent cards" }
   }
+}, {
+  set: 'rna',
+  color: 'gold',
+  format: 'limited',
+  url: 'https://www.channelfireball.com/articles/ravnica-allegiance-limited-set-review-gruul/',
+  assert: {
+    firstCard: { title: "Bolrac-Clan Crusher", lowScore: 3.5, highScore: null, review: "Given how many +1/+1 coun" },
+    lastCard: { title: "Thrash // Threat", lowScore: 4, highScore: null, review: "Thrash is an efficient removal spell, and is" }
+  }
 }]
