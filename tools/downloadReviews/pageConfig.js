@@ -321,4 +321,58 @@ module.exports = [{
     firstCard: { title: "Dimir Locket, Golgari Locket, Izzet Locket, Selesnya Locket", lowScore: 2, highScore: null, review: "I've played a few Sealeds" },
     lastCard: { title: "Guildmages' Forum", lowScore: 2.5, highScore: null, review: "In a deck with three or more gold creatures" }
   }
+}, {
+  set: 'rna',
+  color: 'white',
+  format: 'limited',
+  url: 'https://www.channelfireball.com/articles/ravnica-allegiance-limited-set-review-white',
+  assert: {
+    firstCard: { title: "Angelic Exaltation", lowScore: 3, highScore: null, review: "This one is a little hard to nail down because" },
+    lastCard: { title: "Watchful Giant", lowScore: 1.5, highScore: null, review: "While this is a fine deal for 6 mana" }
+  }
+}, {
+  set: 'rna',
+  color: 'blue',
+  format: 'limited',
+  url: 'https://www.channelfireball.com/articles/ravnica-allegiance-limited-set-review-blue',
+  assert: {
+    firstCard: { title: "Arrester's Admonition", lowScore: 3, highScore: null, review: "A sorcery-speed bounce spell that replaces" },
+    lastCard: { title: "Windstorm Drake", lowScore: 3, highScore: null, review: "Windstorm Drake needs friends" }
+  }
+}, {
+  set: 'rna',
+  color: 'black',
+  format: 'limited',
+  url: 'https://www.channelfireball.com/articles/ravnica-allegiance-limited-set-review-black',
+  assert: {
+    firstCard: { title: "Awaken the Erstwhile", lowScore: 0, highScore: null, review: "Let's just leave the Erstwhile asleep" },
+    lastCard: { title: "Vindictive Vampire", lowScore: 3.5, highScore: null, review: "This is awesome in both Orzhov and Rakdos" }
+  }
+}, {
+  set: 'rna',
+  color: 'red',
+  format: 'limited',
+  url: 'https://www.channelfireball.com/articles/ravnica-allegiance-limited-set-review-red',
+  assert: {
+    firstCard: { title: "Act of Treason", lowScore: 1.5, highScore: 3, review: "Act is always a fun one. On" },
+    lastCard: { title: "Tin Street Dodger", lowScore: 1.0, highScore: null, review: "I'm not this hard up for spectacle outlets" }
+  }
+}, {
+  set: 'rna',
+  color: 'green',
+  format: 'limited',
+  url: 'https://www.channelfireball.com/articles/ravnica-allegiance-limited-set-review-green',
+  assert: {
+    firstCard: { title: "Axebane Beast", lowScore: 2.5, highScore: null, review: "The stats here are good enough" },
+    lastCard: { title: "Wrecking Beast", lowScore: 2, highScore: null, review: "This will really hit the opponent like a wrecking ball " }
+  }
+}, {
+  set: 'rna',
+  color: 'gold',
+  format: 'limited',
+  url: 'https://www.channelfireball.com/articles/ravnica-allegiance-limited-set-review-azorius',
+  assert: {
+    firstCard: { title: "Absorb", lowScore: 2, highScore: null, review: "Azorius will be in the market for 3-mana counters" },
+    lastCard: { title: "Warrant // Warden", lowScore: 4, highScore: null, review: "Warrant // Warden offers two excellent cards" }
+  }
 }]

@@ -126,6 +126,7 @@ html {
 
 <div class="section link-list">
   <h2>Looking for another set?</h2>
+  <div><a href="index.html?sets=rna">Ravnica Allegiance</a></div>
   <div><a href="index.html?sets=uma">Ultimate Masters</a></div>
   <div><a href="index.html?sets=grn">Guilds of Ravnica</a></div>
   <div><a href="index.html?sets=m19">Core Set 2019</a></div>
@@ -177,7 +178,7 @@ html {
   var isLocal = location.hostname === '';
 
   // find the currently selected set (or default to one)
-  var currentSet = getQueryArgs()['sets'] || 'grn';
+  var currentSet = getQueryArgs()['sets'] || 'rna';
 
   // Helper
   var listify = (list) => Array.prototype.slice.call(list, 0);
@@ -377,7 +378,7 @@ html {
 
   // Load the card data and kick off the page rendering
   var urlRoot = "https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/data/compiled/sets";
-  var cardDataUrl = urlRoot + "/" + currentSet + ".json?cache=23";
+  var cardDataUrl = urlRoot + "/" + currentSet + ".json?cache=24";
   getJsonData(cardDataUrl, (cards) => renderCardMatrix('scoretable', cardsToMatrix(filterAndExtendCards(cards))));
 
   // Usage tracking
