@@ -1,256 +1,257 @@
-title,color,lowScore,highScore,set,rarity,instant,removal,face,fixing,imageUrl,keywords
-Abominable Treefolk,blue+green,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Abominable Treefolk.png,"trample,snow"
-Alpine Guide,red,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Alpine Guide.png,snow
-Altar of Dementia,artifact,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Altar of Dementia.png,
-Amorphous Axe,artifact,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Amorphous Axe.png,
-Answered Prayers,white,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Answered Prayers.png,
-Archmage's Charm,blue,,,mh1,rare,instant,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Archmage's Charm.png,
-Arcum's Astrolabe,artifact,,,mh1,common,,,,fixing,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Arcum's Astrolabe.png,snow
-Aria of Flame,red,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Aria of Flame.png,
-Astral Drift,white,,,mh1,rare,,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Astral Drift.png,cycling
-Ayula's Influence,green,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Ayula's Influence.png,
-"Ayula, Queen Among Bears",green,,,mh1,rare,,removal,,,"https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Ayula, Queen Among Bears.png",
-Azra Smokeshaper,black,,,mh1,common,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Azra Smokeshaper.png,ninjutsu
-Barren Moor,land,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Barren Moor.png,cycling
-Battle Screech,white,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Battle Screech.png,flashback
-Bazaar Trademage,blue,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Bazaar Trademage.png,flying
-Bellowing Elk,green,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Bellowing Elk.png,
-Birthing Boughs,artifact,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Birthing Boughs.png,
-Bladeback Sliver,red,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Bladeback Sliver.png,hellbent
-Blizzard Strix,blue,,,mh1,uncommon,instant,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Blizzard Strix.png,"flying,flash,snow"
-Bogardan Dragonheart,red,,,mh1,common,,,face,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Bogardan Dragonheart.png,"flying,haste"
-Cabal Therapist,black,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Cabal Therapist.png,menace
-Carrion Feeder,black,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Carrion Feeder.png,
-Cave of Temptation,land,,,mh1,common,,,,fixing,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Cave of Temptation.png,
-Changeling Outcast,black,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Changeling Outcast.png,changeling
-Chillerpillar,blue,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Chillerpillar.png,"snow,monstrosity,flying"
-Choking Tethers,blue,,,mh1,common,instant,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Choking Tethers.png,cycling
-Cleaving Sliver,red,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Cleaving Sliver.png,
-Cloudshredder Sliver,white+red,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Cloudshredder Sliver.png,
-Collected Conjuring,blue+red,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Collected Conjuring.png,
-Collector Ouphe,green,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Collector Ouphe.png,
-Conifer Wurm,green,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Conifer Wurm.png,trample
-Cordial Vampire,black,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Cordial Vampire.png,
-Crashing Footfalls,green,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Crashing Footfalls.png,suspend
-Crypt Rats,black,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Crypt Rats.png,
-Cunning Evasion,blue,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Cunning Evasion.png,
-Dead of Winter,black,,,mh1,rare,,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Dead of Winter.png,
-Deep Forest Hermit,green,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Deep Forest Hermit.png,vanishing
-Defile,black,,,mh1,common,instant,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Defile.png,
-Diabolic Edict,black,,,mh1,common,instant,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Diabolic Edict.png,
-Dismantling Blow,white,,,mh1,uncommon,instant,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Dismantling Blow.png,kicker
-Dregscape Sliver,black,,,mh1,uncommon,,,face,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Dregscape Sliver.png,unearth
-Echo of Eons,blue,,,mh1,mythic,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Echo of Eons.png,flashback
-Eladamri's Call,white+green,,,mh1,rare,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Eladamri's Call.png,
-Elvish Fury,green,,,mh1,common,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Elvish Fury.png,buyback
-Endling,black,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Endling.png,undying
-Enduring Sliver,white,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Enduring Sliver.png,outlast
-Ephemerate,white,,,mh1,common,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Ephemerate.png,rebound
-Etchings of the Chosen,white+black,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Etchings of the Chosen.png,
-Everdream,blue,,,mh1,uncommon,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Everdream.png,splice
-Excavating Anurid,green,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Excavating Anurid.png,threshold
-Exclude,blue,,,mh1,uncommon,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Exclude.png,
-Eyekite,blue,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Eyekite.png,flying
-Face of Divinity,white,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Face of Divinity.png,
-Fact or Fiction,blue,,,mh1,uncommon,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Fact or Fiction.png,
-Faerie Seer,blue,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Faerie Seer.png,flying
-Fallen Shinobi,blue+black,,,mh1,rare,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Fallen Shinobi.png,ninjutsu
-Farmstead Gleaner,artifact,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Farmstead Gleaner.png,
-Feaster of Fools,black,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Feaster of Fools.png,"convoke,devour"
-Fiery Islet,land,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Fiery Islet.png,
-Firebolt,red,,,mh1,uncommon,,removal,face,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Firebolt.png,flashback
-First Sliver's Chosen,white,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/First Sliver's Chosen.png,exhalted
-First-Sphere Gargantua,black,,,mh1,common,,,face,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/First-Sphere Gargantua.png,unearth
-Fists of Flame,red,,,mh1,common,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Fists of Flame.png,
-Flusterstorm,blue,,,mh1,rare,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Flusterstorm.png,storm
-Force of Despair,black,,,mh1,rare,instant,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Force of Despair.png,
-Force of Negation,blue,,,mh1,rare,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Force of Negation.png,
-Force of Rage,red,,,mh1,rare,instant,,face,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Force of Rage.png,
-Force of Vigor,green,,,mh1,rare,instant,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Force of Vigor.png,
-Force of Virtue,white,,,mh1,rare,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Force of Virtue.png,flash
-Forgotten Cave,land,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Forgotten Cave.png,cycling
-Fountain of Ichor,artifact,,,mh1,common,,,,fixing,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Fountain of Ichor.png,
-Frostwalk Bastion,land,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Frostwalk Bastion.png,snow
-Frostwalla,green,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Frostwalla.png,snow
-Future Sight,blue,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Future Sight.png,
-Generous Gift,white,,,mh1,uncommon,instant,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Generous Gift.png,
-Genesis,green,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Genesis.png,
-Geomancer's Gambit,red,,,mh1,common,,,,fixing,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Geomancer's Gambit.png,
-Gilded Light,white,,,mh1,common,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Gilded Light.png,cycling
-Giver of Runes,white,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Giver of Runes.png,
-Glacial Revelation,green,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Glacial Revelation.png,
-Gluttonous Slug,black,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Gluttonous Slug.png,"meance,evolve"
-Goatnap,red,,,mh1,common,,,face,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Goatnap.png,
-Goblin Champion,red,,,mh1,common,,,face,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Goblin Champion.png,"haste,exalted"
-Goblin Engineer,red,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Goblin Engineer.png,
-Goblin Matron,red,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Goblin Matron.png,
-Goblin Oriflamme,red,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Goblin Oriflamme.png,
-Goblin War Party,red,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Goblin War Party.png,entwine
-Good-Fortune Unicorn,white+green,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Good-Fortune Unicorn.png,
-Graveshifter,black,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Graveshifter.png,changeling
-Hall of Heliod's Generosity,land,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Hall of Heliod's Generosity.png,
-Headless Specter,black,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Headless Specter.png,"flying,hellbent"
-Hexdrinker,green,,,mh1,mythic,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Hexdrinker.png,
-"Hogaak, Arisen Necropolis",black-green,,,mh1,rare,,,,,"https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Hogaak, Arisen Necropolis.png","convoke,delve,trample"
-Hollowhead Sliver,red,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Hollowhead Sliver.png,
-Ice-Fang Coatl,blue+green,,,mh1,rare,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Ice-Fang Coatl.png,"flash,flying"
-Iceberg Cancrix,blue,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Iceberg Cancrix.png,snow
-Icehide Golem,artifact,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Icehide Golem.png,snow
-Igneous Elemental,red,,,mh1,common,,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Igneous Elemental.png,
-Impostor of the Sixth Pride,white,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Impostor of the Sixth Pride.png,changeling
-Ingenious Infiltrator,blue+black,,,mh1,uncommon,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Ingenious Infiltrator.png,ninjutsu
-Irregular Cohort,white,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Irregular Cohort.png,changeling
-Kaya's Guile,white+black,,,mh1,rare,instant,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Kaya's Guile.png,
-"Kess, Dissident Mage",blue+black+red,,,mh1,mythic,,,,,"https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Kess, Dissident Mage.png",flying
-King of the Pride,white,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/King of the Pride.png,
-Knight of Old Benalia,white,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Knight of Old Benalia.png,suspend
-Krosan Tusker,green,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Krosan Tusker.png,cycling
-Lancer Sliver,white,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Lancer Sliver.png,
-Lava Dart,red,,,mh1,common,instant,removal,face,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Lava Dart.png,flashback
-Lavabelly Sliver,white+red,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Lavabelly Sliver.png,
-Lesser Masticore,artifact,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Lesser Masticore.png,persist
-Lightning Skelemental,black+red,,,mh1,rare,,,face,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Lightning Skelemental.png,"trample,haste"
-Llanowar Tribe,green,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Llanowar Tribe.png,
-Lonely Sandbar,land,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Lonely Sandbar.png,cycling
-Magmatic Sinkhole,red,,,mh1,common,instant,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Magmatic Sinkhole.png,delve
-Man-o'-War,blue,,,mh1,common,,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Man-o'-War.png,
-Marit Lage's Slumber,blue,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Marit Lage's Slumber.png,snow
-Martyr's Soul,white,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Martyr's Soul.png,convoke
-Mind Rake,black,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Mind Rake.png,overload
-Mirrodin Besieged,blue,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Mirrodin Besieged.png,
-Mist-Syndicate Naga,blue,,,mh1,rare,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Mist-Syndicate Naga.png,ninjutsu
-Mob,black,,,mh1,common,instant,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Mob.png,convoke
-Moonblade Shinobi,blue,,,mh1,common,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Moonblade Shinobi.png,ninjutsu
-"Morophon, the Boundless",artifact,,,mh1,mythic,,,,fixing,"https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Morophon, the Boundless.png",changeling
-Mother Bear,green,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Mother Bear.png,
-Mox Tantalite,artifact,,,mh1,mythic,,,,fixing,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Mox Tantalite.png,suspend
-Munitions Expert,black+red,,,mh1,uncommon,instant,removal,face,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Munitions Expert.png,flash
-Murasa Behemoth,green,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Murasa Behemoth.png,trample
-Nantuko Cultivator,green,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Nantuko Cultivator.png,
-Nature's Chant,white-green,,,mh1,common,,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Nature's Chant.png,
-Nether Spirit,black,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Nether Spirit.png,
-Nimble Mongoose,green,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Nimble Mongoose.png,shroud
-Ninja of the New Moon,black,,,mh1,common,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Ninja of the New Moon.png,ninjutsu
-Nurturing Peatland,land,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Nurturing Peatland.png,
-On Thin Ice,white,,,mh1,rare,,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/On Thin Ice.png,snow
-Oneirophage,blue,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Oneirophage.png,flying
-Orcish Hellraiser,red,,,mh1,common,,,face,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Orcish Hellraiser.png,echo
-Ore-Scale Guardian,red,,,mh1,uncommon,,,face,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Ore-Scale Guardian.png,"flying,haste"
-Pashalik Mons,red,,,mh1,rare,,,face,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Pashalik Mons.png,
-Phantasmal Form,blue,,,mh1,common,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Phantasmal Form.png,
-Phantom Ninja,blue,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Phantom Ninja.png,
-Pillage,red,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Pillage.png,
-Plague Engineer,black,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Plague Engineer.png,deathtouch
-Planebound Accomplice,red,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Planebound Accomplice.png,
-Pondering Mage,blue,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Pondering Mage.png,
-Prismatic Vista,land,,,mh1,rare,,,,fixing,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Prismatic Vista.png,
-Prohibit,blue,,,mh1,common,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Prohibit.png,kicker
-Putrid Goblin,black,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Putrid Goblin.png,persist
-Pyrophobia,red,,,mh1,common,,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Pyrophobia.png,
-Quakefoot Cyclops,red,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Quakefoot Cyclops.png,cycling
-Rain of Revelation,blue,,,mh1,common,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Rain of Revelation.png,
-Ranger-Captain of Eos,white,,,mh1,mythic,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Ranger-Captain of Eos.png,
-Rank Officer,black,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Rank Officer.png,
-Ransack the Lab,black,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Ransack the Lab.png,
-Ravenous Giant,red,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Ravenous Giant.png,
-Reap the Past,red+green,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Reap the Past.png,
-Rebuild,blue,,,mh1,uncommon,instant,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Rebuild.png,cycling
-Reckless Charge,red,,,mh1,common,,,face,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Reckless Charge.png,flashback
-Recruit the Worthy,white,,,mh1,common,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Recruit the Worthy.png,buyback
-Regrowth,green,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Regrowth.png,
-Reprobation,white,,,mh1,common,,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Reprobation.png,
-Return from Extinction,black,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Return from Extinction.png,
-Rhox Veteran,white,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Rhox Veteran.png,battle cry
-Rime Tender,green,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Rime Tender.png,snow
-Rotwidow Pack,black+green,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Rotwidow Pack.png,reach
-Ruination Rioter,red+green,,,mh1,uncommon,,removal,face,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Ruination Rioter.png,
-Saddled Rimestag,green,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Saddled Rimestag.png,snow
-Sadistic Obsession,black,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Sadistic Obsession.png,
-Savage Swipe,green,,,mh1,common,,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Savage Swipe.png,
-Scale Up,green,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Scale Up.png,overload
-Scour All Possibilities,blue,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Scour All Possibilities.png,flashback
-Scrapyard Recombiner,artifact,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Scrapyard Recombiner.png,modular
-Scuttling Sliver,blue,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Scuttling Sliver.png,
-Seasoned Pyromancer,red,,,mh1,mythic,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Seasoned Pyromancer.png,
-Secluded Steppe,land,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Secluded Steppe.png,cycling
-Segovian Angel,white,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Segovian Angel.png,"flying,vigilance"
-Serra the Benevolent,white,,,mh1,mythic,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Serra the Benevolent.png,
-Settle Beyond Reality,white,,,mh1,common,,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Settle Beyond Reality.png,
-Shatter Assumptions,black,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Shatter Assumptions.png,
-Shelter,white,,,mh1,common,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Shelter.png,
-Shenanigans,red,,,mh1,common,,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Shenanigans.png,dredge
-Silent Clearing,land,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Silent Clearing.png,
-Silumgar Scavenger,black,,,mh1,common,,,face,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Silumgar Scavenger.png,"flying,exploit"
-"Sisay, Weatherlight Captain",white,,,mh1,rare,,,,,"https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Sisay, Weatherlight Captain.png",
-Sling-Gang Lieutenant,black,,,mh1,uncommon,,,face,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Sling-Gang Lieutenant.png,
-Smiting Helix,black,,,mh1,uncommon,,,face,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Smiting Helix.png,flashback
-Smoke Shroud,blue,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Smoke Shroud.png,
-Snow-Covered Forest,land,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Snow-Covered Forest.png,snow
-Snow-Covered Island,land,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Snow-Covered Island.png,snow
-Snow-Covered Mountain,land,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Snow-Covered Mountain.png,snow
-Snow-Covered Plains,land,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Snow-Covered Plains.png,snow
-Snow-Covered Swamp,land,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Snow-Covered Swamp.png,snow
-Soul-Strike Technique,white,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Soul-Strike Technique.png,manifest
-Soulherder,white+blue,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Soulherder.png,
-Spell Snuff,blue,,,mh1,common,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Spell Snuff.png,
-Spinehorn Minotaur,red,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Spinehorn Minotaur.png,
-Spiteful Sliver,red,,,mh1,rare,,,face,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Spiteful Sliver.png,
-Splicer's Skill,white,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Splicer's Skill.png,splice
-Spore Frog,green,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Spore Frog.png,
-Springbloom Druid,green,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Springbloom Druid.png,
-Squirrel Nest,green,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Squirrel Nest.png,
-Stirring Address,white,,,mh1,common,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Stirring Address.png,overload
-Stream of Thought,blue,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Stream of Thought.png,replicate
-String of Disappearances,blue,,,mh1,common,instant,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/String of Disappearances.png,
-Sunbaked Canyon,land,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Sunbaked Canyon.png,
-Sword of Sinew and Steel,artifact,,,mh1,mythic,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Sword of Sinew and Steel.png,
-Sword of Truth and Justice,artifact,,,mh1,mythic,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Sword of Truth and Justice.png,
-Talisman of Conviction,artifact,,,mh1,uncommon,,,,fixing,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Talisman of Conviction.png,
-Talisman of Creativity,artifact,,,mh1,uncommon,,,,fixing,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Talisman of Creativity.png,
-Talisman of Curiosity,artifact,,,mh1,uncommon,,,,fixing,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Talisman of Curiosity.png,
-Talisman of Hierarchy,artifact,,,mh1,uncommon,,,,fixing,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Talisman of Hierarchy.png,
-Talisman of Resilience,artifact,,,mh1,uncommon,,,,fixing,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Talisman of Resilience.png,
-Tectonic Reformation,red,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Tectonic Reformation.png,cycling
-Tempered Sliver,green,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Tempered Sliver.png,
-The First Sliver,white+blue+black+red+green,,,mh1,mythic,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/The First Sliver.png,cascade
-Thornado,green,,,mh1,common,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Thornado.png,cycling
-Throatseeker,black,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Throatseeker.png,
-Throes of Chaos,red,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Throes of Chaos.png,"cascade,retrace"
-Thundering Djinn,blue+red,,,mh1,uncommon,,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Thundering Djinn.png,flying
-Tranquil Thicket,land,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Tranquil Thicket.png,cycling
-Treefolk Umbra,green,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Treefolk Umbra.png,
-Treetop Ambusher,green,,,mh1,common,,,face,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Treetop Ambusher.png,dash
-Tribute Mage,blue,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Tribute Mage.png,
-Trumpeting Herd,green,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Trumpeting Herd.png,rebound
-Trustworthy Scout,white,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Trustworthy Scout.png,
-Twin-Silk Spider,green,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Twin-Silk Spider.png,reach
-Twisted Reflection,blue,,,mh1,uncommon,instant,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Twisted Reflection.png,entwine
-Umezawa's Charm,black,,,mh1,common,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Umezawa's Charm.png,
-Unbound Flourishing,green,,,mh1,mythic,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Unbound Flourishing.png,
-Undead Augur,black,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Undead Augur.png,
-Unearth,black,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Unearth.png,cycling
-Universal Automaton,artifact,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Universal Automaton.png,changeling
-Unsettled Mariner,white+blue,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Unsettled Mariner.png,changeling
-Urza's Rage,red,,,mh1,uncommon,instant,removal,face,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Urza's Rage.png,kicker
-"Urza, Lord High Artificer",blue,,,mh1,mythic,,,,,"https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Urza, Lord High Artificer.png",
-Valiant Changeling,white,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Valiant Changeling.png,changeling
-Vengeful Devil,red,,,mh1,uncommon,,,face,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Vengeful Devil.png,"haste,morbid"
-Venomous Changeling,black,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Venomous Changeling.png,"changeling,deathtouch"
-Vesperlark,white,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Vesperlark.png,"evoke,flying"
-Viashino Sandsprinter,red,,,mh1,common,,,face,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Viashino Sandsprinter.png,"trample,haste,cycling"
-Volatile Claws,red,,,mh1,common,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Volatile Claws.png,
-Wall of Blossoms,green,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Wall of Blossoms.png,defender
-Wall of One Thousand Cuts,white,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Wall of One Thousand Cuts.png,flying
-Warteye Witch,black,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Warteye Witch.png,
-Watcher for Tomorrow,blue,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Watcher for Tomorrow.png,hideaway
-Waterlogged Grove,land,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Waterlogged Grove.png,
-Weather the Storm,green,,,mh1,common,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Weather the Storm.png,storm
-Webweaver Changeling,green,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Webweaver Changeling.png,"changeling,reach"
-Windcaller Aven,blue,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Windcaller Aven.png,"flying,cycling"
-Winding Way,green,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Winding Way.png,
-Winds of Abandon,white,,,mh1,rare,,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Winds of Abandon.png,overload
-Wing Shards,white,,,mh1,uncommon,instant,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Wing Shards.png,storm
-Winter's Rest,blue,,,mh1,common,,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Winter's Rest.png,
-Wrenn and Six,red+green,,,mh1,mythic,,removal,face,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Wrenn and Six.png,
-"Yawgmoth, Thran Physician",black,,,mh1,mythic,,,,,"https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Yawgmoth, Thran Physician.png",
-Zhalfirin Decoy,white,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Zhalfirin Decoy.png,
+title,color,unused,highScore,set,rarity,instant,removal,face,fixing,imageUrl,keywords,lowScore
+Abominable Treefolk,blue+green,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Abominable Treefolk.png,"trample,snow",5
+Alpine Guide,red,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Alpine Guide.png,snow,5
+Altar of Dementia,artifact,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Altar of Dementia.png,,5
+Amorphous Axe,artifact,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Amorphous Axe.png,,5
+Answered Prayers,white,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Answered Prayers.png,,5
+Archmage's Charm,blue,,,mh1,rare,instant,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Archmage's Charm.png,,5
+Arcum's Astrolabe,artifact,,,mh1,common,,,,fixing,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Arcum's Astrolabe.png,snow,5
+Aria of Flame,red,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Aria of Flame.png,,5
+Astral Drift,white,,,mh1,rare,,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Astral Drift.png,cycling,5
+Ayula's Influence,green,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Ayula's Influence.png,,5
+"Ayula, Queen Among Bears",green,,,mh1,rare,,removal,,,"https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Ayula, Queen Among Bears.png",,5
+Azra Smokeshaper,black,,,mh1,common,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Azra Smokeshaper.png,ninjutsu,5
+Barren Moor,land,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Barren Moor.png,cycling,5
+Battle Screech,white,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Battle Screech.png,flashback,5
+Bazaar Trademage,blue,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Bazaar Trademage.png,flying,5
+Bellowing Elk,green,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Bellowing Elk.png,,5
+Birthing Boughs,artifact,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Birthing Boughs.png,,5
+Bladeback Sliver,red,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Bladeback Sliver.png,hellbent,5
+Blizzard Strix,blue,,,mh1,uncommon,instant,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Blizzard Strix.png,"flying,flash,snow",5
+Bogardan Dragonheart,red,,,mh1,common,,,face,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Bogardan Dragonheart.png,"flying,haste",5
+Cabal Therapist,black,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Cabal Therapist.png,menace,5
+Carrion Feeder,black,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Carrion Feeder.png,,5
+Cave of Temptation,land,,,mh1,common,,,,fixing,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Cave of Temptation.png,,5
+Changeling Outcast,black,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Changeling Outcast.png,changeling,5
+Chillerpillar,blue,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Chillerpillar.png,"snow,monstrosity,flying",5
+Choking Tethers,blue,,,mh1,common,instant,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Choking Tethers.png,cycling,5
+Cleaving Sliver,red,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Cleaving Sliver.png,,5
+Cloudshredder Sliver,white+red,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Cloudshredder Sliver.png,,5
+Collected Conjuring,blue+red,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Collected Conjuring.png,,5
+Collector Ouphe,green,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Collector Ouphe.png,,5
+Conifer Wurm,green,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Conifer Wurm.png,trample,5
+Cordial Vampire,black,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Cordial Vampire.png,,5
+Crashing Footfalls,green,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Crashing Footfalls.png,suspend,5
+Crypt Rats,black,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Crypt Rats.png,,5
+Cunning Evasion,blue,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Cunning Evasion.png,,5
+Dead of Winter,black,,,mh1,rare,,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Dead of Winter.png,,5
+Deep Forest Hermit,green,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Deep Forest Hermit.png,vanishing,5
+Defile,black,,,mh1,common,instant,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Defile.png,,5
+Diabolic Edict,black,,,mh1,common,instant,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Diabolic Edict.png,,5
+Dismantling Blow,white,,,mh1,uncommon,instant,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Dismantling Blow.png,kicker,5
+Dregscape Sliver,black,,,mh1,uncommon,,,face,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Dregscape Sliver.png,unearth,5
+Echo of Eons,blue,,,mh1,mythic,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Echo of Eons.png,flashback,5
+Eladamri's Call,white+green,,,mh1,rare,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Eladamri's Call.png,,5
+Elvish Fury,green,,,mh1,common,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Elvish Fury.png,buyback,5
+Endling,black,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Endling.png,undying,5
+Enduring Sliver,white,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Enduring Sliver.png,outlast,5
+Ephemerate,white,,,mh1,common,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Ephemerate.png,rebound,5
+Etchings of the Chosen,white+black,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Etchings of the Chosen.png,,5
+Everdream,blue,,,mh1,uncommon,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Everdream.png,splice,5
+Excavating Anurid,green,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Excavating Anurid.png,threshold,5
+Exclude,blue,,,mh1,uncommon,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Exclude.png,,5
+Eyekite,blue,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Eyekite.png,flying,5
+Face of Divinity,white,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Face of Divinity.png,,5
+Fact or Fiction,blue,,,mh1,uncommon,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Fact or Fiction.png,,5
+Faerie Seer,blue,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Faerie Seer.png,flying,5
+Fallen Shinobi,blue+black,,,mh1,rare,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Fallen Shinobi.png,ninjutsu,5
+Farmstead Gleaner,artifact,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Farmstead Gleaner.png,,5
+Feaster of Fools,black,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Feaster of Fools.png,"convoke,devour",5
+Fiery Islet,land,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Fiery Islet.png,,5
+Firebolt,red,,,mh1,uncommon,,removal,face,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Firebolt.png,flashback,5
+First Sliver's Chosen,white,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/First Sliver's Chosen.png,exhalted,5
+First-Sphere Gargantua,black,,,mh1,common,,,face,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/First-Sphere Gargantua.png,unearth,5
+Fists of Flame,red,,,mh1,common,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Fists of Flame.png,,5
+Flusterstorm,blue,,,mh1,rare,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Flusterstorm.png,storm,5
+Force of Despair,black,,,mh1,rare,instant,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Force of Despair.png,,5
+Force of Negation,blue,,,mh1,rare,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Force of Negation.png,,5
+Force of Rage,red,,,mh1,rare,instant,,face,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Force of Rage.png,,5
+Force of Vigor,green,,,mh1,rare,instant,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Force of Vigor.png,,5
+Force of Virtue,white,,,mh1,rare,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Force of Virtue.png,flash,5
+Forgotten Cave,land,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Forgotten Cave.png,cycling,5
+Fountain of Ichor,artifact,,,mh1,common,,,,fixing,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Fountain of Ichor.png,,5
+Frostwalk Bastion,land,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Frostwalk Bastion.png,snow,5
+Frostwalla,green,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Frostwalla.png,snow,5
+Future Sight,blue,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Future Sight.png,,5
+Generous Gift,white,,,mh1,uncommon,instant,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Generous Gift.png,,5
+Genesis,green,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Genesis.png,,5
+Geomancer's Gambit,red,,,mh1,common,,,,fixing,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Geomancer's Gambit.png,,5
+Gilded Light,white,,,mh1,common,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Gilded Light.png,cycling,5
+Giver of Runes,white,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Giver of Runes.png,,5
+Glacial Revelation,green,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Glacial Revelation.png,,5
+Gluttonous Slug,black,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Gluttonous Slug.png,"meance,evolve",5
+Goatnap,red,,,mh1,common,,,face,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Goatnap.png,,5
+Goblin Champion,red,,,mh1,common,,,face,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Goblin Champion.png,"haste,exalted",5
+Goblin Engineer,red,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Goblin Engineer.png,,5
+Goblin Matron,red,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Goblin Matron.png,,5
+Goblin Oriflamme,red,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Goblin Oriflamme.png,,5
+Goblin War Party,red,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Goblin War Party.png,entwine,5
+Good-Fortune Unicorn,white+green,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Good-Fortune Unicorn.png,,5
+Graveshifter,black,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Graveshifter.png,changeling,5
+Hall of Heliod's Generosity,land,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Hall of Heliod's Generosity.png,,5
+Headless Specter,black,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Headless Specter.png,"flying,hellbent",5
+Hexdrinker,green,,,mh1,mythic,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Hexdrinker.png,,5
+"Hogaak, Arisen Necropolis",black-green,,,mh1,rare,,,,,"https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Hogaak, Arisen Necropolis.png","convoke,delve,trample",5
+Hollowhead Sliver,red,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Hollowhead Sliver.png,,5
+Ice-Fang Coatl,blue+green,,,mh1,rare,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Ice-Fang Coatl.png,"flash,flying",5
+Iceberg Cancrix,blue,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Iceberg Cancrix.png,snow,5
+Icehide Golem,artifact,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Icehide Golem.png,snow,5
+Igneous Elemental,red,,,mh1,common,,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Igneous Elemental.png,,5
+Impostor of the Sixth Pride,white,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Impostor of the Sixth Pride.png,changeling,5
+Ingenious Infiltrator,blue+black,,,mh1,uncommon,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Ingenious Infiltrator.png,ninjutsu,5
+Irregular Cohort,white,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Irregular Cohort.png,changeling,5
+Kaya's Guile,white+black,,,mh1,rare,instant,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Kaya's Guile.png,,5
+"Kess, Dissident Mage",blue+black+red,,,mh1,mythic,,,,,"https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Kess, Dissident Mage.png",flying,5
+King of the Pride,white,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/King of the Pride.png,,5
+Knight of Old Benalia,white,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Knight of Old Benalia.png,suspend,5
+Krosan Tusker,green,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Krosan Tusker.png,cycling,5
+Lancer Sliver,white,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Lancer Sliver.png,,5
+Lava Dart,red,,,mh1,common,instant,removal,face,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Lava Dart.png,flashback,5
+Lavabelly Sliver,white+red,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Lavabelly Sliver.png,,5
+Lesser Masticore,artifact,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Lesser Masticore.png,persist,5
+Lightning Skelemental,black+red,,,mh1,rare,,,face,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Lightning Skelemental.png,"trample,haste",5
+Llanowar Tribe,green,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Llanowar Tribe.png,,5
+Lonely Sandbar,land,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Lonely Sandbar.png,cycling,5
+Magmatic Sinkhole,red,,,mh1,common,instant,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Magmatic Sinkhole.png,delve,5
+Man-o'-War,blue,,,mh1,common,,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Man-o'-War.png,,5
+Marit Lage's Slumber,blue,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Marit Lage's Slumber.png,snow,5
+Martyr's Soul,white,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Martyr's Soul.png,convoke,5
+Mind Rake,black,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Mind Rake.png,overload,5
+Mirrodin Besieged,blue,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Mirrodin Besieged.png,,5
+Mist-Syndicate Naga,blue,,,mh1,rare,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Mist-Syndicate Naga.png,ninjutsu,5
+Mob,black,,,mh1,common,instant,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Mob.png,convoke,5
+Moonblade Shinobi,blue,,,mh1,common,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Moonblade Shinobi.png,ninjutsu,5
+"Morophon, the Boundless",artifact,,,mh1,mythic,,,,fixing,"https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Morophon, the Boundless.png",changeling,5
+Mother Bear,green,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Mother Bear.png,,5
+Mox Tantalite,artifact,,,mh1,mythic,,,,fixing,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Mox Tantalite.png,suspend,5
+Munitions Expert,black+red,,,mh1,uncommon,instant,removal,face,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Munitions Expert.png,flash,5
+Murasa Behemoth,green,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Murasa Behemoth.png,trample,5
+Nantuko Cultivator,green,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Nantuko Cultivator.png,,5
+Nature's Chant,white-green,,,mh1,common,,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Nature's Chant.png,,5
+Nether Spirit,black,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Nether Spirit.png,,5
+Nimble Mongoose,green,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Nimble Mongoose.png,shroud,5
+Ninja of the New Moon,black,,,mh1,common,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Ninja of the New Moon.png,ninjutsu,5
+Nurturing Peatland,land,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Nurturing Peatland.png,,5
+On Thin Ice,white,,,mh1,rare,,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/On Thin Ice.png,snow,5
+Oneirophage,blue,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Oneirophage.png,flying,5
+Orcish Hellraiser,red,,,mh1,common,,,face,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Orcish Hellraiser.png,echo,5
+Ore-Scale Guardian,red,,,mh1,uncommon,,,face,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Ore-Scale Guardian.png,"flying,haste",5
+Pashalik Mons,red,,,mh1,rare,,,face,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Pashalik Mons.png,,5
+Phantasmal Form,blue,,,mh1,common,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Phantasmal Form.png,,5
+Phantom Ninja,blue,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Phantom Ninja.png,,5
+Pillage,red,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Pillage.png,,5
+Plague Engineer,black,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Plague Engineer.png,deathtouch,5
+Planebound Accomplice,red,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Planebound Accomplice.png,,5
+Pondering Mage,blue,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Pondering Mage.png,,5
+Prismatic Vista,land,,,mh1,rare,,,,fixing,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Prismatic Vista.png,,5
+Prohibit,blue,,,mh1,common,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Prohibit.png,kicker,5
+Putrid Goblin,black,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Putrid Goblin.png,persist,5
+Pyrophobia,red,,,mh1,common,,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Pyrophobia.png,,5
+Quakefoot Cyclops,red,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Quakefoot Cyclops.png,cycling,5
+Rain of Revelation,blue,,,mh1,common,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Rain of Revelation.png,,5
+Ranger-Captain of Eos,white,,,mh1,mythic,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Ranger-Captain of Eos.png,,5
+Rank Officer,black,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Rank Officer.png,,5
+Ransack the Lab,black,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Ransack the Lab.png,,5
+Ravenous Giant,red,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Ravenous Giant.png,,5
+Reap the Past,red+green,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Reap the Past.png,,5
+Rebuild,blue,,,mh1,uncommon,instant,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Rebuild.png,cycling,5
+Reckless Charge,red,,,mh1,common,,,face,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Reckless Charge.png,flashback,5
+Recruit the Worthy,white,,,mh1,common,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Recruit the Worthy.png,buyback,5
+Regrowth,green,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Regrowth.png,,5
+Reprobation,white,,,mh1,common,,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Reprobation.png,,5
+Return from Extinction,black,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Return from Extinction.png,,5
+Rhox Veteran,white,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Rhox Veteran.png,battle cry,5
+Rime Tender,green,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Rime Tender.png,snow,5
+Rotwidow Pack,black+green,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Rotwidow Pack.png,reach,5
+Ruination Rioter,red+green,,,mh1,uncommon,,removal,face,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Ruination Rioter.png,,5
+Saddled Rimestag,green,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Saddled Rimestag.png,snow,5
+Sadistic Obsession,black,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Sadistic Obsession.png,,5
+Savage Swipe,green,,,mh1,common,,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Savage Swipe.png,,5
+Scale Up,green,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Scale Up.png,overload,5
+Scour All Possibilities,blue,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Scour All Possibilities.png,flashback,5
+Scrapyard Recombiner,artifact,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Scrapyard Recombiner.png,modular,5
+Scuttling Sliver,blue,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Scuttling Sliver.png,,5
+Seasoned Pyromancer,red,,,mh1,mythic,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Seasoned Pyromancer.png,,5
+Secluded Steppe,land,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Secluded Steppe.png,cycling,5
+Segovian Angel,white,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Segovian Angel.png,"flying,vigilance",5
+Serra the Benevolent,white,,,mh1,mythic,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Serra the Benevolent.png,,5
+Settle Beyond Reality,white,,,mh1,common,,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Settle Beyond Reality.png,,5
+Shatter Assumptions,black,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Shatter Assumptions.png,,5
+Shelter,white,,,mh1,common,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Shelter.png,,5
+Shenanigans,red,,,mh1,common,,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Shenanigans.png,dredge,5
+Silent Clearing,land,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Silent Clearing.png,,5
+Silumgar Scavenger,black,,,mh1,common,,,face,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Silumgar Scavenger.png,"flying,exploit",5
+"Sisay, Weatherlight Captain",white,,,mh1,rare,,,,,"https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Sisay, Weatherlight Captain.png",,5
+Sling-Gang Lieutenant,black,,,mh1,uncommon,,,face,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Sling-Gang Lieutenant.png,,5
+Smiting Helix,black,,,mh1,uncommon,,,face,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Smiting Helix.png,flashback,5
+Smoke Shroud,blue,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Smoke Shroud.png,,5
+Snow-Covered Forest,land,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Snow-Covered Forest.png,snow,5
+Snow-Covered Island,land,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Snow-Covered Island.png,snow,5
+Snow-Covered Mountain,land,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Snow-Covered Mountain.png,snow,5
+Snow-Covered Plains,land,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Snow-Covered Plains.png,snow,5
+Snow-Covered Swamp,land,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Snow-Covered Swamp.png,snow,5
+Soul-Strike Technique,white,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Soul-Strike Technique.png,manifest,5
+Soulherder,white+blue,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Soulherder.png,,5
+Spell Snuff,blue,,,mh1,common,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Spell Snuff.png,,5
+Spinehorn Minotaur,red,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Spinehorn Minotaur.png,,5
+Spiteful Sliver,red,,,mh1,rare,,,face,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Spiteful Sliver.png,,5
+Splicer's Skill,white,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Splicer's Skill.png,splice,5
+Spore Frog,green,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Spore Frog.png,,5
+Springbloom Druid,green,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Springbloom Druid.png,,5
+Squirrel Nest,green,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Squirrel Nest.png,,5
+Stirring Address,white,,,mh1,common,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Stirring Address.png,overload,5
+Stream of Thought,blue,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Stream of Thought.png,replicate,5
+String of Disappearances,blue,,,mh1,common,instant,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/String of Disappearances.png,,5
+Sunbaked Canyon,land,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Sunbaked Canyon.png,,5
+Sword of Sinew and Steel,artifact,,,mh1,mythic,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Sword of Sinew and Steel.png,,5
+Sword of Truth and Justice,artifact,,,mh1,mythic,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Sword of Truth and Justice.png,,5
+Talisman of Conviction,artifact,,,mh1,uncommon,,,,fixing,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Talisman of Conviction.png,,5
+Talisman of Creativity,artifact,,,mh1,uncommon,,,,fixing,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Talisman of Creativity.png,,5
+Talisman of Curiosity,artifact,,,mh1,uncommon,,,,fixing,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Talisman of Curiosity.png,,5
+Talisman of Hierarchy,artifact,,,mh1,uncommon,,,,fixing,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Talisman of Hierarchy.png,,5
+Talisman of Resilience,artifact,,,mh1,uncommon,,,,fixing,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Talisman of Resilience.png,,5
+Tectonic Reformation,red,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Tectonic Reformation.png,cycling,5
+Tempered Sliver,green,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Tempered Sliver.png,,5
+The First Sliver,white+blue+black+red+green,,,mh1,mythic,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/The First Sliver.png,cascade,5
+Thornado,green,,,mh1,common,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Thornado.png,cycling,5
+Throatseeker,black,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Throatseeker.png,,5
+Throes of Chaos,red,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Throes of Chaos.png,"cascade,retrace",5
+Thundering Djinn,blue+red,,,mh1,uncommon,,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Thundering Djinn.png,flying,5
+Tranquil Thicket,land,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Tranquil Thicket.png,cycling,5
+Treefolk Umbra,green,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Treefolk Umbra.png,,5
+Treetop Ambusher,green,,,mh1,common,,,face,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Treetop Ambusher.png,dash,5
+Tribute Mage,blue,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Tribute Mage.png,,5
+Trumpeting Herd,green,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Trumpeting Herd.png,rebound,5
+Trustworthy Scout,white,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Trustworthy Scout.png,,5
+Twin-Silk Spider,green,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Twin-Silk Spider.png,reach,5
+Twisted Reflection,blue,,,mh1,uncommon,instant,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Twisted Reflection.png,entwine,5
+Umezawa's Charm,black,,,mh1,common,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Umezawa's Charm.png,,5
+Unbound Flourishing,green,,,mh1,mythic,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Unbound Flourishing.png,,5
+Undead Augur,black,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Undead Augur.png,,5
+Unearth,black,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Unearth.png,cycling,5
+Universal Automaton,artifact,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Universal Automaton.png,changeling,5
+Unsettled Mariner,white+blue,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Unsettled Mariner.png,changeling,5
+Urza's Rage,red,,,mh1,uncommon,instant,removal,face,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Urza's Rage.png,kicker,5
+"Urza, Lord High Artificer",blue,,,mh1,mythic,,,,,"https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Urza, Lord High Artificer.png",,5
+Valiant Changeling,white,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Valiant Changeling.png,changeling,5
+Vengeful Devil,red,,,mh1,uncommon,,,face,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Vengeful Devil.png,"haste,morbid",5
+Venomous Changeling,black,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Venomous Changeling.png,"changeling,deathtouch",5
+Vesperlark,white,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Vesperlark.png,"evoke,flying",5
+Viashino Sandsprinter,red,,,mh1,common,,,face,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Viashino Sandsprinter.png,"trample,haste,cycling",5
+Volatile Claws,red,,,mh1,common,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Volatile Claws.png,,5
+Wall of Blossoms,green,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Wall of Blossoms.png,defender,5
+Wall of One Thousand Cuts,white,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Wall of One Thousand Cuts.png,flying,5
+Warteye Witch,black,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Warteye Witch.png,,5
+Watcher for Tomorrow,blue,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Watcher for Tomorrow.png,hideaway,5
+Waterlogged Grove,land,,,mh1,rare,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Waterlogged Grove.png,,5
+Weather the Storm,green,,,mh1,common,instant,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Weather the Storm.png,storm,5
+Webweaver Changeling,green,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Webweaver Changeling.png,"changeling,reach",5
+Windcaller Aven,blue,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Windcaller Aven.png,"flying,cycling",5
+Winding Way,green,,,mh1,common,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Winding Way.png,,5
+Winds of Abandon,white,,,mh1,rare,,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Winds of Abandon.png,overload,5
+Wing Shards,white,,,mh1,uncommon,instant,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Wing Shards.png,storm,5
+Winter's Rest,blue,,,mh1,common,,removal,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Winter's Rest.png,,5
+Wrenn and Six,red+green,,,mh1,mythic,,removal,face,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Wrenn and Six.png,,5
+"Yawgmoth, Thran Physician",black,,,mh1,mythic,,,,,"https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Yawgmoth, Thran Physician.png",,5
+Zhalfirin Decoy,white,,,mh1,uncommon,,,,,https://raw.githubusercontent.com/jakobmattsson/mtg-cards/master/images/mh1/Zhalfirin Decoy.png,,5
+,5
