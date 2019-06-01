@@ -4,6 +4,7 @@ csvtojson data/raw/grn.csv > data/compiled/sets/grn.json
 csvtojson data/raw/m19.csv > data/compiled/sets/m19.json
 csvtojson data/raw/rix.csv > data/compiled/sets/rix.json
 csvtojson data/raw/xln.csv > data/compiled/sets/xln.json
+csvtojson data/raw/mh1.csv > data/compiled/sets/mh1.json
 csvtojson data/raw/rna-jas.csv > data/compiled/sets/rna-jas.json
 
 
